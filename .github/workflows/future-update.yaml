@@ -1,0 +1,55 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  future-update:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java:
+          - 25
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+
+      - run: mvn --version
+
+      - run: ./mvnw --version
+
+      - run: |
+          ./mvnw versions:update-parent
+          ./mvnw versions:update-child-modules
+          ./mvnw versions:update-properties
+          # ./mvnw versions:use-latest-snapshots
+          ./mvnw versions:use-latest-releases
+
+      - run: |
+          cd fulldependency
+          ./mvnw versions:update-parent
+          ./mvnw versions:update-child-modules
+          ./mvnw versions:update-properties
+          # ./mvnw versions:use-latest-snapshots
+          ./mvnw versions:use-latest-releases
+
+      - run: |
+          cd nodependency
+          ./mvnw versions:update-parent
+          ./mvnw versions:update-child-modules
+          ./mvnw versions:update-properties
+          # ./mvnw versions:use-latest-snapshots
+          ./mvnw versions:use-latest-releases
+
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          title: future-update
+          body:
+          commit-message: future-update
+          branch: future-update
+          draft: true
