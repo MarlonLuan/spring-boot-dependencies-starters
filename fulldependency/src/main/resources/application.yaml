@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: demo
+gg:
+  jte:
+    development-mode: true
