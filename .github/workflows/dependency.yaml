@@ -1,0 +1,39 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '* * * * *'
+jobs:
+  dependency:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java:
+          - 21
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+
+      - run: mvn --version
+
+      - run: ./mvnw --version
+
+      - run: |
+          ./mvnw help:effective-pom -Doutput=effective-pom.xml
+          ./mvnw -f noparent/pom.xml help:effective-pom -Doutput=effective-pom.xml
+          # ./mvnw -f milestone/pom.xml help:effective-pom -Doutput=effective-pom.xml
+
+      - run: |
+          ./mvnw dependency:tree -DoutputFile=dependency-tree.txt
+          ./mvnw -f noparent/pom.xml dependency:tree -DoutputFile=dependency-tree.txt
+          # ./mvnw -f milestone/pom.xml dependency:tree -DoutputFile=dependency-tree.txt
+
+      - run: |
+          ./mvnw dependency:resolve-plugins -DoutputFile=resolve-plugins.txt
+          ./mvnw -f noparent/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt
+          # ./mvnw -f milestone/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt
+
+      - uses: peter-evans/create-pull-request@v5
