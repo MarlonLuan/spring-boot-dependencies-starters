@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: demo
+gg:
+  jte:
+    development-mode: true
+vaadin:
+  launch-browser: true
