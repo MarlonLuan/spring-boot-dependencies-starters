@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":separateMultipleMajorReleases",
+    ":separatePatchReleases"
+  ],
+  "recreateWhen": "always",
+  "packageRules": [
+    {
+      "matchFileNames": [
+        "fulldependency/**",
+        "nodependency/**",
+        "starterdependency/**"
+      ],
+      "commitMessageSuffix": "[DRAFT]",
+      "draftPR": true
+    },
+    {
+      "matchUpdateTypes": ["digest", "pinDigest"],
+      "groupName": "all-digest",
+      "commitMessageSuffix": "[DRAFT]",
+      "draftPR": true
+    }
+  ]
+}
