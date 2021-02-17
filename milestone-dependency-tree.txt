@@ -1,0 +1,1 @@
+org.springframework.boot:spring-boot-starters:jar:3.0.0-M5

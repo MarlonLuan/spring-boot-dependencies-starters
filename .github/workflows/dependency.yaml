@@ -1,0 +1,36 @@
+on: [push, workflow_dispatch]
+jobs:
+  dependency:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java:
+          - 17
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-java@v3
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+
+      - run: mvn --version
+
+      - run: ./mvnw --version
+
+      - run: |
+          mvn help:effective-pom -Doutput=effective-pom.xml
+          mvn -f noparent-pom.xml help:effective-pom -Doutput=noparent-effective-pom.xml
+        # mvn -f milestone-pom.xml help:effective-pom -Doutput=milestone-effective-pom.xml
+
+      - run: |
+          mvn dependency:tree -DoutputFile=dependency-tree.txt
+          mvn -f noparent-pom.xml dependency:tree -DoutputFile=noparent-dependency-tree.txt
+        # mvn -f milestone-pom.xml dependency:tree -DoutputFile=milestone-dependency-tree.txt
+
+      - run: |
+          mvn dependency:resolve-plugins -DoutputFile=resolve-plugins.txt
+          mvn -f noparent-pom.xml dependency:resolve-plugins -DoutputFile=noparent-resolve-plugins.txt
+        # mvn -f milestone-pom.xml dependency:resolve-plugins -DoutputFile=milestone-resolve-plugins.txt
+
+      - uses: peter-evans/create-pull-request@v4
