@@ -1,0 +1,94 @@
+Plugin Resolved: maven-install-plugin-2.4.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+    Plugin Dependency Resolved: maven-project-2.0.6.jar
+    Plugin Dependency Resolved: maven-model-2.0.6.jar
+    Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+    Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+    Plugin Dependency Resolved: plexus-digest-1.0.jar
+Plugin Resolved: maven-deploy-plugin-2.7.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+    Plugin Dependency Resolved: maven-project-2.0.6.jar
+    Plugin Dependency Resolved: maven-model-2.0.6.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+    Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+Plugin Resolved: maven-jar-plugin-2.4.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+    Plugin Dependency Resolved: maven-project-2.0.6.jar
+    Plugin Dependency Resolved: maven-model-2.0.6.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+    Plugin Dependency Resolved: maven-archiver-2.5.jar
+    Plugin Dependency Resolved: plexus-archiver-2.1.jar
+    Plugin Dependency Resolved: commons-lang-2.1.jar
+    Plugin Dependency Resolved: plexus-utils-3.0.jar
+Plugin Resolved: maven-compiler-plugin-3.1.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+    Plugin Dependency Resolved: maven-core-2.0.9.jar
+    Plugin Dependency Resolved: maven-toolchain-1.0.jar
+    Plugin Dependency Resolved: maven-shared-utils-0.1.jar
+    Plugin Dependency Resolved: maven-shared-incremental-1.1.jar
+    Plugin Dependency Resolved: plexus-compiler-api-2.2.jar
+    Plugin Dependency Resolved: plexus-compiler-manager-2.2.jar
+    Plugin Dependency Resolved: plexus-compiler-javac-2.2.jar
+    Plugin Dependency Resolved: plexus-container-default-1.5.5.jar
+Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+    Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+    Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+    Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+    Plugin Dependency Resolved: maven-project-2.0.9.jar
+    Plugin Dependency Resolved: maven-core-2.0.9.jar
+    Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+    Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+Plugin Resolved: maven-site-plugin-3.3.jar
+    Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+    Plugin Dependency Resolved: maven-core-3.0.jar
+    Plugin Dependency Resolved: maven-model-3.0.jar
+    Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+    Plugin Dependency Resolved: maven-settings-3.0.jar
+    Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+    Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+    Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+    Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+    Plugin Dependency Resolved: doxia-core-1.4.jar
+    Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+    Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+    Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+    Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+    Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+    Plugin Dependency Resolved: servlet-api-2.5.jar
+    Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+    Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+    Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+    Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+    Plugin Dependency Resolved: plexus-archiver-1.0.jar
+    Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+    Plugin Dependency Resolved: velocity-1.5.jar
+    Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+    Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+    Plugin Dependency Resolved: jetty-6.1.25.jar
+    Plugin Dependency Resolved: jetty-util-6.1.25.jar
+    Plugin Dependency Resolved: commons-lang-2.5.jar
+    Plugin Dependency Resolved: commons-io-1.4.jar
+Plugin Resolved: spring-boot-maven-plugin-2.7.3.jar
+    Plugin Dependency Resolved: spring-boot-buildpack-platform-2.7.3.jar
+    Plugin Dependency Resolved: spring-boot-loader-tools-2.7.3.jar
+    Plugin Dependency Resolved: plexus-build-api-0.0.7.jar
+    Plugin Dependency Resolved: maven-shade-plugin-3.2.4.jar
+Plugin Resolved: maven-clean-plugin-2.5.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+    Plugin Dependency Resolved: plexus-utils-3.0.jar
+Plugin Resolved: maven-resources-plugin-2.6.jar
+    Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+    Plugin Dependency Resolved: maven-project-2.0.6.jar
+    Plugin Dependency Resolved: maven-core-2.0.6.jar
+    Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+    Plugin Dependency Resolved: maven-settings-2.0.6.jar
+    Plugin Dependency Resolved: maven-model-2.0.6.jar
+    Plugin Dependency Resolved: maven-monitor-2.0.6.jar
+    Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+    Plugin Dependency Resolved: plexus-utils-2.0.5.jar
+    Plugin Dependency Resolved: maven-filtering-1.1.jar
+    Plugin Dependency Resolved: plexus-interpolation-1.13.jar
