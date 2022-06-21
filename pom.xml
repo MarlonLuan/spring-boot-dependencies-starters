@@ -10,7 +10,7 @@
     </parent>
     <artifactId>spring-boot-starters</artifactId>
     <properties>
-        <spring-data-envers.version>2.7.0</spring-data-envers.version>
+        <spring-data-envers.version>2.7.1</spring-data-envers.version>
     </properties>
     <dependencies>
         <dependency>
