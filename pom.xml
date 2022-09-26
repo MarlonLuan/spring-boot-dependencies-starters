@@ -16,7 +16,7 @@
 	<properties>
 		<spring-data-envers.version>2.7.3</spring-data-envers.version>
 		<repackage.classifier/>
-		<spring-boot-admin.version>2.7.4</spring-boot-admin.version>
+		<spring-boot-admin.version>2.7.5</spring-boot-admin.version>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
 		<spring-cloud-services.version>3.5.0</spring-cloud-services.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
