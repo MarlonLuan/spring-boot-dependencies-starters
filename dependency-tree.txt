@@ -447,13 +447,13 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |     \- com.tdunning:t-digest:jar:3.2:compile
 |  +- com.wavefront:wavefront-opentracing-sdk-java:jar:2.2.0:compile
 |  \- io.micrometer:micrometer-registry-wavefront:jar:1.9.4:compile
-+- de.codecentric:spring-boot-admin-starter-client:jar:2.7.4:compile
-|  \- de.codecentric:spring-boot-admin-client:jar:2.7.4:compile
-+- de.codecentric:spring-boot-admin-starter-server:jar:2.7.4:compile
-|  +- de.codecentric:spring-boot-admin-server:jar:2.7.4:compile
++- de.codecentric:spring-boot-admin-starter-client:jar:2.7.5:compile
+|  \- de.codecentric:spring-boot-admin-client:jar:2.7.5:compile
++- de.codecentric:spring-boot-admin-starter-server:jar:2.7.5:compile
+|  +- de.codecentric:spring-boot-admin-server:jar:2.7.5:compile
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.4.8:compile
-|  +- de.codecentric:spring-boot-admin-server-ui:jar:2.7.4:compile
-|  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.7.4:compile
+|  +- de.codecentric:spring-boot-admin-server-ui:jar:2.7.5:compile
+|  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.7.5:compile
 +- info.picocli:picocli-spring-boot-starter:jar:4.6.3:compile
 |  \- info.picocli:picocli:jar:4.6.3:compile
 +- io.pivotal.spring.cloud:spring-cloud-services-starter-config-client:jar:3.5.0:compile
@@ -465,81 +465,81 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.springframework.cloud:spring-cloud-config-client:jar:3.1.4:compile
 +- io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:jar:3.5.0:compile
 |  \- io.pivotal.spring.cloud:spring-cloud-services-service-registry-autoconfigure:jar:3.5.0:compile
-+- org.apache.camel.springboot:camel-spring-boot-starter:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-spring-boot:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-spring:jar:3.18.1:compile
-|  |  |  \- org.apache.camel:camel-management-api:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-spring-main:jar:3.18.1:compile
-|  |  |  \- org.apache.camel:camel-main:jar:3.18.1:compile
-|  |  |     +- org.apache.camel:camel-base:jar:3.18.1:compile
-|  |  |     \- org.apache.camel:camel-core-languages:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-util-json:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-xml-jaxb-dsl:jar:3.18.1:compile
-|  |  |  +- org.apache.camel:camel-xml-jaxb:jar:3.18.1:compile
++- org.apache.camel.springboot:camel-spring-boot-starter:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-spring-boot:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-spring:jar:3.19.0:compile
+|  |  |  \- org.apache.camel:camel-management-api:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-spring-main:jar:3.19.0:compile
+|  |  |  \- org.apache.camel:camel-main:jar:3.19.0:compile
+|  |  |     +- org.apache.camel:camel-base:jar:3.19.0:compile
+|  |  |     \- org.apache.camel:camel-core-languages:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-util-json:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-xml-jaxb-dsl:jar:3.19.0:compile
+|  |  |  +- org.apache.camel:camel-xml-jaxb:jar:3.19.0:compile
 |  |  |  |  \- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
-|  |  |  \- org.apache.camel:camel-dsl-support:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-spring-xml:jar:3.18.1:compile
-|  |  |  \- org.apache.camel:camel-core-xml:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-cloud:jar:3.18.1:compile
-|  |  |  \- org.apache.camel:camel-core-model:jar:3.18.1:compile
-|  |  |     \- org.apache.camel:camel-core-processor:jar:3.18.1:compile
-|  |  +- org.apache.camel:camel-cluster:jar:3.18.1:compile
-|  |  |  \- org.apache.camel:camel-base-engine:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-health:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-core-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-core-engine:jar:3.18.1:compile
-|  |     +- org.apache.camel:camel-api:jar:3.18.1:compile
-|  |     +- org.apache.camel:camel-core-reifier:jar:3.18.1:compile
-|  |     +- org.apache.camel:camel-support:jar:3.18.1:compile
-|  |     \- org.apache.camel:camel-util:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-bean-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-bean:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-browse-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-browse:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-controlbus-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-controlbus:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-dataformat-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-dataformat:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-dataset-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-dataset:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-direct-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-direct:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-directvm-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-directvm:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-file-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-file:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-language-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-language:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-log-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-log:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-mock-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-mock:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-ref-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-ref:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-rest-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-rest:jar:3.18.1:compile
-|  |     \- org.apache.camel:camel-tooling-model:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-saga-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-saga:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-scheduler-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-scheduler:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-seda-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-seda:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-stub-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-stub:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-timer-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-timer:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-validator-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-validator:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-vm-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-vm:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-xpath-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-xpath:jar:3.18.1:compile
-|  +- org.apache.camel.springboot:camel-xslt-starter:jar:3.18.1:compile
-|  |  \- org.apache.camel:camel-xslt:jar:3.18.1:compile
-|  \- org.apache.camel.springboot:camel-xml-jaxp-starter:jar:3.18.1:compile
-|     \- org.apache.camel:camel-xml-jaxp:jar:3.18.1:compile
-|        \- org.apache.camel:camel-xml-io-util:jar:3.18.1:compile
+|  |  |  \- org.apache.camel:camel-dsl-support:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-spring-xml:jar:3.19.0:compile
+|  |  |  \- org.apache.camel:camel-core-xml:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-cloud:jar:3.19.0:compile
+|  |  |  \- org.apache.camel:camel-core-model:jar:3.19.0:compile
+|  |  |     \- org.apache.camel:camel-core-processor:jar:3.19.0:compile
+|  |  +- org.apache.camel:camel-cluster:jar:3.19.0:compile
+|  |  |  \- org.apache.camel:camel-base-engine:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-health:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-core-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-core-engine:jar:3.19.0:compile
+|  |     +- org.apache.camel:camel-api:jar:3.19.0:compile
+|  |     +- org.apache.camel:camel-core-reifier:jar:3.19.0:compile
+|  |     +- org.apache.camel:camel-support:jar:3.19.0:compile
+|  |     \- org.apache.camel:camel-util:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-bean-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-bean:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-browse-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-browse:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-controlbus-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-controlbus:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-dataformat-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-dataformat:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-dataset-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-dataset:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-direct-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-direct:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-directvm-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-directvm:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-file-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-file:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-language-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-language:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-log-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-log:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-mock-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-mock:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-ref-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-ref:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-rest-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-rest:jar:3.19.0:compile
+|  |     \- org.apache.camel:camel-tooling-model:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-saga-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-saga:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-scheduler-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-scheduler:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-seda-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-seda:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-stub-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-stub:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-timer-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-timer:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-validator-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-validator:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-vm-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-vm:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-xpath-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-xpath:jar:3.19.0:compile
+|  +- org.apache.camel.springboot:camel-xslt-starter:jar:3.19.0:compile
+|  |  \- org.apache.camel:camel-xslt:jar:3.19.0:compile
+|  \- org.apache.camel.springboot:camel-xml-jaxp-starter:jar:3.19.0:compile
+|     \- org.apache.camel:camel-xml-jaxp:jar:3.19.0:compile
+|        \- org.apache.camel:camel-xml-io-util:jar:3.19.0:compile
 +- org.apache.kafka:kafka-streams:jar:3.1.2:compile
 |  +- org.apache.kafka:kafka-clients:jar:3.1.2:compile
 |  |  +- com.github.luben:zstd-jni:jar:1.5.0-4:runtime
@@ -747,10 +747,10 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     \- com.rabbitmq:http-client:jar:2.1.0.RELEASE:compile
 +- org.springframework.data:spring-data-rest-hal-explorer:jar:3.7.3:compile
 +- org.springframework.experimental:spring-native:jar:0.12.1:compile
-+- org.springframework.geode:spring-geode-starter:jar:1.7.3:compile
-|  +- org.springframework.geode:spring-geode:jar:1.7.3:compile
-|  |  \- org.springframework.geode:apache-geode-extensions:jar:1.7.3:compile
-|  +- org.springframework.geode:spring-geode-autoconfigure:jar:1.7.3:compile
++- org.springframework.geode:spring-geode-starter:jar:1.7.4:compile
+|  +- org.springframework.geode:spring-geode:jar:1.7.4:compile
+|  |  \- org.springframework.geode:apache-geode-extensions:jar:1.7.4:compile
+|  +- org.springframework.geode:spring-geode-autoconfigure:jar:1.7.4:compile
 |  \- org.springframework.shell:spring-shell:jar:1.2.0.RELEASE:runtime
 |     +- com.google.guava:guava:jar:17.0:compile
 |     \- jline:jline:jar:2.12:runtime
@@ -823,17 +823,17 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.session:spring-session-data-redis:jar:2.7.0:compile
 |  \- org.springframework.session:spring-session-core:jar:2.7.0:compile
 +- org.springframework.session:spring-session-jdbc:jar:2.7.0:compile
-+- org.springframework.shell:spring-shell-starter:jar:2.1.1:compile
-|  +- org.springframework.shell:spring-shell-autoconfigure:jar:2.1.1:compile
-|  +- org.springframework.shell:spring-shell-core:jar:2.1.1:compile
++- org.springframework.shell:spring-shell-starter:jar:2.1.2:compile
+|  +- org.springframework.shell:spring-shell-autoconfigure:jar:2.1.2:compile
+|  +- org.springframework.shell:spring-shell-core:jar:2.1.2:compile
 |  |  +- org.jline:jline:jar:3.21.0:compile
 |  |  +- org.jline:jline-terminal-jna:jar:3.21.0:compile
 |  |  |  \- org.jline:jline-terminal:jar:3.21.0:compile
 |  |  \- org.antlr:ST4:jar:4.3.1:compile
 |  |     \- org.antlr:antlr-runtime:jar:3.5.2:compile
-|  +- org.springframework.shell:spring-shell-standard:jar:2.1.1:compile
-|  +- org.springframework.shell:spring-shell-standard-commands:jar:2.1.1:compile
-|  \- org.springframework.shell:spring-shell-table:jar:2.1.1:compile
+|  +- org.springframework.shell:spring-shell-standard:jar:2.1.2:compile
+|  +- org.springframework.shell:spring-shell-standard-commands:jar:2.1.2:compile
+|  \- org.springframework.shell:spring-shell-table:jar:2.1.2:compile
 +- org.thymeleaf.extras:thymeleaf-extras-springsecurity5:jar:3.0.4.RELEASE:compile
 +- org.springframework.boot:spring-boot-devtools:jar:2.7.4:runtime
 +- com.h2database:h2:jar:2.1.214:runtime
