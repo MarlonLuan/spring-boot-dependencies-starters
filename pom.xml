@@ -23,7 +23,7 @@
 		<spring-geode.version>1.7.4</spring-geode.version>
 		<spring-native.version>0.12.1</spring-native.version>
 		<spring-shell.version>2.1.2</spring-shell.version>
-		<testcontainers.version>1.17.3</testcontainers.version>
+		<testcontainers.version>1.17.5</testcontainers.version>
 		<vaadin.version>23.2.3</vaadin.version>
 		<wavefront.version>2.3.0</wavefront.version>
 	</properties>
