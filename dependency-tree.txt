@@ -378,67 +378,67 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- com.okta.commons:okta-config-check:jar:1.3.1:compile
 |  |  \- com.okta.commons:okta-commons-lang:jar:1.3.1:compile
 |  \- com.okta.spring:okta-spring-sdk:jar:2.1.6:compile
-+- com.vaadin:vaadin-spring-boot-starter:jar:23.2.3:compile
-|  +- com.vaadin:vaadin-spring:jar:23.2.3:compile
-|  |  +- com.vaadin:flow-server:jar:23.2.3:compile
++- com.vaadin:vaadin-spring-boot-starter:jar:23.2.5:compile
+|  +- com.vaadin:vaadin-spring:jar:23.2.4:compile
+|  |  +- com.vaadin:flow-server:jar:23.2.4:compile
 |  |  |  +- com.vaadin.external.gwt:gwt-elemental:jar:2.8.2.vaadin2:compile
 |  |  |  +- commons-fileupload:commons-fileupload:jar:1.4:compile
 |  |  |  +- org.jsoup:jsoup:jar:1.15.3:compile
 |  |  |  +- com.helger:ph-css:jar:6.5.0:compile
 |  |  |  |  \- com.helger.commons:ph-commons:jar:10.1.6:compile
 |  |  |  \- com.vaadin.external:gentyref:jar:1.2.0.vaadin1:compile
-|  |  +- com.vaadin:flow-push:jar:23.2.3:compile
+|  |  +- com.vaadin:flow-push:jar:23.2.4:compile
 |  |  |  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:2.7.3.slf4jvaadin4:compile
-|  |  \- com.vaadin:flow-client:jar:23.2.3:compile
-|  \- com.vaadin:vaadin-core:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-dev-server:jar:23.2.3:compile
-|     |  \- com.vaadin:license-checker:jar:1.9.0:compile
+|  |  \- com.vaadin:flow-client:jar:23.2.4:compile
+|  \- com.vaadin:vaadin-core:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-dev-server:jar:23.2.4:compile
+|     |  \- com.vaadin:license-checker:jar:1.10.1:compile
 |     |     +- com.github.oshi:oshi-core:jar:6.1.6:compile
 |     |     \- org.lucee:jcip-annotations:jar:1.0.0:compile
-|     +- com.vaadin:flow-lit-template:jar:23.2.3:compile
-|     +- com.vaadin:flow-polymer-template:jar:23.2.3:compile
-|     +- com.vaadin:flow-html-components:jar:23.2.3:compile
-|     +- com.vaadin:flow-data:jar:23.2.3:compile
-|     +- com.vaadin:flow-dnd:jar:23.2.3:compile
+|     +- com.vaadin:flow-lit-template:jar:23.2.4:compile
+|     +- com.vaadin:flow-polymer-template:jar:23.2.4:compile
+|     +- com.vaadin:flow-html-components:jar:23.2.4:compile
+|     +- com.vaadin:flow-data:jar:23.2.4:compile
+|     +- com.vaadin:flow-dnd:jar:23.2.4:compile
 |     |  +- org.webjars.npm:vaadin__vaadin-mobile-drag-drop:jar:1.0.1:compile
 |     |  \- org.webjars.npm:mobile-drag-drop:jar:2.3.0-rc.2:compile
-|     +- com.vaadin:vaadin-lumo-theme:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-material-theme:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-accordion-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-avatar-flow:jar:23.2.3:compile
-|     |  \- com.vaadin:vaadin-flow-components-base:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-button-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-checkbox-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-combo-box-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-confirm-dialog-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-custom-field-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-date-picker-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-date-time-picker-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-details-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-time-picker-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-select-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-dialog-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-form-layout-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-field-highlighter-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-grid-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-icons-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-iron-list-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-virtual-list-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-list-box-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-login-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-messages-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-ordered-layout-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-progress-bar-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-radio-button-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-renderer-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-split-layout-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-tabs-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-text-field-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-upload-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-notification-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-app-layout-flow:jar:23.2.3:compile
-|     +- com.vaadin:vaadin-context-menu-flow:jar:23.2.3:compile
-|     \- com.vaadin:vaadin-menu-bar-flow:jar:23.2.3:compile
+|     +- com.vaadin:vaadin-lumo-theme:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-material-theme:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-accordion-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-avatar-flow:jar:23.2.5:compile
+|     |  \- com.vaadin:vaadin-flow-components-base:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-button-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-checkbox-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-combo-box-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-confirm-dialog-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-custom-field-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-date-picker-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-date-time-picker-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-details-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-time-picker-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-select-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-dialog-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-form-layout-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-field-highlighter-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-grid-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-icons-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-iron-list-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-virtual-list-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-list-box-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-login-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-messages-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-ordered-layout-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-progress-bar-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-radio-button-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-renderer-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-split-layout-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-tabs-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-text-field-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-upload-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-notification-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-app-layout-flow:jar:23.2.5:compile
+|     +- com.vaadin:vaadin-context-menu-flow:jar:23.2.5:compile
+|     \- com.vaadin:vaadin-menu-bar-flow:jar:23.2.5:compile
 +- com.wavefront:wavefront-spring-boot-starter:jar:2.3.0:compile
 |  +- com.wavefront:wavefront-spring-boot:jar:2.3.0:compile
 |  |  +- com.wavefront:wavefront-runtime-sdk-jvm:jar:1.3.9:compile
@@ -447,13 +447,13 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |     \- com.tdunning:t-digest:jar:3.2:compile
 |  +- com.wavefront:wavefront-opentracing-sdk-java:jar:2.2.0:compile
 |  \- io.micrometer:micrometer-registry-wavefront:jar:1.9.4:compile
-+- de.codecentric:spring-boot-admin-starter-client:jar:2.7.5:compile
-|  \- de.codecentric:spring-boot-admin-client:jar:2.7.5:compile
-+- de.codecentric:spring-boot-admin-starter-server:jar:2.7.5:compile
-|  +- de.codecentric:spring-boot-admin-server:jar:2.7.5:compile
++- de.codecentric:spring-boot-admin-starter-client:jar:2.7.6:compile
+|  \- de.codecentric:spring-boot-admin-client:jar:2.7.6:compile
++- de.codecentric:spring-boot-admin-starter-server:jar:2.7.6:compile
+|  +- de.codecentric:spring-boot-admin-server:jar:2.7.6:compile
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.4.8:compile
-|  +- de.codecentric:spring-boot-admin-server-ui:jar:2.7.5:compile
-|  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.7.5:compile
+|  +- de.codecentric:spring-boot-admin-server-ui:jar:2.7.6:compile
+|  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.7.6:compile
 +- info.picocli:picocli-spring-boot-starter:jar:4.6.3:compile
 |  \- info.picocli:picocli:jar:4.6.3:compile
 +- io.pivotal.spring.cloud:spring-cloud-services-starter-config-client:jar:3.5.0:compile
@@ -1016,7 +1016,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.testcontainers:postgresql:jar:1.17.5:test
 +- org.testcontainers:r2dbc:jar:1.17.5:test
 +- org.testcontainers:rabbitmq:jar:1.17.5:test
-\- org.springframework.data:spring-data-envers:jar:2.7.3:compile
+\- org.springframework.data:spring-data-envers:jar:2.7.5:compile
    +- org.hibernate:hibernate-envers:jar:5.6.11.Final:compile
    |  \- org.dom4j:dom4j:jar:2.1.3:compile
    \- joda-time:joda-time:jar:2.10.14:compile
