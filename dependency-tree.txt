@@ -823,17 +823,17 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.session:spring-session-data-redis:jar:2.7.0:compile
 |  \- org.springframework.session:spring-session-core:jar:2.7.0:compile
 +- org.springframework.session:spring-session-jdbc:jar:2.7.0:compile
-+- org.springframework.shell:spring-shell-starter:jar:2.1.2:compile
-|  +- org.springframework.shell:spring-shell-autoconfigure:jar:2.1.2:compile
-|  +- org.springframework.shell:spring-shell-core:jar:2.1.2:compile
++- org.springframework.shell:spring-shell-starter:jar:2.1.3:compile
+|  +- org.springframework.shell:spring-shell-autoconfigure:jar:2.1.3:compile
+|  +- org.springframework.shell:spring-shell-core:jar:2.1.3:compile
 |  |  +- org.jline:jline:jar:3.21.0:compile
 |  |  +- org.jline:jline-terminal-jna:jar:3.21.0:compile
 |  |  |  \- org.jline:jline-terminal:jar:3.21.0:compile
 |  |  \- org.antlr:ST4:jar:4.3.1:compile
 |  |     \- org.antlr:antlr-runtime:jar:3.5.2:compile
-|  +- org.springframework.shell:spring-shell-standard:jar:2.1.2:compile
-|  +- org.springframework.shell:spring-shell-standard-commands:jar:2.1.2:compile
-|  \- org.springframework.shell:spring-shell-table:jar:2.1.2:compile
+|  +- org.springframework.shell:spring-shell-standard:jar:2.1.3:compile
+|  +- org.springframework.shell:spring-shell-standard-commands:jar:2.1.3:compile
+|  \- org.springframework.shell:spring-shell-table:jar:2.1.3:compile
 +- org.thymeleaf.extras:thymeleaf-extras-springsecurity5:jar:3.0.4.RELEASE:compile
 +- org.springframework.boot:spring-boot-devtools:jar:2.7.5:runtime
 +- com.h2database:h2:jar:2.1.214:runtime
