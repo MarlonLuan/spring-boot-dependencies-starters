@@ -14,7 +14,7 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<spring-data-envers.version>3.0.0</spring-data-envers.version>
+		<spring-data-envers.version>3.0.1</spring-data-envers.version>
 		<repackage.classifier/>
 		<spring-boot-admin.version>2.7.10</spring-boot-admin.version>
 		<spring-cloud-azure.version>4.5.0</spring-cloud-azure.version>
