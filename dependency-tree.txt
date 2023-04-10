@@ -615,7 +615,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        \- com.ongres.stringprep:saslprep:jar:1.1:runtime
 |           \- com.ongres.stringprep:stringprep:jar:1.1:runtime
 +- org.springframework.boot:spring-boot-configuration-processor:jar:3.0.5:compile
-+- info.picocli:picocli-codegen:jar:4.7.1:compile
++- info.picocli:picocli-codegen:jar:4.7.2:compile
 +- org.projectlombok:lombok:jar:1.18.26:compile
 +- org.springframework.boot:spring-boot-starter-test:jar:3.0.5:test
 |  +- org.springframework.boot:spring-boot-test:jar:3.0.5:test

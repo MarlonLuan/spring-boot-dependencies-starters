@@ -13890,7 +13890,7 @@
     <dependency>
       <groupId>info.picocli</groupId>
       <artifactId>picocli-codegen</artifactId>
-      <version>4.7.1</version>
+      <version>4.7.2</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
