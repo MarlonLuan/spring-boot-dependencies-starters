@@ -348,8 +348,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.0.2:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.0.2:compile
-+- info.picocli:picocli-spring-boot-starter:jar:4.7.1:compile
-|  \- info.picocli:picocli:jar:4.7.1:compile
++- info.picocli:picocli-spring-boot-starter:jar:4.7.2:compile
+|  \- info.picocli:picocli:jar:4.7.2:compile
 +- io.micrometer:micrometer-tracing-bridge-brave:jar:1.0.3:compile
 |  +- io.micrometer:micrometer-tracing:jar:1.0.3:compile
 |  |  \- aopalliance:aopalliance:jar:1.0:compile
