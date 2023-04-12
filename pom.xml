@@ -19,7 +19,7 @@
 		<spring-cloud-azure.version>5.0.0</spring-cloud-azure.version>
 		<spring-cloud-gcp.version>4.1.4</spring-cloud-gcp.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
-		<spring-shell.version>3.0.1</spring-shell.version>
+		<spring-shell.version>3.0.2</spring-shell.version>
 		<testcontainers.version>1.18.0</testcontainers.version>
 		<wavefront.version>3.0.1</wavefront.version>
 	</properties>
