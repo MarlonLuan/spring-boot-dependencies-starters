@@ -13426,7 +13426,7 @@
     <dependency>
       <groupId>info.picocli</groupId>
       <artifactId>picocli-spring-boot-starter</artifactId>
-      <version>4.7.2</version>
+      <version>4.7.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
