@@ -216,7 +216,7 @@
     <spring-shell.version>3.0.3</spring-shell.version>
     <spring-ws.version>4.0.3</spring-ws.version>
     <sqlite-jdbc.version>3.39.4.1</sqlite-jdbc.version>
-    <testcontainers.version>1.18.0</testcontainers.version>
+    <testcontainers.version>1.18.1</testcontainers.version>
     <thymeleaf-extras-data-attribute.version>2.0.1</thymeleaf-extras-data-attribute.version>
     <thymeleaf-extras-springsecurity.version>3.1.1.RELEASE</thymeleaf-extras-springsecurity.version>
     <thymeleaf-layout-dialect.version>3.1.0</thymeleaf-layout-dialect.version>
@@ -3927,227 +3927,227 @@
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>azure</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>cassandra</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>clickhouse</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>cockroachdb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>consul</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>couchbase</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>cratedb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>database-commons</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>db2</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>dynalite</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>elasticsearch</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>gcloud</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>hivemq</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>influxdb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>jdbc</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>junit-jupiter</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>k3s</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>kafka</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>localstack</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mariadb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mockserver</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mongodb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mssqlserver</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mysql</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>neo4j</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>nginx</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>oracle-xe</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>orientdb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>postgresql</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>presto</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>pulsar</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>questdb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>r2dbc</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>rabbitmq</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>redpanda</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>selenium</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>solace</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>solr</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>spock</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>testcontainers</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>tidb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>toxiproxy</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>trino</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>vault</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>yugabytedb</artifactId>
-        <version>1.18.0</version>
+        <version>1.18.1</version>
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>
@@ -14023,103 +14023,103 @@
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>cassandra</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>consul</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>couchbase</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>db2</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>elasticsearch</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>kafka</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mariadb</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mongodb</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mssqlserver</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mysql</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>neo4j</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>oracle-xe</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>postgresql</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>r2dbc</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>rabbitmq</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>vault</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
