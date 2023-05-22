@@ -383,10 +383,10 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.yaml:snakeyaml:jar:1.33:compile
 |  \- com.opencsv:opencsv:jar:5.7.1:compile
 |     \- org.apache.commons:commons-collections4:jar:4.4:compile
-+- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:3.0.1:compile
-|  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:3.0.1:compile
-|  +- org.mybatis:mybatis:jar:3.5.11:compile
-|  \- org.mybatis:mybatis-spring:jar:3.0.1:compile
++- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:3.0.2:compile
+|  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:3.0.2:compile
+|  +- org.mybatis:mybatis:jar:3.5.13:compile
+|  \- org.mybatis:mybatis-spring:jar:3.0.2:compile
 +- org.springframework.cloud:spring-cloud-bus:jar:4.0.1:compile
 +- org.springframework.cloud:spring-cloud-config-server:jar:4.0.2:compile
 |  +- org.springframework.cloud:spring-cloud-config-client:jar:4.0.2:compile
