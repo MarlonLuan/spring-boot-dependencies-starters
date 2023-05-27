@@ -204,7 +204,7 @@
     <spring-boot-admin.version>3.0.4</spring-boot-admin.version>
     <spring-cloud-azure.version>5.1.0</spring-cloud-azure.version>
     <spring-cloud-gcp.version>4.3.1</spring-cloud-gcp.version>
-    <spring-cloud.version>2022.0.2</spring-cloud.version>
+    <spring-cloud.version>2022.0.3</spring-cloud.version>
     <spring-data-bom.version>2023.0.0</spring-data-bom.version>
     <spring-framework.version>6.0.9</spring-framework.version>
     <spring-graphql.version>1.2.0</spring-graphql.version>
@@ -216,7 +216,7 @@
     <spring-retry.version>2.0.1</spring-retry.version>
     <spring-security.version>6.1.0</spring-security.version>
     <spring-session.version>3.1.0</spring-session.version>
-    <spring-shell.version>3.0.3</spring-shell.version>
+    <spring-shell.version>3.1.0</spring-shell.version>
     <spring-ws.version>4.0.4</spring-ws.version>
     <sqlite-jdbc.version>3.41.2.1</sqlite-jdbc.version>
     <testcontainers.version>1.18.1</testcontainers.version>
@@ -2270,57 +2270,57 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-commons</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-context</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-loadbalancer</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-bootstrap</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-loadbalancer</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-test-support</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-netflix-eureka-client</artifactId>
-        <version>4.0.1</version>
+        <version>4.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        <version>4.0.1</version>
+        <version>4.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        <version>4.0.1</version>
+        <version>4.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-netflix-eureka-server</artifactId>
-        <version>4.0.1</version>
+        <version>4.0.2</version>
       </dependency>
       <dependency>
         <groupId>com.netflix.eureka</groupId>
@@ -2350,6 +2350,10 @@
           <exclusion>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
@@ -2415,122 +2419,122 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-test-binder</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-test-support</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-kafka</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-kafka-reactive</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-kafka-core</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-stream-kafka</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-rabbit-core</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-rabbit-test-support</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-schema-registry-client</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-schema-registry-core</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-schema-registry-server</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-task</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-task-core</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-task-batch</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-task-stream</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-circuitbreaker-resilience4j</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-circuitbreaker-spring-retry</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-circuitbreaker-spring-retry</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-circuitbreaker-reactor-resilience4j</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>io.github.resilience4j</groupId>
@@ -2655,22 +2659,22 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-config</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-config-client</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-config-server</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-config-monitor</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.vault</groupId>
@@ -2710,87 +2714,97 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-context</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-core</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-web</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-function-web</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-function-webflux</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-deployer</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-adapter-aws</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-adapter-azure</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-adapter-gcp</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-function-integration</artifactId>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-kotlin</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-rsocket</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-grpc</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-function-grpc-cloudevent-ext</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-function-serverless-web</artifactId>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-gateway-webflux</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.6</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-gateway-mvc</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.6</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-gateway-server</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.6</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-gateway</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.6</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
@@ -3002,77 +3016,77 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-wiremock</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-spec</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-spec-java</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-spec-groovy</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-spec-kotlin</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-verifier</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-converters</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-stub-runner</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-stub-runner-boot</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-shade</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-contract-verifier</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-contract-stub-runner-jetty</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-maven-plugin</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-gradle-plugin</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>com.github.tomakehurst</groupId>
@@ -3092,12 +3106,12 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-openfeign-core</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-openfeign</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign.form</groupId>
@@ -3107,132 +3121,142 @@
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-core</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-gson</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jaxrs</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-httpclient</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jaxrs2</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-hc5</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-hystrix</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jackson</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jackson-jaxb</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jackson-jr</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-jaxb</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.openfeign</groupId>
+        <artifactId>feign-java11</artifactId>
+        <version>12.3</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.openfeign</groupId>
+        <artifactId>feign-jakarta</artifactId>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-mock</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-json</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-okhttp</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-googlehttpclient</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-ribbon</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-sax</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-slf4j</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-spring4</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-soap</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-reactive-wrappers</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-micrometer</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-dropwizard-metrics4</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-dropwizard-metrics5</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-kotlin</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.openfeign</groupId>
         <artifactId>feign-annotation-error-decoder</artifactId>
-        <version>12.1</version>
+        <version>12.3</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -3242,122 +3266,122 @@
       <dependency>
         <groupId>io.kubernetes</groupId>
         <artifactId>client-java</artifactId>
-        <version>17.0.0</version>
+        <version>17.0.2</version>
       </dependency>
       <dependency>
         <groupId>io.kubernetes</groupId>
         <artifactId>client-java-extended</artifactId>
-        <version>17.0.0</version>
+        <version>17.0.2</version>
       </dependency>
       <dependency>
         <groupId>io.kubernetes</groupId>
         <artifactId>client-java-spring-integration</artifactId>
-        <version>17.0.0</version>
+        <version>17.0.2</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-autoconfig</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-config</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-client-config</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-client-discovery</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-discovery</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-istio</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-leader</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-commons</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-client-autoconfig</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-fabric8-loadbalancer</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-client-loadbalancer</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-discovery</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-fabric8</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-client</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-fabric8-config</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-client-config</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-fabric8-loadbalancer</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-client-loadbalancer</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-fabric8-all</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-client-all</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-kubernetes-discoveryclient</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
       </dependency>
       <dependency>
         <groupId>io.specto</groupId>
@@ -3374,7 +3398,7 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-kubernetes-test-support</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.3</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -3969,64 +3993,94 @@
         <version>6.2.0</version>
       </dependency>
       <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-android</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-errorprone</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-inline</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-junit-jupiter</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-proxy</artifactId>
+        <version>4.8.1</version>
+      </dependency>
+      <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-autoconfigure</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-core</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-core-test-support</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-standard</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-standard-commands</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-table</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-test</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-test-autoconfigure</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-jansi</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-jna</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-test</artifactId>
-        <version>3.0.3</version>
+        <version>3.1.0</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
@@ -11750,31 +11804,6 @@
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>5.3.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-android</artifactId>
-        <version>5.3.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-errorprone</artifactId>
-        <version>5.3.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-junit-jupiter</artifactId>
-        <version>5.3.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-proxy</artifactId>
-        <version>5.3.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mockito</groupId>
         <artifactId>mockito-subclass</artifactId>
         <version>5.3.1</version>
       </dependency>
@@ -13745,31 +13774,31 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-config-server</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-function-web</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-circuitbreaker-reactor-resilience4j</artifactId>
-      <version>3.0.1</version>
+      <version>3.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13787,37 +13816,37 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-gateway</artifactId>
-      <version>4.0.4</version>
+      <version>4.0.6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-loadbalancer</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-      <version>4.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-      <version>4.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-openfeign</artifactId>
       <version>4.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+      <version>4.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+      <version>4.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-task</artifactId>
-      <version>3.0.2</version>
+      <version>3.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13841,25 +13870,25 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream-binder-kafka</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13991,7 +14020,7 @@
     <dependency>
       <groupId>org.springframework.shell</groupId>
       <artifactId>spring-shell-starter</artifactId>
-      <version>3.0.3</version>
+      <version>3.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -14100,7 +14129,7 @@
     <dependency>
       <groupId>io.r2dbc</groupId>
       <artifactId>r2dbc-mssql</artifactId>
-      <version>1.0.0.RELEASE</version>
+      <version>1.0.1.RELEASE</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -14199,19 +14228,19 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-contract-verifier</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream-test-binder</artifactId>
-      <version>4.0.2</version>
+      <version>4.0.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -14734,7 +14763,7 @@
       <plugin>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-maven-plugin</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
         <extensions>true</extensions>
         <executions>
           <execution>
