@@ -762,8 +762,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.restdocs:spring-restdocs-webtestclient:jar:3.0.0:test
 |  \- org.springframework.restdocs:spring-restdocs-core:jar:3.0.0:test
 +- org.springframework.security:spring-security-test:jar:6.1.0:test
-+- org.testcontainers:cassandra:jar:1.18.1:test
-|  +- org.testcontainers:database-commons:jar:1.18.1:test
++- org.testcontainers:cassandra:jar:1.18.2:test
+|  +- org.testcontainers:database-commons:jar:1.18.2:test
 |  \- com.datastax.cassandra:cassandra-driver-core:jar:3.10.0:test
 |     +- com.google.guava:guava:jar:31.1-jre:compile
 |     +- com.github.jnr:jnr-ffi:jar:2.1.7:compile
@@ -776,27 +776,27 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
 |     \- com.github.jnr:jnr-posix:jar:3.0.44:compile
 |        \- com.github.jnr:jnr-constants:jar:0.9.9:compile
-+- org.testcontainers:consul:jar:1.18.1:test
-|  \- org.testcontainers:testcontainers:jar:1.18.1:test
++- org.testcontainers:consul:jar:1.18.2:test
+|  \- org.testcontainers:testcontainers:jar:1.18.2:test
 |     +- junit:junit:jar:4.13.2:test
 |     +- org.apache.commons:commons-compress:jar:1.23.0:test
 |     +- org.rnorth.duct-tape:duct-tape:jar:1.0.8:test
 |     +- com.github.docker-java:docker-java-api:jar:3.3.0:test
 |     \- com.github.docker-java:docker-java-transport-zerodep:jar:3.3.0:test
 |        \- com.github.docker-java:docker-java-transport:jar:3.3.0:test
-+- org.testcontainers:couchbase:jar:1.18.1:test
-+- org.testcontainers:db2:jar:1.18.1:test
-|  \- org.testcontainers:jdbc:jar:1.18.1:test
-+- org.testcontainers:elasticsearch:jar:1.18.1:test
-+- org.testcontainers:junit-jupiter:jar:1.18.1:test
-+- org.testcontainers:kafka:jar:1.18.1:test
-+- org.testcontainers:mariadb:jar:1.18.1:test
-+- org.testcontainers:mongodb:jar:1.18.1:test
-+- org.testcontainers:mssqlserver:jar:1.18.1:test
-+- org.testcontainers:mysql:jar:1.18.1:test
-+- org.testcontainers:neo4j:jar:1.18.1:test
-+- org.testcontainers:oracle-xe:jar:1.18.1:test
-+- org.testcontainers:postgresql:jar:1.18.1:test
-+- org.testcontainers:r2dbc:jar:1.18.1:test
-+- org.testcontainers:rabbitmq:jar:1.18.1:test
-\- org.testcontainers:vault:jar:1.18.1:test
++- org.testcontainers:couchbase:jar:1.18.2:test
++- org.testcontainers:db2:jar:1.18.2:test
+|  \- org.testcontainers:jdbc:jar:1.18.2:test
++- org.testcontainers:elasticsearch:jar:1.18.2:test
++- org.testcontainers:junit-jupiter:jar:1.18.2:test
++- org.testcontainers:kafka:jar:1.18.2:test
++- org.testcontainers:mariadb:jar:1.18.2:test
++- org.testcontainers:mongodb:jar:1.18.2:test
++- org.testcontainers:mssqlserver:jar:1.18.2:test
++- org.testcontainers:mysql:jar:1.18.2:test
++- org.testcontainers:neo4j:jar:1.18.2:test
++- org.testcontainers:oracle-xe:jar:1.18.2:test
++- org.testcontainers:postgresql:jar:1.18.2:test
++- org.testcontainers:r2dbc:jar:1.18.2:test
++- org.testcontainers:rabbitmq:jar:1.18.2:test
+\- org.testcontainers:vault:jar:1.18.2:test
