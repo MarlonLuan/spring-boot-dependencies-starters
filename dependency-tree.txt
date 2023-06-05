@@ -270,72 +270,72 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- com.azure:azure-storage-file-share:jar:12.18.1:compile
 |  \- com.azure.spring:spring-cloud-azure-starter-storage-queue:jar:5.2.0:compile
 |     \- com.azure:azure-storage-queue:jar:12.17.1:compile
-+- com.google.cloud:spring-cloud-gcp-starter:jar:4.3.1:compile
-|  +- com.google.cloud:spring-cloud-gcp-core:jar:4.3.1:compile
-|  |  \- com.google.cloud:google-cloud-core:jar:2.17.0:compile
-|  |     +- com.google.api:gax:jar:2.27.0:compile
++- com.google.cloud:spring-cloud-gcp-starter:jar:4.4.0:compile
+|  +- com.google.cloud:spring-cloud-gcp-core:jar:4.4.0:compile
+|  |  \- com.google.cloud:google-cloud-core:jar:2.18.1:compile
+|  |     +- com.google.api:gax:jar:2.28.1:compile
 |  |     +- com.google.auto.value:auto-value-annotations:jar:1.10.1:compile
-|  |     +- com.google.protobuf:protobuf-java-util:jar:3.21.12:compile
-|  |     +- com.google.api.grpc:proto-google-common-protos:jar:2.18.0:compile
-|  |     +- com.google.api.grpc:proto-google-iam-v1:jar:1.13.0:compile
+|  |     +- com.google.protobuf:protobuf-java-util:jar:3.23.1:compile
+|  |     +- com.google.api.grpc:proto-google-common-protos:jar:2.19.1:compile
+|  |     +- com.google.api.grpc:proto-google-iam-v1:jar:1.14.1:compile
 |  |     +- org.threeten:threetenbp:jar:1.6.8:compile
-|  |     +- com.google.api:api-common:jar:2.10.0:compile
+|  |     +- com.google.api:api-common:jar:2.11.1:compile
 |  |     +- com.google.auth:google-auth-library-credentials:jar:1.16.0:compile
 |  |     +- com.google.auth:google-auth-library-oauth2-http:jar:1.16.0:compile
 |  |     +- com.google.http-client:google-http-client:jar:1.43.1:compile
 |  |     +- com.google.http-client:google-http-client-gson:jar:1.43.1:compile
-|  |     \- com.google.protobuf:protobuf-java:jar:3.21.12:compile
-|  +- com.google.cloud:spring-cloud-gcp-autoconfigure:jar:4.3.1:compile
+|  |     \- com.google.protobuf:protobuf-java:jar:3.23.1:compile
+|  +- com.google.cloud:spring-cloud-gcp-autoconfigure:jar:4.4.0:compile
 |  |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
 |  \- org.slf4j:slf4j-api:jar:2.0.7:compile
-+- com.google.cloud:spring-cloud-gcp-starter-pubsub:jar:4.3.1:compile
-|  \- com.google.cloud:spring-cloud-gcp-pubsub:jar:4.3.1:compile
-|     \- com.google.cloud:google-cloud-pubsub:jar:1.123.12:compile
-|        +- io.grpc:grpc-api:jar:1.54.0:compile
-|        +- io.grpc:grpc-context:jar:1.54.0:compile
-|        +- io.grpc:grpc-stub:jar:1.54.0:compile
-|        +- io.grpc:grpc-protobuf:jar:1.54.0:compile
-|        +- io.grpc:grpc-protobuf-lite:jar:1.54.0:compile
++- com.google.cloud:spring-cloud-gcp-starter-pubsub:jar:4.4.0:compile
+|  \- com.google.cloud:spring-cloud-gcp-pubsub:jar:4.4.0:compile
+|     \- com.google.cloud:google-cloud-pubsub:jar:1.123.13:compile
+|        +- io.grpc:grpc-api:jar:1.55.1:compile
+|        +- io.grpc:grpc-context:jar:1.55.1:compile
+|        +- io.grpc:grpc-stub:jar:1.55.1:compile
+|        +- io.grpc:grpc-protobuf:jar:1.55.1:compile
+|        +- io.grpc:grpc-protobuf-lite:jar:1.55.1:compile
 |        +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
-|        +- com.google.api.grpc:proto-google-cloud-pubsub-v1:jar:1.105.12:compile
+|        +- com.google.api.grpc:proto-google-cloud-pubsub-v1:jar:1.105.13:compile
 |        +- com.google.guava:failureaccess:jar:1.0.1:compile
 |        +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
 |        +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
-|        +- com.google.api:gax-grpc:jar:2.27.0:compile
-|        +- io.grpc:grpc-alts:jar:1.54.0:compile
-|        +- io.grpc:grpc-grpclb:jar:1.54.0:compile
+|        +- com.google.api:gax-grpc:jar:2.28.1:compile
+|        +- io.grpc:grpc-alts:jar:1.55.1:compile
+|        +- io.grpc:grpc-grpclb:jar:1.55.1:compile
 |        +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
-|        +- io.grpc:grpc-auth:jar:1.54.0:compile
-|        +- io.grpc:grpc-netty-shaded:jar:1.54.0:compile
-|        +- io.grpc:grpc-googleapis:jar:1.54.0:runtime
-|        +- io.grpc:grpc-xds:jar:1.54.0:runtime
+|        +- io.grpc:grpc-auth:jar:1.55.1:compile
+|        +- io.grpc:grpc-netty-shaded:jar:1.55.1:compile
+|        +- io.grpc:grpc-googleapis:jar:1.55.1:runtime
+|        +- io.grpc:grpc-xds:jar:1.55.1:runtime
 |        +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
-|        +- io.grpc:grpc-services:jar:1.54.0:runtime
+|        +- io.grpc:grpc-services:jar:1.55.1:runtime
 |        +- com.google.re2j:re2j:jar:1.6:runtime
-|        +- com.google.api:gax-httpjson:jar:0.112.0:compile
+|        +- com.google.api:gax-httpjson:jar:0.113.1:compile
 |        +- io.opencensus:opencensus-api:jar:0.31.1:compile
-|        +- io.grpc:grpc-core:jar:1.54.0:runtime
+|        +- io.grpc:grpc-core:jar:1.55.1:runtime
 |        +- com.google.android:annotations:jar:4.1.1.4:runtime
 |        +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
 |        +- io.perfmark:perfmark-api:jar:0.26.0:runtime
 |        +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
 |        +- commons-logging:commons-logging:jar:1.2:compile
 |        \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
-+- com.google.cloud:spring-cloud-gcp-starter-storage:jar:4.3.1:compile
-|  \- com.google.cloud:spring-cloud-gcp-storage:jar:4.3.1:compile
-|     \- com.google.cloud:google-cloud-storage:jar:2.22.2:compile
++- com.google.cloud:spring-cloud-gcp-starter-storage:jar:4.4.0:compile
+|  \- com.google.cloud:spring-cloud-gcp-storage:jar:4.4.0:compile
+|     \- com.google.cloud:google-cloud-storage:jar:2.22.3:compile
 |        +- com.google.http-client:google-http-client-jackson2:jar:1.43.1:compile
 |        +- com.google.api-client:google-api-client:jar:2.2.0:compile
 |        +- com.google.oauth-client:google-oauth-client:jar:1.34.1:compile
 |        +- com.google.http-client:google-http-client-apache-v2:jar:1.43.1:compile
 |        +- com.google.apis:google-api-services-storage:jar:v1-rev20230301-2.0.0:compile
-|        +- com.google.cloud:google-cloud-core-http:jar:2.17.0:compile
+|        +- com.google.cloud:google-cloud-core-http:jar:2.18.1:compile
 |        +- com.google.http-client:google-http-client-appengine:jar:1.43.1:compile
-|        +- com.google.cloud:google-cloud-core-grpc:jar:2.17.0:compile
-|        +- com.google.api.grpc:proto-google-cloud-storage-v2:jar:2.22.2-alpha:compile
-|        +- com.google.api.grpc:grpc-google-cloud-storage-v2:jar:2.22.2-alpha:compile
-|        +- com.google.api.grpc:gapic-google-cloud-storage-v2:jar:2.22.2-alpha:compile
-|        \- io.grpc:grpc-rls:jar:1.54.0:runtime
+|        +- com.google.cloud:google-cloud-core-grpc:jar:2.18.1:compile
+|        +- com.google.api.grpc:proto-google-cloud-storage-v2:jar:2.22.3-alpha:compile
+|        +- com.google.api.grpc:grpc-google-cloud-storage-v2:jar:2.22.3-alpha:compile
+|        +- com.google.api.grpc:gapic-google-cloud-storage-v2:jar:2.22.3-alpha:compile
+|        \- io.grpc:grpc-rls:jar:1.55.1:runtime
 +- com.okta.spring:okta-spring-boot-starter:jar:3.0.4:compile
 |  +- com.okta.spring:okta-spring-security-oauth2:jar:3.0.4:compile
 |  |  +- com.okta.commons:okta-config-check:jar:1.3.3:compile
