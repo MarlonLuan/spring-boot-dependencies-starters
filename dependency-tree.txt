@@ -348,8 +348,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.0.4:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.0.4:compile
-+- info.picocli:picocli-spring-boot-starter:jar:4.7.3:compile
-|  \- info.picocli:picocli:jar:4.7.3:compile
++- info.picocli:picocli-spring-boot-starter:jar:4.7.4:compile
+|  \- info.picocli:picocli:jar:4.7.4:compile
 +- io.micrometer:micrometer-tracing-bridge-brave:jar:1.1.1:compile
 |  +- io.micrometer:micrometer-tracing:jar:1.1.1:compile
 |  |  \- aopalliance:aopalliance:jar:1.0:compile
@@ -545,16 +545,16 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.session:spring-session-data-redis:jar:3.1.0:compile
 |  \- org.springframework.session:spring-session-core:jar:3.1.0:compile
 +- org.springframework.session:spring-session-jdbc:jar:3.1.0:compile
-+- org.springframework.shell:spring-shell-starter:jar:3.1.0:compile
-|  +- org.springframework.shell:spring-shell-autoconfigure:jar:3.1.0:compile
-|  +- org.springframework.shell:spring-shell-core:jar:3.1.0:compile
++- org.springframework.shell:spring-shell-starter:jar:3.1.1:compile
+|  +- org.springframework.shell:spring-shell-autoconfigure:jar:3.1.1:compile
+|  +- org.springframework.shell:spring-shell-core:jar:3.1.1:compile
 |  |  +- org.jline:jline:jar:3.23.0:compile
 |  |  +- org.antlr:ST4:jar:4.3.1:compile
 |  |  |  \- org.antlr:antlr-runtime:jar:3.5.2:compile
 |  |  \- commons-io:commons-io:jar:2.11.0:compile
-|  +- org.springframework.shell:spring-shell-standard:jar:3.1.0:compile
-|  +- org.springframework.shell:spring-shell-standard-commands:jar:3.1.0:compile
-|  \- org.springframework.shell:spring-shell-table:jar:3.1.0:compile
+|  +- org.springframework.shell:spring-shell-standard:jar:3.1.1:compile
+|  +- org.springframework.shell:spring-shell-standard-commands:jar:3.1.1:compile
+|  \- org.springframework.shell:spring-shell-table:jar:3.1.1:compile
 +- org.thymeleaf.extras:thymeleaf-extras-springsecurity6:jar:3.1.1.RELEASE:compile
 +- org.springframework.boot:spring-boot-devtools:jar:3.1.0:runtime
 |  +- org.springframework.boot:spring-boot:jar:3.1.0:compile
@@ -618,7 +618,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        \- com.ongres.stringprep:saslprep:jar:1.1:runtime
 |           \- com.ongres.stringprep:stringprep:jar:1.1:runtime
 +- org.springframework.boot:spring-boot-configuration-processor:jar:3.1.0:compile
-+- info.picocli:picocli-codegen:jar:4.7.3:compile
++- info.picocli:picocli-codegen:jar:4.7.4:compile
 +- org.projectlombok:lombok:jar:1.18.26:compile
 +- org.springframework.boot:spring-boot-starter-test:jar:3.1.0:test
 |  +- org.springframework.boot:spring-boot-test:jar:3.1.0:test
