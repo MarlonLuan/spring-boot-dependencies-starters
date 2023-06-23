@@ -1,14 +1,84 @@
 
 The following plugins have been resolved:
-   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.1.0:runtime
-      org.springframework.boot:spring-boot-maven-plugin:jar:3.1.0
-      org.springframework:spring-context:jar:6.0.9
-      org.springframework:spring-aop:jar:6.0.9
-      org.springframework:spring-beans:jar:6.0.9
-      org.springframework:spring-core:jar:6.0.9
-      org.springframework:spring-jcl:jar:6.0.9
-      org.springframework:spring-expression:jar:6.0.9
-      org.springframework.boot:spring-boot-buildpack-platform:jar:3.1.0
+   org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:maven-plugin:6.2.5.Final:runtime
+      org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:jar:6.2.5.Final
+      org.jboss.logging:jboss-logging:jar:3.5.0.Final
+      org.hibernate.orm:hibernate-core:jar:6.2.5.Final
+      jakarta.persistence:jakarta.persistence-api:jar:3.1.0
+      jakarta.transaction:jakarta.transaction-api:jar:2.0.1
+      net.bytebuddy:byte-buddy:jar:1.12.18
+      org.apache.maven:maven-core:jar:3.8.1
+      org.apache.maven:maven-artifact:jar:3.0.5
+      org.apache.maven:maven-plugin-api:jar:3.0.5
+      org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+      org.codehaus.plexus:plexus-utils:jar:3.0.24
+      org.sonatype.plexus:plexus-build-api:jar:0.0.7
+   org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.2.0:runtime
+      org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+      org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+      commons-io:commons-io:jar:2.6
+   org.graalvm.buildtools:native-maven-plugin:maven-plugin:0.9.23:runtime
+      org.graalvm.buildtools:native-maven-plugin:jar:0.9.23
+      org.graalvm.buildtools:junit-platform-native:jar:0.9.23
+      org.junit.platform:junit-platform-console:jar:1.8.1
+      org.junit.platform:junit-platform-reporting:jar:1.8.1
+      org.apiguardian:apiguardian-api:jar:1.1.2
+      org.junit.platform:junit-platform-launcher:jar:1.8.1
+      org.junit.platform:junit-platform-engine:jar:1.8.1
+      org.opentest4j:opentest4j:jar:1.2.0
+      org.junit.platform:junit-platform-commons:jar:1.8.1
+      org.junit.jupiter:junit-jupiter:jar:5.8.1
+      org.junit.jupiter:junit-jupiter-api:jar:5.8.1
+      org.junit.jupiter:junit-jupiter-params:jar:5.8.1
+      org.junit.jupiter:junit-jupiter-engine:jar:5.8.1
+      org.graalvm.buildtools:utils:jar:0.9.23
+      com.fasterxml.jackson.core:jackson-databind:jar:2.13.3
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3
+      com.fasterxml.jackson.core:jackson-core:jar:2.13.3
+      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.9.23
+      org.graalvm.nativeimage:svm:jar:22.0.0
+      org.graalvm.sdk:graal-sdk:jar:22.0.0
+      org.graalvm.nativeimage:objectfile:jar:22.0.0
+      org.graalvm.nativeimage:pointsto:jar:22.0.0
+      org.graalvm.compiler:compiler:jar:22.0.0
+      org.graalvm.truffle:truffle-api:jar:22.0.0
+      org.graalvm.nativeimage:native-image-base:jar:22.0.0
+   org.apache.maven.plugins:maven-jar-plugin:maven-plugin:3.3.0:runtime
+      org.apache.maven.plugins:maven-jar-plugin:jar:3.3.0
+      org.apache.maven.shared:file-management:jar:3.1.0
+      org.slf4j:slf4j-api:jar:1.7.36
+      commons-io:commons-io:jar:2.11.0
+      org.apache.maven:maven-archiver:jar:3.6.0
+      org.codehaus.plexus:plexus-io:jar:3.4.0
+      javax.inject:javax.inject:jar:1
+      org.codehaus.plexus:plexus-archiver:jar:4.4.0
+      org.apache.commons:commons-compress:jar:1.21
+      org.iq80.snappy:snappy:jar:0.4
+      org.tukaani:xz:jar:1.9
+      org.codehaus.plexus:plexus-interpolation:jar:1.26
+      org.codehaus.plexus:plexus-utils:jar:3.4.2
+   org.apache.maven.plugins:maven-compiler-plugin:maven-plugin:3.11.0:runtime
+      org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
+      org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+      commons-io:commons-io:jar:2.6
+      org.apache.maven.shared:maven-shared-incremental:jar:1.1
+      org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+      org.codehaus.plexus:plexus-java:jar:1.1.2
+      org.ow2.asm:asm:jar:9.4
+      com.thoughtworks.qdox:qdox:jar:2.0.3
+      org.codehaus.plexus:plexus-compiler-api:jar:2.13.0
+      org.codehaus.plexus:plexus-utils:jar:3.5.0
+      org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0
+      org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0
+   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.1.1:runtime
+      org.springframework.boot:spring-boot-maven-plugin:jar:3.1.1
+      org.springframework:spring-context:jar:6.0.10
+      org.springframework:spring-aop:jar:6.0.10
+      org.springframework:spring-beans:jar:6.0.10
+      org.springframework:spring-core:jar:6.0.10
+      org.springframework:spring-jcl:jar:6.0.10
+      org.springframework:spring-expression:jar:6.0.10
+      org.springframework.boot:spring-boot-buildpack-platform:jar:3.1.1
       com.fasterxml.jackson.core:jackson-databind:jar:2.14.2
       com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2
       com.fasterxml.jackson.core:jackson-core:jar:2.14.2
@@ -23,7 +93,7 @@ The following plugins have been resolved:
       org.tomlj:tomlj:jar:1.0.0
       org.antlr:antlr4-runtime:jar:4.7.2
       com.google.code.findbugs:jsr305:jar:3.0.2
-      org.springframework.boot:spring-boot-loader-tools:jar:3.1.0
+      org.springframework.boot:spring-boot-loader-tools:jar:3.1.1
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       org.codehaus.plexus:plexus-utils:jar:1.5.8
       org.apache.maven.plugins:maven-shade-plugin:jar:3.2.4
@@ -69,37 +139,6 @@ The following plugins have been resolved:
       com.google.errorprone:error_prone_annotations:jar:2.3.4
       com.google.j2objc:j2objc-annotations:jar:1.3
       org.apache.commons:commons-lang3:jar:3.7
-   org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.2.0:runtime
-      org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
-      org.apache.maven.shared:maven-shared-utils:jar:3.3.4
-      commons-io:commons-io:jar:2.6
-   org.apache.maven.plugins:maven-jar-plugin:maven-plugin:3.3.0:runtime
-      org.apache.maven.plugins:maven-jar-plugin:jar:3.3.0
-      org.apache.maven.shared:file-management:jar:3.1.0
-      org.slf4j:slf4j-api:jar:1.7.36
-      commons-io:commons-io:jar:2.11.0
-      org.apache.maven:maven-archiver:jar:3.6.0
-      org.codehaus.plexus:plexus-io:jar:3.4.0
-      javax.inject:javax.inject:jar:1
-      org.codehaus.plexus:plexus-archiver:jar:4.4.0
-      org.apache.commons:commons-compress:jar:1.21
-      org.iq80.snappy:snappy:jar:0.4
-      org.tukaani:xz:jar:1.9
-      org.codehaus.plexus:plexus-interpolation:jar:1.26
-      org.codehaus.plexus:plexus-utils:jar:3.4.2
-   org.apache.maven.plugins:maven-compiler-plugin:maven-plugin:3.11.0:runtime
-      org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
-      org.apache.maven.shared:maven-shared-utils:jar:3.3.4
-      commons-io:commons-io:jar:2.6
-      org.apache.maven.shared:maven-shared-incremental:jar:1.1
-      org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
-      org.codehaus.plexus:plexus-java:jar:1.1.2
-      org.ow2.asm:asm:jar:9.4
-      com.thoughtworks.qdox:qdox:jar:2.0.3
-      org.codehaus.plexus:plexus-compiler-api:jar:2.13.0
-      org.codehaus.plexus:plexus-utils:jar:3.5.0
-      org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0
-      org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0
    org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:3.1.1:runtime
       org.apache.maven.plugins:maven-deploy-plugin:jar:3.1.1
       org.codehaus.plexus:plexus-utils:jar:3.5.0
@@ -389,32 +428,6 @@ The following plugins have been resolved:
       org.apache.maven.shared:maven-shared-incremental:jar:1.1
       org.apache.maven:maven-plugin-api:jar:2.2.1
       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
-   org.graalvm.buildtools:native-maven-plugin:maven-plugin:0.9.22:runtime
-      org.graalvm.buildtools:native-maven-plugin:jar:0.9.22
-      org.graalvm.buildtools:junit-platform-native:jar:0.9.22
-      org.junit.platform:junit-platform-console:jar:1.8.1
-      org.junit.platform:junit-platform-reporting:jar:1.8.1
-      org.apiguardian:apiguardian-api:jar:1.1.2
-      org.junit.platform:junit-platform-launcher:jar:1.8.1
-      org.junit.platform:junit-platform-engine:jar:1.8.1
-      org.opentest4j:opentest4j:jar:1.2.0
-      org.junit.platform:junit-platform-commons:jar:1.8.1
-      org.junit.jupiter:junit-jupiter:jar:5.8.1
-      org.junit.jupiter:junit-jupiter-api:jar:5.8.1
-      org.junit.jupiter:junit-jupiter-params:jar:5.8.1
-      org.junit.jupiter:junit-jupiter-engine:jar:5.8.1
-      org.graalvm.buildtools:utils:jar:0.9.22
-      com.fasterxml.jackson.core:jackson-databind:jar:2.13.3
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3
-      com.fasterxml.jackson.core:jackson-core:jar:2.13.3
-      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.9.22
-      org.graalvm.nativeimage:svm:jar:22.0.0
-      org.graalvm.sdk:graal-sdk:jar:22.0.0
-      org.graalvm.nativeimage:objectfile:jar:22.0.0
-      org.graalvm.nativeimage:pointsto:jar:22.0.0
-      org.graalvm.compiler:compiler:jar:22.0.0
-      org.graalvm.truffle:truffle-api:jar:22.0.0
-      org.graalvm.nativeimage:native-image-base:jar:22.0.0
    org.asciidoctor:asciidoctor-maven-plugin:maven-plugin:2.2.4:runtime
       org.asciidoctor:asciidoctor-maven-plugin:jar:2.2.4
       org.jruby:jruby:jar:9.3.10.0
@@ -515,17 +528,4 @@ The following plugins have been resolved:
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       commons-io:commons-io:jar:2.11.0
       org.apache.commons:commons-lang3:jar:3.12.0
-   org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:maven-plugin:6.2.2.Final:runtime
-      org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:jar:6.2.2.Final
-      org.jboss.logging:jboss-logging:jar:3.5.0.Final
-      org.hibernate.orm:hibernate-core:jar:6.2.2.Final
-      jakarta.persistence:jakarta.persistence-api:jar:3.1.0
-      jakarta.transaction:jakarta.transaction-api:jar:2.0.1
-      net.bytebuddy:byte-buddy:jar:1.12.18
-      org.apache.maven:maven-core:jar:3.8.1
-      org.apache.maven:maven-artifact:jar:3.0.5
-      org.apache.maven:maven-plugin-api:jar:3.0.5
-      org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
-      org.codehaus.plexus:plexus-utils:jar:3.0.24
-      org.sonatype.plexus:plexus-build-api:jar:0.0.7
 
