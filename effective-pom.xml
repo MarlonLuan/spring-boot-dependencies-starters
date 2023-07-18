@@ -201,7 +201,7 @@
     <spring-amqp.version>3.0.5</spring-amqp.version>
     <spring-authorization-server.version>1.1.1</spring-authorization-server.version>
     <spring-batch.version>5.0.2</spring-batch.version>
-    <spring-boot-admin.version>3.1.1</spring-boot-admin.version>
+    <spring-boot-admin.version>3.1.2</spring-boot-admin.version>
     <spring-cloud-azure.version>5.3.0</spring-cloud-azure.version>
     <spring-cloud-gcp.version>4.5.0</spring-cloud-gcp.version>
     <spring-cloud.version>2022.0.3</spring-cloud.version>
@@ -4085,32 +4085,32 @@
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-server</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-server-ui</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-client</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-starter-client</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-starter-server</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-server-cloud</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>com.wavefront</groupId>
@@ -13817,13 +13817,13 @@
     <dependency>
       <groupId>de.codecentric</groupId>
       <artifactId>spring-boot-admin-starter-client</artifactId>
-      <version>3.1.1</version>
+      <version>3.1.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>de.codecentric</groupId>
       <artifactId>spring-boot-admin-starter-server</artifactId>
-      <version>3.1.1</version>
+      <version>3.1.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
