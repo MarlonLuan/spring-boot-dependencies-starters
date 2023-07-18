@@ -587,7 +587,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- io.micrometer:micrometer-tracing-reporter-wavefront:jar:1.1.2:runtime
 |  \- com.wavefront:wavefront-internal-reporter-java:jar:1.7.16:runtime
 +- io.r2dbc:r2dbc-h2:jar:1.0.0.RELEASE:runtime
-+- io.r2dbc:r2dbc-mssql:jar:1.0.1.RELEASE:runtime
++- io.r2dbc:r2dbc-mssql:jar:1.0.2.RELEASE:runtime
 |  \- io.projectreactor.netty:reactor-netty-core:jar:1.1.8:compile
 |     +- io.netty:netty-handler-proxy:jar:4.1.94.Final:compile
 |     +- io.netty:netty-resolver-dns:jar:4.1.94.Final:compile
