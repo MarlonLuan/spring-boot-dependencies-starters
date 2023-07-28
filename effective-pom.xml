@@ -216,7 +216,7 @@
     <spring-retry.version>2.0.2</spring-retry.version>
     <spring-security.version>6.1.2</spring-security.version>
     <spring-session.version>3.1.1</spring-session.version>
-    <spring-shell.version>3.1.2</spring-shell.version>
+    <spring-shell.version>3.1.3</spring-shell.version>
     <spring-ws.version>4.0.5</spring-ws.version>
     <sqlite-jdbc.version>3.41.2.2</sqlite-jdbc.version>
     <testcontainers.version>1.18.3</testcontainers.version>
@@ -3890,62 +3890,62 @@
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-autoconfigure</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-core</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-core-test-support</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-standard</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-standard-commands</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-table</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-test</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-test-autoconfigure</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-jansi</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-jna</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.shell</groupId>
         <artifactId>spring-shell-starter-test</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
@@ -14140,7 +14140,7 @@
     <dependency>
       <groupId>org.springframework.shell</groupId>
       <artifactId>spring-shell-starter</artifactId>
-      <version>3.1.2</version>
+      <version>3.1.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
