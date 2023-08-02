@@ -222,31 +222,31 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.springframework:spring-webflux:jar:6.0.11:compile
 +- org.springframework.boot:spring-boot-starter-websocket:jar:3.1.2:compile
 |  \- org.springframework:spring-websocket:jar:6.0.11:compile
-+- com.azure.spring:spring-cloud-azure-starter:jar:5.3.0:compile
-|  \- com.azure.spring:spring-cloud-azure-autoconfigure:jar:5.3.0:compile
-|     \- com.azure.spring:spring-cloud-azure-service:jar:5.3.0:compile
-|        \- com.azure.spring:spring-cloud-azure-core:jar:5.3.0:compile
-|           +- com.azure:azure-core-amqp:jar:2.8.6:compile
++- com.azure.spring:spring-cloud-azure-starter:jar:5.4.0:compile
+|  \- com.azure.spring:spring-cloud-azure-autoconfigure:jar:5.4.0:compile
+|     \- com.azure.spring:spring-cloud-azure-service:jar:5.4.0:compile
+|        \- com.azure.spring:spring-cloud-azure-core:jar:5.4.0:compile
+|           +- com.azure:azure-core-amqp:jar:2.8.7:compile
 |           |  +- com.microsoft.azure:qpid-proton-j-extensions:jar:1.2.4:compile
 |           |  \- org.apache.qpid:proton-j:jar:0.33.8:compile
-|           \- com.azure:azure-core-management:jar:1.11.2:compile
-+- com.azure.spring:spring-cloud-azure-starter-active-directory:jar:5.3.0:compile
+|           \- com.azure:azure-core-management:jar:1.11.3:compile
++- com.azure.spring:spring-cloud-azure-starter-active-directory:jar:5.4.0:compile
 |  \- com.nimbusds:nimbus-jose-jwt:jar:9.31:compile
 |     \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
-+- com.azure.spring:spring-cloud-azure-starter-actuator:jar:5.3.0:compile
-|  \- com.azure.spring:spring-cloud-azure-actuator-autoconfigure:jar:5.3.0:compile
-|     \- com.azure.spring:spring-cloud-azure-actuator:jar:5.3.0:compile
-+- com.azure.spring:spring-cloud-azure-starter-integration-storage-queue:jar:5.3.0:compile
-|  \- com.azure.spring:spring-integration-azure-storage-queue:jar:5.3.0:compile
-|     +- com.azure.spring:spring-integration-azure-core:jar:5.3.0:compile
-|     |  \- com.azure.spring:spring-messaging-azure:jar:5.3.0:compile
-|     \- com.azure.spring:spring-messaging-azure-storage-queue:jar:5.3.0:compile
-+- com.azure.spring:spring-cloud-azure-starter-jdbc-mysql:jar:5.3.0:compile
-|  \- com.azure:azure-identity-extensions:jar:1.1.5:compile
-|     \- com.azure:azure-identity:jar:1.9.1:compile
-|        +- com.azure:azure-core:jar:1.40.0:compile
++- com.azure.spring:spring-cloud-azure-starter-actuator:jar:5.4.0:compile
+|  \- com.azure.spring:spring-cloud-azure-actuator-autoconfigure:jar:5.4.0:compile
+|     \- com.azure.spring:spring-cloud-azure-actuator:jar:5.4.0:compile
++- com.azure.spring:spring-cloud-azure-starter-integration-storage-queue:jar:5.4.0:compile
+|  \- com.azure.spring:spring-integration-azure-storage-queue:jar:5.4.0:compile
+|     +- com.azure.spring:spring-integration-azure-core:jar:5.4.0:compile
+|     |  \- com.azure.spring:spring-messaging-azure:jar:5.4.0:compile
+|     \- com.azure.spring:spring-messaging-azure-storage-queue:jar:5.4.0:compile
++- com.azure.spring:spring-cloud-azure-starter-jdbc-mysql:jar:5.4.0:compile
+|  \- com.azure:azure-identity-extensions:jar:1.1.6:compile
+|     \- com.azure:azure-identity:jar:1.9.2:compile
+|        +- com.azure:azure-core:jar:1.41.0:compile
 |        |  \- com.azure:azure-json:jar:1.0.1:compile
-|        +- com.azure:azure-core-http-netty:jar:1.13.4:compile
+|        +- com.azure:azure-core-http-netty:jar:1.13.5:compile
 |        |  \- io.netty:netty-tcnative-boringssl-static:jar:2.0.61.Final:compile
 |        |     +- io.netty:netty-tcnative-boringssl-static:jar:linux-x86_64:2.0.61.Final:compile
 |        |     +- io.netty:netty-tcnative-boringssl-static:jar:linux-aarch_64:2.0.61.Final:compile
@@ -255,23 +255,23 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        |     \- io.netty:netty-tcnative-boringssl-static:jar:windows-x86_64:2.0.61.Final:compile
 |        +- com.microsoft.azure:msal4j:jar:1.13.8:compile
 |        \- com.microsoft.azure:msal4j-persistence-extension:jar:1.2.0:compile
-+- com.azure.spring:spring-cloud-azure-starter-jdbc-postgresql:jar:5.3.0:compile
-+- com.azure.spring:spring-cloud-azure-starter-keyvault:jar:5.3.0:compile
-|  +- com.azure.spring:spring-cloud-azure-starter-keyvault-secrets:jar:5.3.0:compile
-|  |  \- com.azure:azure-security-keyvault-secrets:jar:4.6.3:compile
-|  \- com.azure.spring:spring-cloud-azure-starter-keyvault-certificates:jar:5.3.0:compile
-|     \- com.azure:azure-security-keyvault-certificates:jar:4.5.3:compile
-+- com.azure.spring:spring-cloud-azure-starter-storage:jar:5.3.0:compile
-|  +- com.azure.spring:spring-cloud-azure-starter-storage-blob:jar:5.3.0:compile
-|  |  \- com.azure:azure-storage-blob:jar:12.22.3:compile
-|  |     +- com.azure:azure-storage-common:jar:12.21.2:compile
-|  |     \- com.azure:azure-storage-internal-avro:jar:12.7.2:compile
-|  +- com.azure.spring:spring-cloud-azure-starter-storage-file-share:jar:5.3.0:compile
-|  |  \- com.azure:azure-storage-file-share:jar:12.18.2:compile
-|  \- com.azure.spring:spring-cloud-azure-starter-storage-queue:jar:5.3.0:compile
-|     \- com.azure:azure-storage-queue:jar:12.17.2:compile
-+- com.google.cloud:spring-cloud-gcp-starter:jar:4.7.0:compile
-|  +- com.google.cloud:spring-cloud-gcp-core:jar:4.7.0:compile
++- com.azure.spring:spring-cloud-azure-starter-jdbc-postgresql:jar:5.4.0:compile
++- com.azure.spring:spring-cloud-azure-starter-keyvault:jar:5.4.0:compile
+|  +- com.azure.spring:spring-cloud-azure-starter-keyvault-secrets:jar:5.4.0:compile
+|  |  \- com.azure:azure-security-keyvault-secrets:jar:4.6.4:compile
+|  \- com.azure.spring:spring-cloud-azure-starter-keyvault-certificates:jar:5.4.0:compile
+|     \- com.azure:azure-security-keyvault-certificates:jar:4.5.4:compile
++- com.azure.spring:spring-cloud-azure-starter-storage:jar:5.4.0:compile
+|  +- com.azure.spring:spring-cloud-azure-starter-storage-blob:jar:5.4.0:compile
+|  |  \- com.azure:azure-storage-blob:jar:12.23.0:compile
+|  |     +- com.azure:azure-storage-common:jar:12.22.0:compile
+|  |     \- com.azure:azure-storage-internal-avro:jar:12.8.0:compile
+|  +- com.azure.spring:spring-cloud-azure-starter-storage-file-share:jar:5.4.0:compile
+|  |  \- com.azure:azure-storage-file-share:jar:12.19.0:compile
+|  \- com.azure.spring:spring-cloud-azure-starter-storage-queue:jar:5.4.0:compile
+|     \- com.azure:azure-storage-queue:jar:12.18.0:compile
++- com.google.cloud:spring-cloud-gcp-starter:jar:4.7.1:compile
+|  +- com.google.cloud:spring-cloud-gcp-core:jar:4.7.1:compile
 |  |  \- com.google.cloud:google-cloud-core:jar:2.21.1:compile
 |  |     +- com.google.api:gax:jar:2.31.1:compile
 |  |     +- com.google.auto.value:auto-value-annotations:jar:1.10.2:compile
@@ -285,11 +285,11 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |     +- com.google.http-client:google-http-client:jar:1.43.3:compile
 |  |     +- com.google.http-client:google-http-client-gson:jar:1.43.3:compile
 |  |     \- com.google.protobuf:protobuf-java:jar:3.23.2:compile
-|  +- com.google.cloud:spring-cloud-gcp-autoconfigure:jar:4.7.0:compile
+|  +- com.google.cloud:spring-cloud-gcp-autoconfigure:jar:4.7.1:compile
 |  |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
 |  \- org.slf4j:slf4j-api:jar:2.0.7:compile
-+- com.google.cloud:spring-cloud-gcp-starter-pubsub:jar:4.7.0:compile
-|  \- com.google.cloud:spring-cloud-gcp-pubsub:jar:4.7.0:compile
++- com.google.cloud:spring-cloud-gcp-starter-pubsub:jar:4.7.1:compile
+|  \- com.google.cloud:spring-cloud-gcp-pubsub:jar:4.7.1:compile
 |     \- com.google.cloud:google-cloud-pubsub:jar:1.124.0:compile
 |        +- io.grpc:grpc-api:jar:1.56.1:compile
 |        +- io.grpc:grpc-context:jar:1.56.1:compile
@@ -321,8 +321,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        +- commons-logging:commons-logging:jar:1.2:compile
 |        +- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
 |        \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
-+- com.google.cloud:spring-cloud-gcp-starter-storage:jar:4.7.0:compile
-|  \- com.google.cloud:spring-cloud-gcp-storage:jar:4.7.0:compile
++- com.google.cloud:spring-cloud-gcp-starter-storage:jar:4.7.1:compile
+|  \- com.google.cloud:spring-cloud-gcp-storage:jar:4.7.1:compile
 |     \- com.google.cloud:google-cloud-storage:jar:2.25.0:compile
 |        +- com.google.http-client:google-http-client-jackson2:jar:1.43.3:compile
 |        +- com.google.api-client:google-api-client:jar:2.2.0:compile
@@ -761,7 +761,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.testcontainers:cassandra:jar:1.18.3:test
 |  +- org.testcontainers:database-commons:jar:1.18.3:test
 |  \- com.datastax.cassandra:cassandra-driver-core:jar:3.10.0:test
-|     +- com.google.guava:guava:jar:32.1.1-jre:compile
+|     +- com.google.guava:guava:jar:32.1.2-jre:compile
 |     +- com.github.jnr:jnr-ffi:jar:2.1.7:compile
 |     |  +- com.github.jnr:jffi:jar:1.2.16:compile
 |     |  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
