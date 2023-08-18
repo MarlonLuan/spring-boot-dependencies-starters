@@ -13892,7 +13892,7 @@
     <dependency>
       <groupId>com.okta.spring</groupId>
       <artifactId>okta-spring-boot-starter</artifactId>
-      <version>3.0.4</version>
+      <version>3.0.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
