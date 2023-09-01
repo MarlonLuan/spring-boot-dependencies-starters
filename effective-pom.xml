@@ -13915,7 +13915,7 @@
     <dependency>
       <groupId>info.picocli</groupId>
       <artifactId>picocli-spring-boot-starter</artifactId>
-      <version>4.7.4</version>
+      <version>4.7.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -14379,7 +14379,7 @@
     <dependency>
       <groupId>info.picocli</groupId>
       <artifactId>picocli-codegen</artifactId>
-      <version>4.7.4</version>
+      <version>4.7.5</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>

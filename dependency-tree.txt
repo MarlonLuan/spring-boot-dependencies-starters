@@ -348,8 +348,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.1.5:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.1.5:compile
-+- info.picocli:picocli-spring-boot-starter:jar:4.7.4:compile
-|  \- info.picocli:picocli:jar:4.7.4:compile
++- info.picocli:picocli-spring-boot-starter:jar:4.7.5:compile
+|  \- info.picocli:picocli:jar:4.7.5:compile
 +- io.micrometer:micrometer-tracing-bridge-brave:jar:1.1.4:compile
 |  +- io.micrometer:micrometer-tracing:jar:1.1.4:compile
 |  |  \- aopalliance:aopalliance:jar:1.0:compile
@@ -618,7 +618,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        \- com.ongres.stringprep:saslprep:jar:1.1:runtime
 |           \- com.ongres.stringprep:stringprep:jar:1.1:runtime
 +- org.springframework.boot:spring-boot-configuration-processor:jar:3.1.3:compile
-+- info.picocli:picocli-codegen:jar:4.7.4:compile
++- info.picocli:picocli-codegen:jar:4.7.5:compile
 +- org.projectlombok:lombok:jar:1.18.28:compile
 +- org.springframework.boot:spring-boot-starter-test:jar:3.1.3:test
 |  +- org.springframework.boot:spring-boot-test:jar:3.1.3:test
