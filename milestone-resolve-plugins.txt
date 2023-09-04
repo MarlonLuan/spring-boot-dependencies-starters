@@ -152,7 +152,7 @@ The following plugins have been resolved:
       org.skyscreamer:jsonassert:jar:1.5.1
       com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1
       com.github.jknack:handlebars:jar:4.3.0
-      org.slf4j:slf4j-api:jar:2.0.7
+      org.slf4j:slf4j-api:jar:2.0.9
       commons-beanutils:commons-beanutils:jar:1.9.4
       commons-logging:commons-logging:jar:1.2
       commons-collections:commons-collections:jar:3.2.2
