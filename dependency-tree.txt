@@ -567,9 +567,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- com.oracle.database.r2dbc:oracle-r2dbc:jar:1.1.1:runtime
 |  +- com.oracle.database.jdbc:ojdbc11:jar:21.9.0.0:runtime
 |  \- org.reactivestreams:reactive-streams:jar:1.0.4:compile
-+- com.wavefront:wavefront-spring-boot-starter:jar:3.0.1:runtime
-|  +- com.wavefront:wavefront-spring-boot:jar:3.0.1:runtime
-|  |  \- com.wavefront:wavefront-sdk-java:jar:3.0.4:runtime
++- com.wavefront:wavefront-spring-boot-starter:jar:3.0.2:runtime
+|  +- com.wavefront:wavefront-spring-boot:jar:3.0.2:runtime
+|  |  \- com.wavefront:wavefront-sdk-java:jar:3.4.0:runtime
 |  |     \- com.tdunning:t-digest:jar:3.2:runtime
 |  \- io.micrometer:micrometer-registry-wavefront:jar:1.11.3:runtime
 +- io.micrometer:micrometer-registry-datadog:jar:1.11.3:runtime

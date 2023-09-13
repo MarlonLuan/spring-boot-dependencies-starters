@@ -228,7 +228,7 @@
     <unboundid-ldapsdk.version>6.0.9</unboundid-ldapsdk.version>
     <undertow.version>2.3.8.Final</undertow.version>
     <versions-maven-plugin.version>2.15.0</versions-maven-plugin.version>
-    <wavefront.version>3.0.1</wavefront.version>
+    <wavefront.version>3.0.2</wavefront.version>
     <webjars-locator-core.version>0.52</webjars-locator-core.version>
     <wsdl4j.version>1.6.3</wsdl4j.version>
     <xml-maven-plugin.version>1.0.2</xml-maven-plugin.version>
@@ -3971,17 +3971,17 @@
       <dependency>
         <groupId>com.wavefront</groupId>
         <artifactId>wavefront-spring-boot</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>com.wavefront</groupId>
         <artifactId>wavefront-spring-boot-starter</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </dependency>
       <dependency>
         <groupId>com.wavefront</groupId>
         <artifactId>wavefront-sdk-java</artifactId>
-        <version>3.0.4</version>
+        <version>3.4.0</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
@@ -14282,7 +14282,7 @@
     <dependency>
       <groupId>com.wavefront</groupId>
       <artifactId>wavefront-spring-boot-starter</artifactId>
-      <version>3.0.1</version>
+      <version>3.0.2</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
