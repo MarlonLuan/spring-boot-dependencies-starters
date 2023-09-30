@@ -15,7 +15,7 @@
 		<spring-cloud-gcp.version>4.1.0</spring-cloud-gcp.version>
 		<spring-cloud.version>2022.0.1</spring-cloud.version>
 		<spring-shell.version>3.0.0</spring-shell.version>
-		<testcontainers.version>1.17.6</testcontainers.version>
+		<testcontainers.version>1.19.0</testcontainers.version>
 		<wavefront.version>3.0.2</wavefront.version>
 	</properties>
 	<dependencies>
