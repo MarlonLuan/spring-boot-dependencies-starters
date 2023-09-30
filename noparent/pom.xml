@@ -13,7 +13,7 @@
 		<spring-boot-admin.version>3.0.0</spring-boot-admin.version>
 		<spring-cloud-azure.version>5.0.0</spring-cloud-azure.version>
 		<spring-cloud-gcp.version>4.1.0</spring-cloud-gcp.version>
-		<spring-cloud.version>2022.0.1</spring-cloud.version>
+		<spring-cloud.version>2022.0.4</spring-cloud.version>
 		<spring-shell.version>3.0.0</spring-shell.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
 		<wavefront.version>3.0.2</wavefront.version>
@@ -824,7 +824,7 @@
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>4.0.1</version>
+				<version>4.0.4</version>
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
