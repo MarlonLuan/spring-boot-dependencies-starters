@@ -34,4 +34,4 @@ jobs:
           mvn -f noparent/pom.xml dependency:resolve-plugins -DoutputFile=noparent/resolve-plugins.txt
           # mvn -f milestone/pom.xml dependency:resolve-plugins -DoutputFile=milestone/resolve-plugins.txt
 
-      - uses: peter-evans/create-pull-request@v4
+      - uses: peter-evans/create-pull-request@v5
