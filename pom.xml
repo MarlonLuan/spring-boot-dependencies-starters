@@ -20,7 +20,7 @@
 		<solace-spring-cloud.version>3.0.0</solace-spring-cloud.version>
 		<spring-boot-admin.version>3.1.5</spring-boot-admin.version>
 		<spring-cloud-azure.version>5.5.0</spring-cloud-azure.version>
-		<spring-cloud-gcp.version>4.8.1</spring-cloud-gcp.version>
+		<spring-cloud-gcp.version>4.8.2</spring-cloud-gcp.version>
 		<spring-cloud-services.version>4.0.3</spring-cloud-services.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
 		<spring-shell.version>3.1.4</spring-shell.version>
