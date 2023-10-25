@@ -432,25 +432,25 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.1.7:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.1.7:compile
-+- dev.hilla:hilla-react-spring-boot-starter:jar:2.3.1:compile
-|  \- dev.hilla:hilla-react:jar:2.3.1:compile
-|     +- dev.hilla:endpoint:jar:2.3.1:compile
-|     |  +- dev.hilla:engine-core:jar:2.3.1:compile
-|     |  |  +- dev.hilla:parser-jvm-core:jar:2.3.1:compile
++- dev.hilla:hilla-react-spring-boot-starter:jar:2.3.2:compile
+|  \- dev.hilla:hilla-react:jar:2.3.2:compile
+|     +- dev.hilla:endpoint:jar:2.3.2:compile
+|     |  +- dev.hilla:engine-core:jar:2.3.2:compile
+|     |  |  +- dev.hilla:parser-jvm-core:jar:2.3.2:compile
 |     |  |  |  \- io.github.classgraph:classgraph:jar:4.8.162:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-backbone:jar:2.3.1:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-nonnull:jar:2.3.1:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-subtypes:jar:2.3.1:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-model:jar:2.3.1:compile
-|     |  |  \- dev.hilla:parser-jvm-plugin-transfertypes:jar:2.3.1:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-backbone:jar:2.3.2:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-nonnull:jar:2.3.2:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-subtypes:jar:2.3.2:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-model:jar:2.3.2:compile
+|     |  |  \- dev.hilla:parser-jvm-plugin-transfertypes:jar:2.3.2:compile
 |     |  +- com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.5:compile
-|     |  +- dev.hilla:parser-jvm-utils:jar:2.3.1:compile
+|     |  +- dev.hilla:parser-jvm-utils:jar:2.3.2:compile
 |     |  |  +- io.swagger.core.v3:swagger-core:jar:2.2.16:compile
 |     |  |  |  \- io.swagger.core.v3:swagger-annotations:jar:2.2.16:compile
 |     |  |  \- io.swagger.core.v3:swagger-models:jar:2.2.16:compile
-|     |  \- dev.hilla:runtime-plugin-transfertypes:jar:2.3.1:compile
-|     +- dev.hilla:engine-runtime:jar:2.3.1:compile
-|     \- dev.hilla:hilla-dev:jar:2.3.1:compile
+|     |  \- dev.hilla:runtime-plugin-transfertypes:jar:2.3.2:compile
+|     +- dev.hilla:engine-runtime:jar:2.3.2:compile
+|     \- dev.hilla:hilla-dev:jar:2.3.2:compile
 +- io.micrometer:micrometer-tracing-bridge-brave:jar:1.1.5:compile
 |  +- io.micrometer:micrometer-tracing:jar:1.1.5:compile
 |  |  \- aopalliance:aopalliance:jar:1.0:compile
