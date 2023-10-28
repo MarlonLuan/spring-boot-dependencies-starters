@@ -12,7 +12,7 @@
 		<java.version>21</java.version>
 		<hilla.version>2.3.1</hilla.version>
 		<sentry.version>6.32.0</sentry.version>
-		<solace-spring-cloud.version>3.0.0</solace-spring-cloud.version>
+		<solace-spring-cloud.version>3.1.0</solace-spring-cloud.version>
 		<spring-boot-admin.version>3.1.7</spring-boot-admin.version>
 		<spring-cloud-azure.version>5.5.0</spring-cloud-azure.version>
 		<spring-cloud-gcp.version>4.8.3</spring-cloud-gcp.version>
