@@ -24,7 +24,7 @@
 		<spring-cloud-services.version>4.0.4</spring-cloud-services.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
 		<spring-shell.version>3.1.4</spring-shell.version>
-		<vaadin.version>24.2.0</vaadin.version>
+		<vaadin.version>24.2.1</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
