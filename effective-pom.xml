@@ -197,7 +197,7 @@
     <selenium-htmlunit.version>4.8.3</selenium-htmlunit.version>
     <selenium.version>4.8.3</selenium.version>
     <sendgrid.version>4.9.3</sendgrid.version>
-    <sentry.version>6.32.0</sentry.version>
+    <sentry.version>6.33.0</sentry.version>
     <slf4j.version>2.0.9</slf4j.version>
     <snakeyaml.version>1.33</snakeyaml.version>
     <solace-spring-cloud.version>3.1.0</solace-spring-cloud.version>
@@ -9783,172 +9783,172 @@
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-core</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-fragment</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-navigation</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-ndk</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-okhttp</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-sqlite</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-timber</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apache-http-client-5</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apollo</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apollo-3</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose-android</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose-desktop</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-graphql</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-jdbc</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-jul</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-kotlin-extensions</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-log4j2</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-logback</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-openfeign</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-quartz</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-servlet</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-servlet-jakarta</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-jakarta</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-starter</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-starter-jakarta</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-jakarta</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-agent</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-agentcustomization</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-core</artifactId>
-        <version>6.32.0</version>
+        <version>6.33.0</version>
       </dependency>
       <dependency>
         <groupId>io.pivotal.cfenv</groupId>
@@ -15181,7 +15181,7 @@
     <dependency>
       <groupId>io.sentry</groupId>
       <artifactId>sentry-spring-boot-starter-jakarta</artifactId>
-      <version>6.32.0</version>
+      <version>6.33.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
