@@ -81,7 +81,7 @@
     <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
     <hibernate.version>6.2.13.Final</hibernate.version>
     <hikaricp.version>5.0.1</hikaricp.version>
-    <hilla.version>2.3.2</hilla.version>
+    <hilla.version>2.3.3</hilla.version>
     <hsqldb.version>2.7.2</hsqldb.version>
     <htmlunit.version>2.70.0</htmlunit.version>
     <httpasyncclient.version>4.1.5</httpasyncclient.version>
@@ -197,7 +197,7 @@
     <selenium-htmlunit.version>4.8.3</selenium-htmlunit.version>
     <selenium.version>4.8.3</selenium.version>
     <sendgrid.version>4.9.3</sendgrid.version>
-    <sentry.version>6.33.0</sentry.version>
+    <sentry.version>6.33.1</sentry.version>
     <slf4j.version>2.0.9</slf4j.version>
     <snakeyaml.version>1.33</snakeyaml.version>
     <solace-spring-cloud.version>3.1.0</solace-spring-cloud.version>
@@ -231,7 +231,7 @@
     <tomcat.version>10.1.15</tomcat.version>
     <unboundid-ldapsdk.version>6.0.10</unboundid-ldapsdk.version>
     <undertow.version>2.3.10.Final</undertow.version>
-    <vaadin.version>24.2.1</vaadin.version>
+    <vaadin.version>24.2.2</vaadin.version>
     <versions-maven-plugin.version>2.15.0</versions-maven-plugin.version>
     <webjars-locator-core.version>0.52</webjars-locator-core.version>
     <wsdl4j.version>1.6.3</wsdl4j.version>
@@ -4051,7 +4051,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>observability-kit-starter</artifactId>
-        <version>2.2.0</version>
+        <version>2.2.1</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4086,112 +4086,112 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-jandex</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core-jandex</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench-junit5</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-bundle</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-server</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-lit-template</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-polymer-template</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-push</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-client</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-data</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-dnd</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-lumo-theme</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-material-theme</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server-production-mode</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-webpush</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4201,172 +4201,172 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring-boot-starter</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-field-highlighter-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-renderer-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4376,262 +4376,262 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-testbench</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow-svg-generator</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-flow</artifactId>
-        <version>24.2.1</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4776,37 +4776,37 @@
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla-dev</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>endpoint</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla-react</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>engine-runtime</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla-spring-boot-starter</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla-react-spring-boot-starter</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
       </dependency>
       <dependency>
         <groupId>io.github.classgraph</groupId>
@@ -4821,12 +4821,12 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-annotations</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-yaml</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>one.util</groupId>
@@ -5164,157 +5164,172 @@
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-annotation</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-caffeine</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-caffeine3</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-core</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-collectd</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-ehcache</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-graphite</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-healthchecks</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-httpclient</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-httpclient5</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-httpasyncclient</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jakarta-servlet</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
+      </dependency>
+      <dependency>
+        <groupId>io.dropwizard.metrics</groupId>
+        <artifactId>metrics-jakarta-servlet6</artifactId>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jakarta-servlets</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jcache</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jdbi</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jdbi3</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jersey2</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jersey3</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jersey31</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jetty9</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jetty10</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jetty11</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
+      </dependency>
+      <dependency>
+        <groupId>io.dropwizard.metrics</groupId>
+        <artifactId>metrics-jetty12</artifactId>
+        <version>4.2.21</version>
+      </dependency>
+      <dependency>
+        <groupId>io.dropwizard.metrics</groupId>
+        <artifactId>metrics-jetty12-ee10</artifactId>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jmx</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-json</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-jvm</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-log4j2</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-logback</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-logback13</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-logback14</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-servlet</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>io.dropwizard.metrics</groupId>
         <artifactId>metrics-servlets</artifactId>
-        <version>4.2.19</version>
+        <version>4.2.21</version>
       </dependency>
       <dependency>
         <groupId>org.glassfish.jaxb</groupId>
@@ -5639,409 +5654,409 @@
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-api</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-jdbc</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-jdbc-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-jdbc-common</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-jdbc-common-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-sql</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-rocksdb</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-common</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-common-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-embedded</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-embedded-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cdi-remote-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-checkstyle</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cli-client</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cli-client-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hotrod</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hotrod-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-client-hotrod</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-client-hotrod-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-client-rest</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-client-rest-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-key-value-store-client</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-clustered-counter</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-clustered-lock</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-commons</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-commons-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-commons-test</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-component-annotations</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-component-processor</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-core</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-core-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-jboss-marshalling</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-extended-statistics</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hibernate-cache-commons</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hibernate-cache-spi</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hibernate-cache-v60</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-hibernate-cache-v62</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-jcache-commons</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-jcache</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-jcache-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-console</artifactId>
-        <version>14.0.11.Final</version>
+        <version>14.0.13.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-multimap</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-multimap-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-objectfilter</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-query-core</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-query</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-query-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-query-dsl</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-remote-query-client</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-remote-query-server</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-scripting</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-core</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-hotrod</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-hotrod-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-memcached</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-resp</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-rest</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-router</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-runtime</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-runtime</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
         <classifier>loader</classifier>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-testdriver-core</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-testdriver-core-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-testdriver-junit4</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-server-testdriver-junit5</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring5-common</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring5-embedded</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring5-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring-boot-starter-embedded</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring-boot-starter-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring6-common</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring6-embedded</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring6-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring-boot3-starter-embedded</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-spring-boot3-starter-remote</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-tasks</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-tasks-api</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-tools</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-tools-jakarta</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-anchored-keys</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan.protostream</groupId>
@@ -6062,332 +6077,332 @@
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cloudevents-integration</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-marshaller-kryo</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-marshaller-kryo-bundle</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-marshaller-protostuff</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-marshaller-protostuff-bundle</artifactId>
-        <version>14.0.17.Final</version>
+        <version>14.0.19.Final</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-avro</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-cbor</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-csv</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-ion</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-properties</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-protobuf</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-smile</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-toml</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-xml</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-eclipse-collections</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-guava</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-hibernate4</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-hibernate5</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-hibernate5-jakarta</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-hibernate6</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-hppc</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jakarta-jsonp</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jaxrs</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-joda</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-joda-money</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jdk8</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-json-org</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jsr310</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jsr353</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-pcollections</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-base</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-cbor-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-json-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-smile-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-xml-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId>
         <artifactId>jackson-jaxrs-yaml-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-base</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-cbor-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-json-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-smile-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-xml-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
         <artifactId>jackson-jakarta-rs-yaml-provider</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jr</groupId>
         <artifactId>jackson-jr-all</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jr</groupId>
         <artifactId>jackson-jr-annotation-support</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jr</groupId>
         <artifactId>jackson-jr-objects</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jr</groupId>
         <artifactId>jackson-jr-retrofit2</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jr</groupId>
         <artifactId>jackson-jr-stree</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-afterburner</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-blackbird</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-guice</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-jaxb-annotations</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-jakarta-xmlbind-annotations</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-jsonSchema</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-jsonSchema-jakarta</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-kotlin</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-mrbean</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-no-ctor-deser</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-osgi</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-parameter-names</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-paranamer</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-scala_2.11</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-scala_2.12</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-scala_2.13</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-scala_3</artifactId>
-        <version>2.15.2</version>
+        <version>2.15.3</version>
       </dependency>
       <dependency>
         <groupId>org.glassfish.jersey.core</groupId>
@@ -6748,409 +6763,409 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>apache-jsp</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>glassfish-jstl</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-java-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-java-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-conscrypt-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-conscrypt-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-annotations</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-ant</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-cdi</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-deploy</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.fcgi</groupId>
         <artifactId>fcgi-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.fcgi</groupId>
         <artifactId>fcgi-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.gcloud</groupId>
         <artifactId>jetty-gcloud-session-manager</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-home</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
         <type>zip</type>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-home</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
         <type>tar.gz</type>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-http</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-hpack</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-http-client-transport</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http3</groupId>
         <artifactId>http3-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http3</groupId>
         <artifactId>http3-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http3</groupId>
         <artifactId>http3-http-client-transport</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http3</groupId>
         <artifactId>http3-qpack</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http3</groupId>
         <artifactId>http3-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-http-spi</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>infinispan-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>infinispan-remote-query</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>infinispan-embedded-query</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-hazelcast</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-io</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-jaas</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-jaspi</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-jmx</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-jndi</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-keystore</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.memcached</groupId>
         <artifactId>jetty-memcached-sessions</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-nosql</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.osgi</groupId>
         <artifactId>jetty-osgi-alpn</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.osgi</groupId>
         <artifactId>jetty-osgi-boot</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.osgi</groupId>
         <artifactId>jetty-osgi-boot-jsp</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.osgi</groupId>
         <artifactId>jetty-osgi-boot-warurl</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.quic</groupId>
         <artifactId>quic-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.quic</groupId>
         <artifactId>quic-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.quic</groupId>
         <artifactId>quic-quiche-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.quic</groupId>
         <artifactId>quic-quiche-jna</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.quic</groupId>
         <artifactId>quic-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.osgi</groupId>
         <artifactId>jetty-httpservice</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-plus</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-proxy</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-quickstart</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-rewrite</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-security</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-openid</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlet</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlets</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-slf4j-impl</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-unixdomain-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-unixsocket-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-unixsocket-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-unixsocket-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-util</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-util-ajax</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-webapp</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jakarta-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jakarta-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jakarta-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jetty-api</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jetty-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jetty-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-jetty-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-servlet</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-core-common</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-core-client</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-core-server</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-xml</artifactId>
-        <version>11.0.16</version>
+        <version>11.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
@@ -7610,182 +7625,182 @@
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-commons</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-core</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-jetty11</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-observation</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-observation-test</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-osgi-test</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-appoptics</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-atlas</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-azure-monitor</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-cloudwatch</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-cloudwatch2</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-datadog</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-dynatrace</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-elastic</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-ganglia</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-graphite</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-health</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-humio</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-influx</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-jmx</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-kairos</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-new-relic</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-opentsdb</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-otlp</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-prometheus</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-signalfx</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-statsd</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-wavefront</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-test</artifactId>
-        <version>1.11.4</version>
+        <version>1.11.5</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>benchmarks</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing-bridge-brave</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing-bridge-otel</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing-integration-test</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing-reporter-wavefront</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-tracing-test</artifactId>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
@@ -7815,226 +7830,226 @@
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-buffer</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-dns</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-haproxy</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-http</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-http2</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-memcache</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-mqtt</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-redis</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-smtp</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-socks</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-stomp</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-xml</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-dev-tools</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler-proxy</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler-ssl-ocsp</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-rxtx</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-sctp</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-udt</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-example</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns-classes-macos</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns-native-macos</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns-native-macos</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-x86_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns-native-macos</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-aarch_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-unix-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-unix-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>linux-aarch_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-unix-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>linux-x86_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-unix-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-x86_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-unix-common</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-aarch_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-classes-epoll</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-epoll</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-epoll</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>linux-aarch_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-epoll</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>linux-x86_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-classes-kqueue</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-kqueue</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-kqueue</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-x86_64</classifier>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-native-kqueue</artifactId>
-        <version>4.1.97.Final</version>
+        <version>4.1.100.Final</version>
         <classifier>osx-aarch_64</classifier>
       </dependency>
       <dependency>
@@ -8642,22 +8657,22 @@
       <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-core</artifactId>
-        <version>3.5.10</version>
+        <version>3.5.11</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-test</artifactId>
-        <version>3.5.10</version>
+        <version>3.5.11</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-tools</artifactId>
-        <version>3.5.10</version>
+        <version>3.5.11</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-core-micrometer</artifactId>
-        <version>1.0.10</version>
+        <version>1.0.11</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
@@ -8672,32 +8687,32 @@
       <dependency>
         <groupId>io.projectreactor.netty</groupId>
         <artifactId>reactor-netty</artifactId>
-        <version>1.1.11</version>
+        <version>1.1.12</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId>
         <artifactId>reactor-netty-core</artifactId>
-        <version>1.1.11</version>
+        <version>1.1.12</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId>
         <artifactId>reactor-netty-http</artifactId>
-        <version>1.1.11</version>
+        <version>1.1.12</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId>
         <artifactId>reactor-netty-http-brave</artifactId>
-        <version>1.1.11</version>
+        <version>1.1.12</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
         <artifactId>reactor-pool</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
         <artifactId>reactor-pool-micrometer</artifactId>
-        <version>0.1.2</version>
+        <version>0.1.3</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.kotlin</groupId>
@@ -8822,27 +8837,27 @@
       <dependency>
         <groupId>org.springframework.amqp</groupId>
         <artifactId>spring-amqp</artifactId>
-        <version>3.0.9</version>
+        <version>3.0.10</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.amqp</groupId>
         <artifactId>spring-rabbit</artifactId>
-        <version>3.0.9</version>
+        <version>3.0.10</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.amqp</groupId>
         <artifactId>spring-rabbit-junit</artifactId>
-        <version>3.0.9</version>
+        <version>3.0.10</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.amqp</groupId>
         <artifactId>spring-rabbit-stream</artifactId>
-        <version>3.0.9</version>
+        <version>3.0.10</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.amqp</groupId>
         <artifactId>spring-rabbit-test</artifactId>
-        <version>3.0.9</version>
+        <version>3.0.10</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.batch</groupId>
@@ -8867,407 +8882,407 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-cassandra</artifactId>
-        <version>4.1.4</version>
+        <version>4.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-commons</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-couchbase</artifactId>
-        <version>5.1.4</version>
+        <version>5.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-elasticsearch</artifactId>
-        <version>5.1.4</version>
+        <version>5.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jdbc</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-r2dbc</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-relational</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-envers</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-mongodb</artifactId>
-        <version>4.1.4</version>
+        <version>4.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-neo4j</artifactId>
-        <version>7.1.4</version>
+        <version>7.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-redis</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-rest-webmvc</artifactId>
-        <version>4.1.4</version>
+        <version>4.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-rest-core</artifactId>
-        <version>4.1.4</version>
+        <version>4.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-rest-hal-explorer</artifactId>
-        <version>4.1.4</version>
+        <version>4.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-keyvalue</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-ldap</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aspects</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-beans</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context-indexer</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context-support</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core-test</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-expression</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-instrument</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jcl</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jms</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-messaging</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-orm</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-oxm</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-r2dbc</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webflux</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-websocket</artifactId>
-        <version>6.0.12</version>
+        <version>6.0.13</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-amqp</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-camel</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-cassandra</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-core</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-event</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-feed</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-file</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-ftp</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-graphql</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-groovy</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-hazelcast</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-http</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-ip</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-jdbc</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-jms</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-jmx</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-jpa</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-kafka</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-mail</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-mongodb</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-mqtt</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-r2dbc</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-redis</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-rsocket</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-scripting</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-security</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-sftp</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-smb</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-stomp</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-stream</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-syslog</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-test</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-test-support</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-webflux</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-websocket</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-ws</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-xml</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-xmpp</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-zeromq</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-zip</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-zookeeper</artifactId>
-        <version>6.1.3</version>
+        <version>6.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.restdocs</groupId>
@@ -9297,117 +9312,117 @@
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-acl</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-aspects</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-cas</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-config</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-core</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-crypto</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-data</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-ldap</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-messaging</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-oauth2-client</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-oauth2-core</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-oauth2-jose</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-oauth2-resource-server</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-rsocket</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-saml2-service-provider</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-taglibs</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-test</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-web</artifactId>
-        <version>6.1.4</version>
+        <version>6.1.5</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-core</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-data-mongodb</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-data-redis</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-hazelcast</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-jdbc</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.3</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.ws</groupId>
@@ -9662,7 +9677,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-jandex</artifactId>
-        <version>24.2.0</version>
+        <version>24.2.2</version>
       </dependency>
       <dependency>
         <groupId>com.google.gwt</groupId>
@@ -9783,172 +9798,172 @@
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-core</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-fragment</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-navigation</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-ndk</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-okhttp</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-sqlite</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-android-timber</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apache-http-client-5</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apollo</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-apollo-3</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose-android</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose-desktop</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-compose</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-graphql</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-jdbc</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-jul</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-kotlin-extensions</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-log4j2</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-logback</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-openfeign</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-quartz</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-servlet</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-servlet-jakarta</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-jakarta</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-starter</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-boot-starter-jakarta</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-spring-jakarta</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-agent</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-agentcustomization</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry-opentelemetry-core</artifactId>
-        <version>6.33.0</version>
+        <version>6.33.1</version>
       </dependency>
       <dependency>
         <groupId>io.pivotal.cfenv</groupId>
@@ -14782,21 +14797,6 @@
         <artifactId>proto-google-cloud-storage-v2</artifactId>
         <version>2.29.0-alpha</version>
       </dependency>
-      <dependency>
-        <groupId>io.dropwizard.metrics</groupId>
-        <artifactId>metrics-jakarta-servlet6</artifactId>
-        <version>4.2.21</version>
-      </dependency>
-      <dependency>
-        <groupId>io.dropwizard.metrics</groupId>
-        <artifactId>metrics-jetty12</artifactId>
-        <version>4.2.21</version>
-      </dependency>
-      <dependency>
-        <groupId>io.dropwizard.metrics</groupId>
-        <artifactId>metrics-jetty12-ee10</artifactId>
-        <version>4.2.21</version>
-      </dependency>
     </dependencies>
   </dependencyManagement>
   <dependencies>
@@ -15139,7 +15139,7 @@
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-spring-boot-starter</artifactId>
-      <version>24.2.1</version>
+      <version>24.2.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -15157,13 +15157,13 @@
     <dependency>
       <groupId>dev.hilla</groupId>
       <artifactId>hilla-react-spring-boot-starter</artifactId>
-      <version>2.3.2</version>
+      <version>2.3.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-tracing-bridge-brave</artifactId>
-      <version>1.1.5</version>
+      <version>1.1.6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -15181,7 +15181,7 @@
     <dependency>
       <groupId>io.sentry</groupId>
       <artifactId>sentry-spring-boot-starter-jakarta</artifactId>
-      <version>6.33.0</version>
+      <version>6.33.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -15355,97 +15355,97 @@
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-rest-hal-explorer</artifactId>
-      <version>4.1.4</version>
+      <version>4.1.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-amqp</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-jdbc</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-jms</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-jpa</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-kafka</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-mail</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-mongodb</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-r2dbc</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-redis</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-rsocket</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-security</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-stomp</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-webflux</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-websocket</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-ws</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -15499,25 +15499,25 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-messaging</artifactId>
-      <version>6.1.4</version>
+      <version>6.1.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-rsocket</artifactId>
-      <version>6.1.4</version>
+      <version>6.1.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.session</groupId>
       <artifactId>spring-session-data-redis</artifactId>
-      <version>3.1.2</version>
+      <version>3.1.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.session</groupId>
       <artifactId>spring-session-jdbc</artifactId>
-      <version>3.1.2</version>
+      <version>3.1.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -15597,49 +15597,49 @@
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-datadog</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-dynatrace</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-graphite</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-influx</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-new-relic</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-prometheus</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-registry-wavefront</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-tracing-reporter-wavefront</artifactId>
-      <version>1.1.5</version>
+      <version>1.1.6</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -15743,7 +15743,7 @@
     <dependency>
       <groupId>io.projectreactor</groupId>
       <artifactId>reactor-test</artifactId>
-      <version>3.5.10</version>
+      <version>3.5.11</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -15761,7 +15761,7 @@
     <dependency>
       <groupId>org.springframework.amqp</groupId>
       <artifactId>spring-rabbit-test</artifactId>
-      <version>3.0.9</version>
+      <version>3.0.10</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -15797,7 +15797,7 @@
     <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-test</artifactId>
-      <version>6.1.3</version>
+      <version>6.1.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -15821,7 +15821,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-test</artifactId>
-      <version>6.1.4</version>
+      <version>6.1.5</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -16318,7 +16318,7 @@
       <plugin>
         <groupId>dev.hilla</groupId>
         <artifactId>hilla-maven-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
         <executions>
           <execution>
             <id>frontend</id>
@@ -16647,7 +16647,7 @@
           <plugin>
             <groupId>dev.hilla</groupId>
             <artifactId>hilla-maven-plugin</artifactId>
-            <version>2.3.2</version>
+            <version>2.3.3</version>
             <executions>
               <execution>
                 <id>frontend</id>
@@ -16664,7 +16664,7 @@
           <plugin>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-maven-plugin</artifactId>
-            <version>24.2.1</version>
+            <version>24.2.2</version>
             <executions>
               <execution>
                 <id>frontend</id>
