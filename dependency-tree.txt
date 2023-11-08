@@ -8,43 +8,43 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.20.0:compile
 |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.9:compile
 |  |  \- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
-|  +- org.springframework:spring-jms:jar:6.0.12:compile
+|  +- org.springframework:spring-jms:jar:6.0.13:compile
 |  \- org.apache.activemq:activemq-client-jakarta:jar:5.18.2:compile
 |     +- jakarta.jms:jakarta.jms-api:jar:3.1.0:compile
 |     \- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
 +- org.springframework.boot:spring-boot-starter-actuator:jar:3.1.5:compile
 |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.1.5:compile
-|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.2:compile
-|  +- io.micrometer:micrometer-observation:jar:1.11.4:compile
-|  |  \- io.micrometer:micrometer-commons:jar:1.11.4:compile
-|  \- io.micrometer:micrometer-core:jar:1.11.4:compile
+|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.3:compile
+|  +- io.micrometer:micrometer-observation:jar:1.11.5:compile
+|  |  \- io.micrometer:micrometer-commons:jar:1.11.5:compile
+|  \- io.micrometer:micrometer-core:jar:1.11.5:compile
 |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
 |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
 +- org.springframework.boot:spring-boot-starter-amqp:jar:3.1.5:compile
-|  +- org.springframework:spring-messaging:jar:6.0.12:compile
-|  \- org.springframework.amqp:spring-rabbit:jar:3.0.9:compile
-|     +- org.springframework.amqp:spring-amqp:jar:3.0.9:compile
+|  +- org.springframework:spring-messaging:jar:6.0.13:compile
+|  \- org.springframework.amqp:spring-rabbit:jar:3.0.10:compile
+|     +- org.springframework.amqp:spring-amqp:jar:3.0.10:compile
 |     \- com.rabbitmq:amqp-client:jar:5.17.1:compile
 +- org.springframework.boot:spring-boot-starter-artemis:jar:3.1.5:compile
 |  \- org.apache.activemq:artemis-jakarta-client:jar:2.28.0:compile
 |     +- org.apache.activemq:artemis-core-client:jar:2.28.0:compile
 |     |  +- org.jgroups:jgroups:jar:5.2.0.Final:compile
-|     |  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.97.Final:compile
-|     |  |  \- io.netty:netty-transport-classes-kqueue:jar:4.1.97.Final:compile
-|     |  +- io.netty:netty-codec-http:jar:4.1.97.Final:compile
-|     |  +- io.netty:netty-codec:jar:4.1.97.Final:compile
-|     |  \- io.netty:netty-codec-socks:jar:4.1.97.Final:compile
+|     |  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.100.Final:compile
+|     |  |  \- io.netty:netty-transport-classes-kqueue:jar:4.1.100.Final:compile
+|     |  +- io.netty:netty-codec-http:jar:4.1.100.Final:compile
+|     |  +- io.netty:netty-codec:jar:4.1.100.Final:compile
+|     |  \- io.netty:netty-codec-socks:jar:4.1.100.Final:compile
 |     +- org.apache.activemq:artemis-commons:jar:2.28.0:compile
 |     \- org.apache.activemq:artemis-selector:jar:2.28.0:compile
 +- org.springframework.boot:spring-boot-starter-batch:jar:3.1.5:compile
 |  \- org.springframework.batch:spring-batch-core:jar:5.0.3:compile
 |     \- org.springframework.batch:spring-batch-infrastructure:jar:5.0.3:compile
 +- org.springframework.boot:spring-boot-starter-cache:jar:3.1.5:compile
-|  \- org.springframework:spring-context-support:jar:6.0.12:compile
+|  \- org.springframework:spring-context-support:jar:6.0.13:compile
 +- org.springframework.boot:spring-boot-starter-data-cassandra:jar:3.1.5:compile
-|  +- org.springframework:spring-tx:jar:6.0.12:compile
-|  \- org.springframework.data:spring-data-cassandra:jar:4.1.4:compile
-|     +- org.springframework.data:spring-data-commons:jar:3.1.4:compile
+|  +- org.springframework:spring-tx:jar:6.0.13:compile
+|  \- org.springframework.data:spring-data-cassandra:jar:4.1.5:compile
+|     +- org.springframework.data:spring-data-commons:jar:3.1.5:compile
 |     +- com.datastax.oss:java-driver-core:jar:4.15.0:compile
 |     |  +- com.datastax.oss:native-protocol:jar:1.5.1:compile
 |     |  +- com.datastax.oss:java-driver-shaded-guava:jar:25.1-jre-graal-sub-1:compile
@@ -52,26 +52,26 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |  \- com.github.spotbugs:spotbugs-annotations:jar:3.1.12:compile
 |     \- com.datastax.oss:java-driver-query-builder:jar:4.15.0:compile
 +- org.springframework.boot:spring-boot-starter-data-cassandra-reactive:jar:3.1.5:compile
-|  \- io.projectreactor:reactor-core:jar:3.5.10:compile
+|  \- io.projectreactor:reactor-core:jar:3.5.11:compile
 +- org.springframework.boot:spring-boot-starter-data-couchbase:jar:3.1.5:compile
-|  \- org.springframework.data:spring-data-couchbase:jar:5.1.4:compile
+|  \- org.springframework.data:spring-data-couchbase:jar:5.1.5:compile
 |     \- com.couchbase.client:java-client:jar:3.4.11:compile
 |        \- com.couchbase.client:core-io:jar:2.4.11:compile
 +- org.springframework.boot:spring-boot-starter-data-couchbase-reactive:jar:3.1.5:compile
 +- org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:3.1.5:compile
-|  +- org.springframework.data:spring-data-elasticsearch:jar:5.1.4:compile
+|  +- org.springframework.data:spring-data-elasticsearch:jar:5.1.5:compile
 |  |  +- co.elastic.clients:elasticsearch-java:jar:8.7.1:compile
 |  |  |  +- jakarta.json:jakarta.json-api:jar:2.1.2:compile
 |  |  |  \- org.eclipse.parsson:parsson:jar:1.0.0:compile
 |  |  +- org.elasticsearch.client:elasticsearch-rest-client:jar:8.7.1:compile
 |  |  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.5:compile
 |  |  |  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.16:compile
-|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.2:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.3:compile
 |  \- org.springframework.boot:spring-boot-starter-json:jar:3.1.5:compile
-|     \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.2:compile
+|     \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.3:compile
 +- org.springframework.boot:spring-boot-starter-data-jdbc:jar:3.1.5:compile
-|  \- org.springframework.data:spring-data-jdbc:jar:3.1.4:compile
-|     \- org.springframework.data:spring-data-relational:jar:3.1.4:compile
+|  \- org.springframework.data:spring-data-jdbc:jar:3.1.5:compile
+|     \- org.springframework.data:spring-data-relational:jar:3.1.5:compile
 +- org.springframework.boot:spring-boot-starter-data-jpa:jar:3.1.5:compile
 |  +- org.springframework.boot:spring-boot-starter-aop:jar:3.1.5:compile
 |  |  \- org.aspectj:aspectjweaver:jar:1.9.20:compile
@@ -85,44 +85,44 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- net.bytebuddy:byte-buddy:jar:1.14.9:runtime
 |  |  +- jakarta.inject:jakarta.inject-api:jar:2.0.1:compile
 |  |  \- org.antlr:antlr4-runtime:jar:4.10.1:compile
-|  +- org.springframework.data:spring-data-jpa:jar:3.1.4:compile
-|  \- org.springframework:spring-aspects:jar:6.0.12:compile
+|  +- org.springframework.data:spring-data-jpa:jar:3.1.5:compile
+|  \- org.springframework:spring-aspects:jar:6.0.13:compile
 +- org.springframework.boot:spring-boot-starter-data-ldap:jar:3.1.5:compile
-|  \- org.springframework.data:spring-data-ldap:jar:3.1.4:compile
+|  \- org.springframework.data:spring-data-ldap:jar:3.1.5:compile
 |     \- org.springframework.ldap:spring-ldap-core:jar:3.1.2:compile
 +- org.springframework.boot:spring-boot-starter-data-mongodb:jar:3.1.5:compile
 |  +- org.mongodb:mongodb-driver-sync:jar:4.9.1:compile
 |  |  +- org.mongodb:bson:jar:4.9.1:compile
 |  |  \- org.mongodb:mongodb-driver-core:jar:4.9.1:compile
 |  |     \- org.mongodb:bson-record-codec:jar:4.9.1:runtime
-|  \- org.springframework.data:spring-data-mongodb:jar:4.1.4:compile
+|  \- org.springframework.data:spring-data-mongodb:jar:4.1.5:compile
 +- org.springframework.boot:spring-boot-starter-data-mongodb-reactive:jar:3.1.5:compile
 |  \- org.mongodb:mongodb-driver-reactivestreams:jar:4.9.1:compile
 +- org.springframework.boot:spring-boot-starter-data-neo4j:jar:3.1.5:compile
-|  \- org.springframework.data:spring-data-neo4j:jar:7.1.4:compile
+|  \- org.springframework.data:spring-data-neo4j:jar:7.1.5:compile
 |     +- org.apiguardian:apiguardian-api:jar:1.1.1:compile
 |     +- org.neo4j:neo4j-cypher-dsl:jar:2023.2.0:compile
 |     \- org.neo4j.driver:neo4j-java-driver:jar:5.13.0:compile
 |        \- io.netty:netty-tcnative-classes:jar:2.0.61.Final:compile
 +- org.springframework.boot:spring-boot-starter-data-r2dbc:jar:3.1.5:compile
-|  +- org.springframework.data:spring-data-r2dbc:jar:3.1.4:compile
+|  +- org.springframework.data:spring-data-r2dbc:jar:3.1.5:compile
 |  +- io.r2dbc:r2dbc-spi:jar:1.0.0.RELEASE:compile
 |  \- io.r2dbc:r2dbc-pool:jar:1.0.1.RELEASE:compile
-|     \- io.projectreactor.addons:reactor-pool:jar:1.0.2:compile
+|     \- io.projectreactor.addons:reactor-pool:jar:1.0.3:compile
 +- org.springframework.boot:spring-boot-starter-data-redis:jar:3.1.5:compile
-|  +- org.springframework.data:spring-data-redis:jar:3.1.4:compile
-|  |  \- org.springframework.data:spring-data-keyvalue:jar:3.1.4:compile
+|  +- org.springframework.data:spring-data-redis:jar:3.1.5:compile
+|  |  \- org.springframework.data:spring-data-keyvalue:jar:3.1.5:compile
 |  \- io.lettuce:lettuce-core:jar:6.2.6.RELEASE:compile
-|     +- io.netty:netty-common:jar:4.1.97.Final:compile
-|     +- io.netty:netty-handler:jar:4.1.97.Final:compile
-|     |  +- io.netty:netty-resolver:jar:4.1.97.Final:compile
-|     |  \- io.netty:netty-transport-native-unix-common:jar:4.1.97.Final:compile
-|     \- io.netty:netty-transport:jar:4.1.97.Final:compile
+|     +- io.netty:netty-common:jar:4.1.100.Final:compile
+|     +- io.netty:netty-handler:jar:4.1.100.Final:compile
+|     |  +- io.netty:netty-resolver:jar:4.1.100.Final:compile
+|     |  \- io.netty:netty-transport-native-unix-common:jar:4.1.100.Final:compile
+|     \- io.netty:netty-transport:jar:4.1.100.Final:compile
 +- org.springframework.boot:spring-boot-starter-data-redis-reactive:jar:3.1.5:compile
 +- org.springframework.boot:spring-boot-starter-data-rest:jar:3.1.5:compile
 |  +- org.springframework.boot:spring-boot-starter-web:jar:3.1.5:compile
-|  \- org.springframework.data:spring-data-rest-webmvc:jar:4.1.4:compile
-|     \- org.springframework.data:spring-data-rest-core:jar:4.1.4:compile
+|  \- org.springframework.data:spring-data-rest-webmvc:jar:4.1.5:compile
+|     \- org.springframework.data:spring-data-rest-core:jar:4.1.5:compile
 |        \- org.atteo:evo-inflector:jar:1.3:compile
 +- org.springframework.boot:spring-boot-starter-freemarker:jar:3.1.5:compile
 |  \- org.freemarker:freemarker:jar:2.3.32:compile
@@ -137,15 +137,15 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.springframework.hateoas:spring-hateoas:jar:2.1.2:compile
 |     \- org.springframework.plugin:spring-plugin-core:jar:3.0.0:compile
 +- org.springframework.boot:spring-boot-starter-integration:jar:3.1.5:compile
-|  \- org.springframework.integration:spring-integration-core:jar:6.1.3:compile
+|  \- org.springframework.integration:spring-integration-core:jar:6.1.4:compile
 +- org.springframework.boot:spring-boot-starter-jdbc:jar:3.1.5:compile
 |  +- com.zaxxer:HikariCP:jar:5.0.1:compile
-|  \- org.springframework:spring-jdbc:jar:6.0.12:compile
+|  \- org.springframework:spring-jdbc:jar:6.0.13:compile
 +- org.springframework.boot:spring-boot-starter-jersey:jar:3.1.5:compile
 |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.1.5:compile
 |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.15:compile
 |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.15:compile
-|  +- org.springframework:spring-web:jar:6.0.12:compile
+|  +- org.springframework:spring-web:jar:6.0.13:compile
 |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:3.1.3:compile
 |  |  +- org.glassfish.jersey.core:jersey-common:jar:3.1.3:compile
 |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
@@ -169,7 +169,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- org.glassfish.hk2:spring-bridge:jar:3.0.4:compile
 |  \- org.glassfish.jersey.media:jersey-media-json-jackson:jar:3.1.3:compile
 |     +- org.glassfish.jersey.ext:jersey-entity-filtering:jar:3.1.3:compile
-|     \- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:2.15.2:compile
+|     \- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:2.15.3:compile
 +- org.springframework.boot:spring-boot-starter-jooq:jar:3.1.5:compile
 |  \- org.jooq:jooq:jar:3.18.7:compile
 +- org.springframework.boot:spring-boot-starter-mail:jar:3.1.5:compile
@@ -180,31 +180,31 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- com.samskivert:jmustache:jar:1.15:compile
 +- org.springframework.boot:spring-boot-starter-oauth2-authorization-server:jar:3.1.5:compile
 |  \- org.springframework.security:spring-security-oauth2-authorization-server:jar:1.1.3:compile
-|     \- org.springframework.security:spring-security-oauth2-core:jar:6.1.4:compile
+|     \- org.springframework.security:spring-security-oauth2-core:jar:6.1.5:compile
 +- org.springframework.boot:spring-boot-starter-oauth2-client:jar:3.1.5:compile
-|  +- org.springframework.security:spring-security-config:jar:6.1.4:compile
-|  +- org.springframework.security:spring-security-core:jar:6.1.4:compile
-|  +- org.springframework.security:spring-security-oauth2-client:jar:6.1.4:compile
+|  +- org.springframework.security:spring-security-config:jar:6.1.5:compile
+|  +- org.springframework.security:spring-security-core:jar:6.1.5:compile
+|  +- org.springframework.security:spring-security-oauth2-client:jar:6.1.5:compile
 |  |  \- com.nimbusds:oauth2-oidc-sdk:jar:9.43.3:compile
 |  |     +- com.nimbusds:content-type:jar:2.2:compile
 |  |     \- com.nimbusds:lang-tag:jar:1.7:compile
-|  \- org.springframework.security:spring-security-oauth2-jose:jar:6.1.4:compile
+|  \- org.springframework.security:spring-security-oauth2-jose:jar:6.1.5:compile
 +- org.springframework.boot:spring-boot-starter-oauth2-resource-server:jar:3.1.5:compile
-|  \- org.springframework.security:spring-security-oauth2-resource-server:jar:6.1.4:compile
+|  \- org.springframework.security:spring-security-oauth2-resource-server:jar:6.1.5:compile
 +- org.springframework.boot:spring-boot-starter-quartz:jar:3.1.5:compile
 |  \- org.quartz-scheduler:quartz:jar:2.3.2:compile
 |     \- com.mchange:mchange-commons-java:jar:0.2.15:compile
 +- org.springframework.boot:spring-boot-starter-rsocket:jar:3.1.5:compile
 |  +- org.springframework.boot:spring-boot-starter-reactor-netty:jar:3.1.5:compile
-|  |  \- io.projectreactor.netty:reactor-netty-http:jar:1.1.11:compile
-|  |     \- io.netty:netty-codec-http2:jar:4.1.97.Final:compile
-|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.15.2:compile
+|  |  \- io.projectreactor.netty:reactor-netty-http:jar:1.1.12:compile
+|  |     \- io.netty:netty-codec-http2:jar:4.1.100.Final:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.15.3:compile
 |  +- io.rsocket:rsocket-core:jar:1.1.3:compile
-|  |  \- io.netty:netty-buffer:jar:4.1.97.Final:compile
+|  |  \- io.netty:netty-buffer:jar:4.1.100.Final:compile
 |  \- io.rsocket:rsocket-transport-netty:jar:1.1.3:compile
 +- org.springframework.boot:spring-boot-starter-security:jar:3.1.5:compile
-|  +- org.springframework:spring-aop:jar:6.0.12:compile
-|  \- org.springframework.security:spring-security-web:jar:6.1.4:compile
+|  +- org.springframework:spring-aop:jar:6.0.13:compile
+|  \- org.springframework.security:spring-security-web:jar:6.1.5:compile
 +- org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.1.5:compile
 |  \- org.thymeleaf:thymeleaf-spring6:jar:3.1.2.RELEASE:compile
 |     \- org.thymeleaf:thymeleaf:jar:3.1.2.RELEASE:compile
@@ -218,13 +218,13 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- jakarta.xml.soap:jakarta.xml.soap-api:jar:3.0.0:compile
 |  |  \- org.jvnet.staxex:stax-ex:jar:2.1.0:compile
 |  +- jakarta.xml.ws:jakarta.xml.ws-api:jar:4.0.0:compile
-|  +- org.springframework:spring-oxm:jar:6.0.12:compile
+|  +- org.springframework:spring-oxm:jar:6.0.13:compile
 |  \- org.springframework.ws:spring-ws-core:jar:4.0.6:compile
 |     \- org.springframework.ws:spring-xml:jar:4.0.6:compile
 +- org.springframework.boot:spring-boot-starter-webflux:jar:3.1.5:compile
-|  \- org.springframework:spring-webflux:jar:6.0.12:compile
+|  \- org.springframework:spring-webflux:jar:6.0.13:compile
 +- org.springframework.boot:spring-boot-starter-websocket:jar:3.1.5:compile
-|  \- org.springframework:spring-websocket:jar:6.0.12:compile
+|  \- org.springframework:spring-websocket:jar:6.0.13:compile
 +- com.azure.spring:spring-cloud-azure-starter:jar:5.6.0:compile
 |  \- com.azure.spring:spring-cloud-azure-autoconfigure:jar:5.6.0:compile
 |     \- com.azure.spring:spring-cloud-azure-service:jar:5.6.0:compile
@@ -250,7 +250,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |  |     +- io.netty:netty-tcnative-boringssl-static:jar:osx-x86_64:2.0.61.Final:compile
 |     |  |     +- io.netty:netty-tcnative-boringssl-static:jar:osx-aarch_64:2.0.61.Final:compile
 |     |  |     \- io.netty:netty-tcnative-boringssl-static:jar:windows-x86_64:2.0.61.Final:compile
-|     |  \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.15.2:compile
+|     |  \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.15.3:compile
 |     +- org.javatuples:javatuples:jar:1.2:compile
 |     +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
 |     \- org.apache.commons:commons-lang3:jar:3.12.0:compile
@@ -358,9 +358,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |  \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.jzlib:jar:1.0.7_2:compile
 |     \- com.solace.spring.boot:solace-java-spring-boot-starter:jar:5.0.0:compile
 |        \- com.solace.spring.boot:solace-java-spring-boot-autoconfigure:jar:5.0.0:compile
-+- com.vaadin:vaadin-spring-boot-starter:jar:24.2.1:compile
-|  +- com.vaadin:vaadin-spring:jar:24.2.1:compile
-|  |  +- com.vaadin:flow-server:jar:24.2.1:compile
++- com.vaadin:vaadin-spring-boot-starter:jar:24.2.2:compile
+|  +- com.vaadin:vaadin-spring:jar:24.2.2:compile
+|  |  +- com.vaadin:flow-server:jar:24.2.2:compile
 |  |  |  +- com.vaadin.servletdetector:throw-if-servlet3:jar:1.0.2:compile
 |  |  |  +- com.vaadin.external.gwt:gwt-elemental:jar:2.8.2.vaadin2:compile
 |  |  |  +- org.apache.commons:commons-fileupload2-jakarta:jar:2.0.0-M1:compile
@@ -369,62 +369,62 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  |  +- com.helger:ph-css:jar:7.0.1:compile
 |  |  |  |  \- com.helger.commons:ph-commons:jar:11.1.0:compile
 |  |  |  \- com.vaadin.external:gentyref:jar:1.2.0.vaadin1:compile
-|  |  +- com.vaadin:flow-push:jar:24.2.1:compile
+|  |  +- com.vaadin:flow-push:jar:24.2.2:compile
 |  |  |  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:3.0.3.slf4jvaadin1:compile
-|  |  +- com.vaadin:flow-client:jar:24.2.1:compile
+|  |  +- com.vaadin:flow-client:jar:24.2.2:compile
 |  |  \- org.reflections:reflections:jar:0.10.2:compile
-|  \- com.vaadin:vaadin-core:jar:24.2.1:compile
-|     +- com.vaadin:vaadin-core-internal:jar:24.2.1:compile
-|     |  +- com.vaadin:flow-lit-template:jar:24.2.1:compile
-|     |  +- com.vaadin:flow-html-components:jar:24.2.1:compile
-|     |  +- com.vaadin:flow-data:jar:24.2.1:compile
-|     |  +- com.vaadin:flow-dnd:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-lumo-theme:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-material-theme:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-accordion-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-avatar-flow:jar:24.2.1:compile
-|     |  |  \- com.vaadin:vaadin-flow-components-base:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-button-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-checkbox-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-combo-box-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-custom-field-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-date-picker-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-date-time-picker-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-details-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-time-picker-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-select-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-side-nav-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-dialog-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-form-layout-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-field-highlighter-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-grid-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-icons-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-virtual-list-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-list-box-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-login-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-messages-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-ordered-layout-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-progress-bar-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-radio-button-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-renderer-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-split-layout-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-tabs-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-text-field-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-upload-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-notification-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-app-layout-flow:jar:24.2.1:compile
-|     |  +- com.vaadin:vaadin-context-menu-flow:jar:24.2.1:compile
-|     |  \- com.vaadin:vaadin-menu-bar-flow:jar:24.2.1:compile
-|     \- com.vaadin:vaadin-dev:jar:24.2.1:compile
-|        +- com.vaadin:vaadin-dev-server:jar:24.2.1:compile
+|  \- com.vaadin:vaadin-core:jar:24.2.2:compile
+|     +- com.vaadin:vaadin-core-internal:jar:24.2.2:compile
+|     |  +- com.vaadin:flow-lit-template:jar:24.2.2:compile
+|     |  +- com.vaadin:flow-html-components:jar:24.2.2:compile
+|     |  +- com.vaadin:flow-data:jar:24.2.2:compile
+|     |  +- com.vaadin:flow-dnd:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-lumo-theme:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-material-theme:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-accordion-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-avatar-flow:jar:24.2.2:compile
+|     |  |  \- com.vaadin:vaadin-flow-components-base:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-button-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-checkbox-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-combo-box-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-custom-field-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-date-picker-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-date-time-picker-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-details-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-time-picker-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-select-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-side-nav-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-dialog-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-form-layout-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-field-highlighter-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-grid-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-icons-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-virtual-list-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-list-box-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-login-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-messages-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-ordered-layout-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-progress-bar-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-radio-button-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-renderer-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-split-layout-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-tabs-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-text-field-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-upload-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-notification-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-app-layout-flow:jar:24.2.2:compile
+|     |  +- com.vaadin:vaadin-context-menu-flow:jar:24.2.2:compile
+|     |  \- com.vaadin:vaadin-menu-bar-flow:jar:24.2.2:compile
+|     \- com.vaadin:vaadin-dev:jar:24.2.2:compile
+|        +- com.vaadin:vaadin-dev-server:jar:24.2.2:compile
 |        |  +- com.vaadin:license-checker:jar:1.12.3:compile
 |        |  |  +- com.github.oshi:oshi-core:jar:6.4.1:compile
 |        |  |  \- org.lucee:jcip-annotations:jar:1.0.0:compile
 |        |  +- com.vaadin:open:jar:8.5.0:compile
 |        |  +- com.github.javaparser:javaparser-core:jar:3.25.5:compile
 |        |  \- io.methvin:directory-watcher:jar:0.18.0:compile
-|        \- com.vaadin:vaadin-dev-bundle:jar:24.2.1:compile
+|        \- com.vaadin:vaadin-dev-bundle:jar:24.2.2:compile
 +- de.codecentric:spring-boot-admin-starter-client:jar:3.1.7:compile
 |  \- de.codecentric:spring-boot-admin-client:jar:3.1.7:compile
 +- de.codecentric:spring-boot-admin-starter-server:jar:3.1.7:compile
@@ -432,27 +432,27 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.1.7:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.1.7:compile
-+- dev.hilla:hilla-react-spring-boot-starter:jar:2.3.2:compile
-|  \- dev.hilla:hilla-react:jar:2.3.2:compile
-|     +- dev.hilla:endpoint:jar:2.3.2:compile
-|     |  +- dev.hilla:engine-core:jar:2.3.2:compile
-|     |  |  +- dev.hilla:parser-jvm-core:jar:2.3.2:compile
++- dev.hilla:hilla-react-spring-boot-starter:jar:2.3.3:compile
+|  \- dev.hilla:hilla-react:jar:2.3.3:compile
+|     +- dev.hilla:endpoint:jar:2.3.3:compile
+|     |  +- dev.hilla:engine-core:jar:2.3.3:compile
+|     |  |  +- dev.hilla:parser-jvm-core:jar:2.3.3:compile
 |     |  |  |  \- io.github.classgraph:classgraph:jar:4.8.162:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-backbone:jar:2.3.2:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-nonnull:jar:2.3.2:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-subtypes:jar:2.3.2:compile
-|     |  |  +- dev.hilla:parser-jvm-plugin-model:jar:2.3.2:compile
-|     |  |  \- dev.hilla:parser-jvm-plugin-transfertypes:jar:2.3.2:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-backbone:jar:2.3.3:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-nonnull:jar:2.3.3:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-subtypes:jar:2.3.3:compile
+|     |  |  +- dev.hilla:parser-jvm-plugin-model:jar:2.3.3:compile
+|     |  |  \- dev.hilla:parser-jvm-plugin-transfertypes:jar:2.3.3:compile
 |     |  +- com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.5:compile
-|     |  +- dev.hilla:parser-jvm-utils:jar:2.3.2:compile
+|     |  +- dev.hilla:parser-jvm-utils:jar:2.3.3:compile
 |     |  |  +- io.swagger.core.v3:swagger-core:jar:2.2.16:compile
 |     |  |  |  \- io.swagger.core.v3:swagger-annotations:jar:2.2.16:compile
 |     |  |  \- io.swagger.core.v3:swagger-models:jar:2.2.16:compile
-|     |  \- dev.hilla:runtime-plugin-transfertypes:jar:2.3.2:compile
-|     +- dev.hilla:engine-runtime:jar:2.3.2:compile
-|     \- dev.hilla:hilla-dev:jar:2.3.2:compile
-+- io.micrometer:micrometer-tracing-bridge-brave:jar:1.1.5:compile
-|  +- io.micrometer:micrometer-tracing:jar:1.1.5:compile
+|     |  \- dev.hilla:runtime-plugin-transfertypes:jar:2.3.3:compile
+|     +- dev.hilla:engine-runtime:jar:2.3.3:compile
+|     \- dev.hilla:hilla-dev:jar:2.3.3:compile
++- io.micrometer:micrometer-tracing-bridge-brave:jar:1.1.6:compile
+|  +- io.micrometer:micrometer-tracing:jar:1.1.6:compile
 |  |  \- aopalliance:aopalliance:jar:1.0:compile
 |  +- io.zipkin.brave:brave:jar:5.15.1:compile
 |  +- io.zipkin.brave:brave-context-slf4j:jar:5.15.1:compile
@@ -468,10 +468,10 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        \- io.pivotal.cfenv:java-cfenv-jdbc:jar:3.1.1:compile
 +- io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:jar:4.0.4:compile
 |  \- io.pivotal.spring.cloud:spring-cloud-services-service-registry-autoconfigure:jar:4.0.4:compile
-+- io.sentry:sentry-spring-boot-starter-jakarta:jar:6.33.0:compile
-|  \- io.sentry:sentry-spring-boot-jakarta:jar:6.33.0:compile
-|     +- io.sentry:sentry:jar:6.33.0:compile
-|     \- io.sentry:sentry-spring-jakarta:jar:6.33.0:compile
++- io.sentry:sentry-spring-boot-starter-jakarta:jar:6.33.1:compile
+|  \- io.sentry:sentry-spring-boot-jakarta:jar:6.33.1:compile
+|     +- io.sentry:sentry:jar:6.33.1:compile
+|     \- io.sentry:sentry-spring-jakarta:jar:6.33.1:compile
 +- org.apache.camel.springboot:camel-spring-boot-starter:jar:4.1.0:compile
 |  +- org.apache.camel.springboot:camel-spring-boot:jar:4.1.0:compile
 |  |  +- org.apache.camel:camel-spring:jar:4.1.0:compile
@@ -544,10 +544,10 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- org.lz4:lz4-java:jar:1.8.0:runtime
 |  |  \- org.xerial.snappy:snappy-java:jar:1.1.8.4:runtime
 |  +- org.rocksdb:rocksdbjni:jar:7.1.2:compile
-|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.2:compile
-|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.15.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.15.3:compile
 +- org.flywaydb:flyway-core:jar:9.16.3:compile
-|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-toml:jar:2.15.2:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-toml:jar:2.15.3:compile
 |  \- org.apache.commons:commons-text:jar:1.10.0:compile
 +- org.flywaydb:flyway-mysql:jar:9.16.3:compile
 +- org.flywaydb:flyway-sqlserver:jar:9.16.3:compile
@@ -563,7 +563,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.mybatis:mybatis-spring:jar:3.0.2:compile
 +- org.springframework.cloud:spring-cloud-bus:jar:4.0.1:compile
 +- org.springframework.cloud:spring-cloud-config-server:jar:4.0.4:compile
-|  +- org.springframework.security:spring-security-crypto:jar:6.1.4:compile
+|  +- org.springframework.security:spring-security-crypto:jar:6.1.5:compile
 |  +- org.springframework.security:spring-security-rsa:jar:1.0.12.RELEASE:compile
 |  |  \- org.bouncycastle:bcpkix-jdk18on:jar:1.73:compile
 |  |     +- org.bouncycastle:bcprov-jdk18on:jar:1.73:compile
@@ -580,7 +580,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  |  \- org.apache.sshd:sshd-core:jar:2.9.2:compile
 |  |  |     \- org.apache.sshd:sshd-common:jar:2.9.2:compile
 |  |  \- net.i2p.crypto:eddsa:jar:0.3.0:compile
-|  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2:compile
+|  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.3:compile
 +- org.springframework.cloud:spring-cloud-function-web:jar:4.0.5:compile
 |  \- org.springframework.cloud:spring-cloud-function-context:jar:4.0.5:compile
 |     +- net.jodah:typetools:jar:0.6.2:compile
@@ -642,7 +642,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- com.netflix.eureka:eureka-client-jersey3:jar:2.0.1:compile
 |  |  |  \- org.glassfish.jersey.connectors:jersey-apache-connector:jar:3.1.3:compile
 |  |  +- com.netflix.eureka:eureka-core-jersey3:jar:2.0.1:compile
-|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.15.2:compile
+|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.15.3:compile
 |  \- org.glassfish.jaxb:jaxb-runtime:jar:4.0.3:compile
 |     \- org.glassfish.jaxb:jaxb-core:jar:4.0.3:compile
 |        +- org.glassfish.jaxb:txw2:jar:4.0.3:compile
@@ -676,7 +676,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.springframework.cloud:spring-cloud-zookeeper-discovery:jar:4.0.1:compile
 |  \- org.apache.curator:curator-x-discovery:jar:5.1.0:compile
 +- org.springframework.cloud:spring-cloud-stream:jar:4.0.4:compile
-|  +- org.springframework.integration:spring-integration-jmx:jar:6.1.3:compile
+|  +- org.springframework.integration:spring-integration-jmx:jar:6.1.4:compile
 |  +- org.springframework.retry:spring-retry:jar:2.0.4:compile
 |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.22:compile
 |     +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.22:compile
@@ -690,28 +690,28 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:4.0.4:compile
 |  \- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
 |     \- commons-codec:commons-codec:jar:1.15:compile
-+- org.springframework.data:spring-data-rest-hal-explorer:jar:4.1.4:compile
-+- org.springframework.integration:spring-integration-amqp:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-jdbc:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-jms:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-jpa:jar:6.1.3:compile
-|  \- org.springframework:spring-orm:jar:6.0.12:compile
-+- org.springframework.integration:spring-integration-kafka:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-mail:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-mongodb:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-r2dbc:jar:6.1.3:compile
-|  \- org.springframework:spring-r2dbc:jar:6.0.12:compile
-+- org.springframework.integration:spring-integration-redis:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-rsocket:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-security:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-stomp:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-webflux:jar:6.1.3:compile
-|  \- org.springframework.integration:spring-integration-http:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-websocket:jar:6.1.3:compile
-+- org.springframework.integration:spring-integration-ws:jar:6.1.3:compile
-|  \- org.springframework:spring-webmvc:jar:6.0.12:compile
++- org.springframework.data:spring-data-rest-hal-explorer:jar:4.1.5:compile
++- org.springframework.integration:spring-integration-amqp:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-jdbc:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-jms:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-jpa:jar:6.1.4:compile
+|  \- org.springframework:spring-orm:jar:6.0.13:compile
++- org.springframework.integration:spring-integration-kafka:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-mail:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-mongodb:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-r2dbc:jar:6.1.4:compile
+|  \- org.springframework:spring-r2dbc:jar:6.0.13:compile
++- org.springframework.integration:spring-integration-redis:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-rsocket:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-security:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-stomp:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-webflux:jar:6.1.4:compile
+|  \- org.springframework.integration:spring-integration-http:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-websocket:jar:6.1.4:compile
++- org.springframework.integration:spring-integration-ws:jar:6.1.4:compile
+|  \- org.springframework:spring-webmvc:jar:6.0.13:compile
 +- org.springframework.kafka:spring-kafka:jar:3.0.12:compile
-|  +- org.springframework:spring-context:jar:6.0.12:compile
+|  +- org.springframework:spring-context:jar:6.0.13:compile
 |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
 +- org.springframework.modulith:spring-modulith-starter-core:jar:1.0.2:compile
 |  +- org.springframework.modulith:spring-modulith-api:jar:1.0.2:compile
@@ -754,15 +754,15 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- com.github.ben-manes.caffeine:caffeine:jar:3.1.8:compile
 |     \- com.google.errorprone:error_prone_annotations:jar:2.21.1:compile
 +- org.springframework.pulsar:spring-pulsar-spring-cloud-stream-binder:jar:0.2.0:compile
-+- org.springframework.security:spring-security-messaging:jar:6.1.4:compile
-|  +- org.springframework:spring-beans:jar:6.0.12:compile
-|  +- org.springframework:spring-core:jar:6.0.12:compile
-|  |  \- org.springframework:spring-jcl:jar:6.0.12:compile
-|  \- org.springframework:spring-expression:jar:6.0.12:compile
-+- org.springframework.security:spring-security-rsocket:jar:6.1.4:compile
-+- org.springframework.session:spring-session-data-redis:jar:3.1.2:compile
-|  \- org.springframework.session:spring-session-core:jar:3.1.2:compile
-+- org.springframework.session:spring-session-jdbc:jar:3.1.2:compile
++- org.springframework.security:spring-security-messaging:jar:6.1.5:compile
+|  +- org.springframework:spring-beans:jar:6.0.13:compile
+|  +- org.springframework:spring-core:jar:6.0.13:compile
+|  |  \- org.springframework:spring-jcl:jar:6.0.13:compile
+|  \- org.springframework:spring-expression:jar:6.0.13:compile
++- org.springframework.security:spring-security-rsocket:jar:6.1.5:compile
++- org.springframework.session:spring-session-data-redis:jar:3.1.3:compile
+|  \- org.springframework.session:spring-session-core:jar:3.1.3:compile
++- org.springframework.session:spring-session-jdbc:jar:3.1.3:compile
 +- org.springframework.shell:spring-shell-starter:jar:3.1.4:compile
 |  +- org.springframework.shell:spring-shell-autoconfigure:jar:3.1.4:compile
 |  +- org.springframework.shell:spring-shell-core:jar:3.1.4:compile
@@ -778,7 +778,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.springframework.boot:spring-boot:jar:3.1.5:compile
 |  \- org.springframework.boot:spring-boot-autoconfigure:jar:3.1.5:compile
 +- org.springframework.boot:spring-boot-docker-compose:jar:3.1.5:runtime
-|  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.2:compile
+|  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.3:compile
 +- com.h2database:h2:jar:2.1.214:runtime
 +- com.ibm.db2:jcc:jar:11.5.8.0:runtime
 +- com.microsoft.sqlserver:mssql-jdbc:jar:11.2.3.jre17:runtime
@@ -788,40 +788,40 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- com.oracle.database.jdbc:ojdbc11:jar:21.9.0.0:runtime
 |  \- org.reactivestreams:reactive-streams:jar:1.0.4:compile
 +- io.asyncer:r2dbc-mysql:jar:1.0.5:runtime
-|  \- io.projectreactor.netty:reactor-netty:jar:1.1.11:compile
-|     \- io.projectreactor.netty.incubator:reactor-netty-incubator-quic:jar:0.1.11:runtime
-|        \- io.netty.incubator:netty-incubator-codec-native-quic:jar:linux-x86_64:0.0.50.Final:runtime
-|           \- io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.50.Final:runtime
-+- io.micrometer:micrometer-registry-datadog:jar:1.11.4:runtime
-+- io.micrometer:micrometer-registry-dynatrace:jar:1.11.4:runtime
+|  \- io.projectreactor.netty:reactor-netty:jar:1.1.12:compile
+|     \- io.projectreactor.netty.incubator:reactor-netty-incubator-quic:jar:0.1.12:runtime
+|        \- io.netty.incubator:netty-incubator-codec-native-quic:jar:linux-x86_64:0.0.51.Final:runtime
+|           \- io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.51.Final:runtime
++- io.micrometer:micrometer-registry-datadog:jar:1.11.5:runtime
++- io.micrometer:micrometer-registry-dynatrace:jar:1.11.5:runtime
 |  \- com.dynatrace.metric.util:dynatrace-metric-utils-java:jar:1.6.0:runtime
-+- io.micrometer:micrometer-registry-graphite:jar:1.11.4:runtime
-|  \- io.dropwizard.metrics:metrics-graphite:jar:4.2.19:runtime
-|     \- io.dropwizard.metrics:metrics-core:jar:4.2.19:compile
-+- io.micrometer:micrometer-registry-influx:jar:1.11.4:runtime
-+- io.micrometer:micrometer-registry-new-relic:jar:1.11.4:runtime
-+- io.micrometer:micrometer-registry-prometheus:jar:1.11.4:runtime
++- io.micrometer:micrometer-registry-graphite:jar:1.11.5:runtime
+|  \- io.dropwizard.metrics:metrics-graphite:jar:4.2.21:runtime
+|     \- io.dropwizard.metrics:metrics-core:jar:4.2.21:compile
++- io.micrometer:micrometer-registry-influx:jar:1.11.5:runtime
++- io.micrometer:micrometer-registry-new-relic:jar:1.11.5:runtime
++- io.micrometer:micrometer-registry-prometheus:jar:1.11.5:runtime
 |  \- io.prometheus:simpleclient_common:jar:0.16.0:runtime
 |     \- io.prometheus:simpleclient:jar:0.16.0:runtime
 |        +- io.prometheus:simpleclient_tracer_otel:jar:0.16.0:runtime
 |        |  \- io.prometheus:simpleclient_tracer_common:jar:0.16.0:runtime
 |        \- io.prometheus:simpleclient_tracer_otel_agent:jar:0.16.0:runtime
-+- io.micrometer:micrometer-registry-wavefront:jar:1.11.4:runtime
++- io.micrometer:micrometer-registry-wavefront:jar:1.11.5:runtime
 |  \- com.wavefront:wavefront-sdk-java:jar:3.1.0:runtime
 |     +- com.tdunning:t-digest:jar:3.2:runtime
 |     \- com.google.guava:guava:jar:32.1.2-jre:compile
-+- io.micrometer:micrometer-tracing-reporter-wavefront:jar:1.1.5:runtime
++- io.micrometer:micrometer-tracing-reporter-wavefront:jar:1.1.6:runtime
 |  \- com.wavefront:wavefront-internal-reporter-java:jar:1.7.16:runtime
 +- io.r2dbc:r2dbc-h2:jar:1.0.0.RELEASE:runtime
 +- io.r2dbc:r2dbc-mssql:jar:1.0.2.RELEASE:runtime
-|  \- io.projectreactor.netty:reactor-netty-core:jar:1.1.11:compile
-|     +- io.netty:netty-handler-proxy:jar:4.1.97.Final:compile
-|     +- io.netty:netty-resolver-dns:jar:4.1.97.Final:compile
-|     |  \- io.netty:netty-codec-dns:jar:4.1.97.Final:compile
-|     +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.97.Final:compile
-|     |  \- io.netty:netty-resolver-dns-classes-macos:jar:4.1.97.Final:compile
-|     \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.97.Final:compile
-|        \- io.netty:netty-transport-classes-epoll:jar:4.1.97.Final:compile
+|  \- io.projectreactor.netty:reactor-netty-core:jar:1.1.12:compile
+|     +- io.netty:netty-handler-proxy:jar:4.1.100.Final:compile
+|     +- io.netty:netty-resolver-dns:jar:4.1.100.Final:compile
+|     |  \- io.netty:netty-codec-dns:jar:4.1.100.Final:compile
+|     +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.100.Final:compile
+|     |  \- io.netty:netty-resolver-dns-classes-macos:jar:4.1.100.Final:compile
+|     \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.100.Final:compile
+|        \- io.netty:netty-transport-classes-epoll:jar:4.1.100.Final:compile
 +- org.apache.derby:derby:jar:10.16.1.1:runtime
 |  \- org.apache.derby:derbyshared:jar:10.16.1.1:runtime
 +- org.apache.derby:derbytools:jar:10.16.1.1:runtime
@@ -861,7 +861,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.mockito:mockito-junit-jupiter:jar:5.3.1:test
 |  +- org.skyscreamer:jsonassert:jar:1.5.1:test
 |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
-|  +- org.springframework:spring-test:jar:6.0.12:test
+|  +- org.springframework:spring-test:jar:6.0.13:test
 |  \- org.xmlunit:xmlunit-core:jar:2.9.1:test
 +- org.springframework.boot:spring-boot-testcontainers:jar:3.1.5:test
 |  \- org.testcontainers:testcontainers:jar:1.18.3:test
@@ -872,7 +872,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     \- com.github.docker-java:docker-java-transport-zerodep:jar:3.3.0:test
 |        \- com.github.docker-java:docker-java-transport:jar:3.3.0:test
 +- com.unboundid:unboundid-ldapsdk:jar:6.0.10:test
-+- io.projectreactor:reactor-test:jar:3.5.10:test
++- io.projectreactor:reactor-test:jar:3.5.11:test
 +- io.rest-assured:spring-web-test-client:jar:5.3.2:test
 |  +- io.rest-assured:rest-assured:jar:5.3.2:test
 |  |  +- org.apache.httpcomponents:httpmime:jar:4.5.13:test
@@ -885,8 +885,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     \- org.synchronoss.cloud:nio-stream-storage:jar:1.1.3:test
 +- org.mybatis.spring.boot:mybatis-spring-boot-starter-test:jar:3.0.2:test
 |  \- org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure:jar:3.0.2:test
-+- org.springframework.amqp:spring-rabbit-test:jar:3.0.9:test
-|  +- org.springframework.amqp:spring-rabbit-junit:jar:3.0.9:test
++- org.springframework.amqp:spring-rabbit-test:jar:3.0.10:test
+|  +- org.springframework.amqp:spring-rabbit-junit:jar:3.0.10:test
 |  +- org.hamcrest:hamcrest-library:jar:2.2:test
 |  \- org.hamcrest:hamcrest-core:jar:2.2:test
 +- org.springframework.batch:spring-batch-test:jar:5.0.3:test
@@ -953,13 +953,13 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.graphql:spring-graphql-test:jar:1.2.3:test
 |  \- com.graphql-java:graphql-java:jar:20.2:compile
 |     \- com.graphql-java:java-dataloader:jar:3.2.0:compile
-+- org.springframework.integration:spring-integration-test:jar:6.1.3:test
-|  \- org.springframework.integration:spring-integration-test-support:jar:6.1.3:test
++- org.springframework.integration:spring-integration-test:jar:6.1.4:test
+|  \- org.springframework.integration:spring-integration-test-support:jar:6.1.4:test
 +- org.springframework.kafka:spring-kafka-test:jar:3.0.12:test
 |  +- org.apache.zookeeper:zookeeper:jar:3.6.3:compile
 |  |  +- org.apache.zookeeper:zookeeper-jute:jar:3.6.3:compile
 |  |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
-|  |  \- io.netty:netty-transport-native-epoll:jar:4.1.97.Final:compile
+|  |  \- io.netty:netty-transport-native-epoll:jar:4.1.100.Final:compile
 |  +- org.apache.kafka:kafka-clients:jar:test:3.4.1:test
 |  +- org.apache.kafka:kafka-metadata:jar:3.4.1:test
 |  |  +- org.apache.kafka:kafka-server-common:jar:3.4.1:test
@@ -972,9 +972,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  +- org.apache.kafka:kafka-storage:jar:3.4.1:test
 |  |  |  \- org.apache.kafka:kafka-storage-api:jar:3.4.1:test
 |  |  +- net.sourceforge.argparse4j:argparse4j:jar:0.7.0:test
-|  |  +- com.fasterxml.jackson.module:jackson-module-scala_2.13:jar:2.15.2:test
+|  |  +- com.fasterxml.jackson.module:jackson-module-scala_2.13:jar:2.15.3:test
 |  |  |  \- com.thoughtworks.paranamer:paranamer:jar:2.8:test
-|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.15.2:test
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.15.3:test
 |  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
 |  |  +- org.bitbucket.b_c:jose4j:jar:0.9.3:test
 |  |  +- org.scala-lang.modules:scala-collection-compat_2.13:jar:2.10.0:test
@@ -997,7 +997,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.awaitility:awaitility:jar:4.2.0:test
 +- org.springframework.restdocs:spring-restdocs-webtestclient:jar:3.0.0:test
 |  \- org.springframework.restdocs:spring-restdocs-core:jar:3.0.0:test
-+- org.springframework.security:spring-security-test:jar:6.1.4:test
++- org.springframework.security:spring-security-test:jar:6.1.5:test
 +- org.testcontainers:cassandra:jar:1.18.3:test
 |  +- org.testcontainers:database-commons:jar:1.18.3:test
 |  \- com.datastax.cassandra:cassandra-driver-core:jar:3.10.0:test
