@@ -18,7 +18,7 @@
 		<hilla.version>2.3.3</hilla.version>
 		<sentry.version>6.33.1</sentry.version>
 		<solace-spring-cloud.version>3.1.0</solace-spring-cloud.version>
-		<spring-boot-admin.version>3.1.7</spring-boot-admin.version>
+		<spring-boot-admin.version>3.1.8</spring-boot-admin.version>
 		<spring-cloud-azure.version>5.7.0</spring-cloud-azure.version>
 		<spring-cloud-gcp.version>4.8.4</spring-cloud-gcp.version>
 		<spring-cloud-services.version>4.0.4</spring-cloud-services.version>
