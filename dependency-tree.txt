@@ -425,13 +425,13 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        |  +- com.github.javaparser:javaparser-core:jar:3.25.5:compile
 |        |  \- io.methvin:directory-watcher:jar:0.18.0:compile
 |        \- com.vaadin:vaadin-dev-bundle:jar:24.2.3:compile
-+- de.codecentric:spring-boot-admin-starter-client:jar:3.1.7:compile
-|  \- de.codecentric:spring-boot-admin-client:jar:3.1.7:compile
-+- de.codecentric:spring-boot-admin-starter-server:jar:3.1.7:compile
-|  +- de.codecentric:spring-boot-admin-server:jar:3.1.7:compile
++- de.codecentric:spring-boot-admin-starter-client:jar:3.1.8:compile
+|  \- de.codecentric:spring-boot-admin-client:jar:3.1.8:compile
++- de.codecentric:spring-boot-admin-starter-server:jar:3.1.8:compile
+|  +- de.codecentric:spring-boot-admin-server:jar:3.1.8:compile
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.1:compile
-|  +- de.codecentric:spring-boot-admin-server-ui:jar:3.1.7:compile
-|  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.1.7:compile
+|  +- de.codecentric:spring-boot-admin-server-ui:jar:3.1.8:compile
+|  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.1.8:compile
 +- dev.hilla:hilla-react-spring-boot-starter:jar:2.3.3:compile
 |  \- dev.hilla:hilla-react:jar:2.3.3:compile
 |     +- dev.hilla:endpoint:jar:2.3.3:compile
