@@ -468,10 +468,10 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        \- io.pivotal.cfenv:java-cfenv-jdbc:jar:3.1.1:compile
 +- io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:jar:4.0.4:compile
 |  \- io.pivotal.spring.cloud:spring-cloud-services-service-registry-autoconfigure:jar:4.0.4:compile
-+- io.sentry:sentry-spring-boot-starter-jakarta:jar:6.33.1:compile
-|  \- io.sentry:sentry-spring-boot-jakarta:jar:6.33.1:compile
-|     +- io.sentry:sentry:jar:6.33.1:compile
-|     \- io.sentry:sentry-spring-jakarta:jar:6.33.1:compile
++- io.sentry:sentry-spring-boot-starter-jakarta:jar:6.34.0:compile
+|  \- io.sentry:sentry-spring-boot-jakarta:jar:6.34.0:compile
+|     +- io.sentry:sentry:jar:6.34.0:compile
+|     \- io.sentry:sentry-spring-jakarta:jar:6.34.0:compile
 +- org.apache.camel.springboot:camel-spring-boot-starter:jar:4.2.0:compile
 |  +- org.apache.camel.springboot:camel-spring-boot:jar:4.2.0:compile
 |  |  +- org.apache.camel:camel-spring:jar:4.2.0:compile
