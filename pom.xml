@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
-		<hilla.version>2.3.3</hilla.version>
+		<hilla.version>2.4.0</hilla.version>
 		<sentry.version>6.34.0</sentry.version>
 		<solace-spring-cloud.version>3.1.0</solace-spring-cloud.version>
 		<spring-boot-admin.version>3.1.8</spring-boot-admin.version>
