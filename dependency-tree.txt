@@ -356,9 +356,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |  \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.jzlib:jar:1.0.7_2:compile
 |     \- com.solace.spring.boot:solace-java-spring-boot-starter:jar:5.0.0:compile
 |        \- com.solace.spring.boot:solace-java-spring-boot-autoconfigure:jar:5.0.0:compile
-+- com.vaadin:vaadin-spring-boot-starter:jar:24.2.4:compile
-|  +- com.vaadin:vaadin-spring:jar:24.2.3:compile
-|  |  +- com.vaadin:flow-server:jar:24.2.3:compile
++- com.vaadin:vaadin-spring-boot-starter:jar:24.2.5:compile
+|  +- com.vaadin:vaadin-spring:jar:24.2.4:compile
+|  |  +- com.vaadin:flow-server:jar:24.2.4:compile
 |  |  |  +- com.vaadin.servletdetector:throw-if-servlet3:jar:1.0.2:compile
 |  |  |  +- com.vaadin.external.gwt:gwt-elemental:jar:2.8.2.vaadin2:compile
 |  |  |  +- org.apache.commons:commons-fileupload2-jakarta:jar:2.0.0-M1:compile
@@ -367,62 +367,62 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  |  +- com.helger:ph-css:jar:7.0.1:compile
 |  |  |  |  \- com.helger.commons:ph-commons:jar:11.1.0:compile
 |  |  |  \- com.vaadin.external:gentyref:jar:1.2.0.vaadin1:compile
-|  |  +- com.vaadin:flow-push:jar:24.2.3:compile
-|  |  |  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:3.0.3.slf4jvaadin1:compile
-|  |  +- com.vaadin:flow-client:jar:24.2.3:compile
+|  |  +- com.vaadin:flow-push:jar:24.2.4:compile
+|  |  |  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:3.0.3.slf4jvaadin2:compile
+|  |  +- com.vaadin:flow-client:jar:24.2.4:compile
 |  |  \- org.reflections:reflections:jar:0.10.2:compile
-|  \- com.vaadin:vaadin-core:jar:24.2.4:compile
-|     +- com.vaadin:vaadin-core-internal:jar:24.2.4:compile
-|     |  +- com.vaadin:flow-lit-template:jar:24.2.3:compile
-|     |  +- com.vaadin:flow-html-components:jar:24.2.3:compile
-|     |  +- com.vaadin:flow-data:jar:24.2.3:compile
-|     |  +- com.vaadin:flow-dnd:jar:24.2.3:compile
-|     |  +- com.vaadin:vaadin-lumo-theme:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-material-theme:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-accordion-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-avatar-flow:jar:24.2.4:compile
-|     |  |  \- com.vaadin:vaadin-flow-components-base:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-button-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-checkbox-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-combo-box-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-custom-field-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-date-picker-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-date-time-picker-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-details-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-time-picker-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-select-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-side-nav-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-dialog-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-form-layout-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-field-highlighter-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-grid-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-icons-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-virtual-list-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-list-box-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-login-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-messages-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-ordered-layout-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-progress-bar-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-radio-button-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-renderer-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-split-layout-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-tabs-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-text-field-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-upload-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-notification-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-app-layout-flow:jar:24.2.4:compile
-|     |  +- com.vaadin:vaadin-context-menu-flow:jar:24.2.4:compile
-|     |  \- com.vaadin:vaadin-menu-bar-flow:jar:24.2.4:compile
-|     \- com.vaadin:vaadin-dev:jar:24.2.4:compile
-|        +- com.vaadin:vaadin-dev-server:jar:24.2.3:compile
+|  \- com.vaadin:vaadin-core:jar:24.2.5:compile
+|     +- com.vaadin:vaadin-core-internal:jar:24.2.5:compile
+|     |  +- com.vaadin:flow-lit-template:jar:24.2.4:compile
+|     |  +- com.vaadin:flow-html-components:jar:24.2.4:compile
+|     |  +- com.vaadin:flow-data:jar:24.2.4:compile
+|     |  +- com.vaadin:flow-dnd:jar:24.2.4:compile
+|     |  +- com.vaadin:vaadin-lumo-theme:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-material-theme:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-accordion-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-avatar-flow:jar:24.2.5:compile
+|     |  |  \- com.vaadin:vaadin-flow-components-base:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-button-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-checkbox-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-combo-box-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-custom-field-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-date-picker-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-date-time-picker-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-details-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-time-picker-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-select-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-side-nav-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-dialog-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-form-layout-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-field-highlighter-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-grid-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-icons-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-virtual-list-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-list-box-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-login-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-messages-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-ordered-layout-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-progress-bar-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-radio-button-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-renderer-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-split-layout-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-tabs-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-text-field-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-upload-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-notification-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-app-layout-flow:jar:24.2.5:compile
+|     |  +- com.vaadin:vaadin-context-menu-flow:jar:24.2.5:compile
+|     |  \- com.vaadin:vaadin-menu-bar-flow:jar:24.2.5:compile
+|     \- com.vaadin:vaadin-dev:jar:24.2.5:compile
+|        +- com.vaadin:vaadin-dev-server:jar:24.2.4:compile
 |        |  +- com.vaadin:license-checker:jar:1.12.3:compile
 |        |  |  +- com.github.oshi:oshi-core:jar:6.4.1:compile
 |        |  |  \- org.lucee:jcip-annotations:jar:1.0.0:compile
 |        |  +- com.vaadin:open:jar:8.5.0:compile
 |        |  +- com.github.javaparser:javaparser-core:jar:3.25.5:compile
 |        |  \- io.methvin:directory-watcher:jar:0.18.0:compile
-|        \- com.vaadin:vaadin-dev-bundle:jar:24.2.4:compile
+|        \- com.vaadin:vaadin-dev-bundle:jar:24.2.5:compile
 +- de.codecentric:spring-boot-admin-starter-client:jar:3.1.8:compile
 |  \- de.codecentric:spring-boot-admin-client:jar:3.1.8:compile
 +- de.codecentric:spring-boot-admin-starter-server:jar:3.1.8:compile
