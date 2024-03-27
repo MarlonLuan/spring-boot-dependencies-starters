@@ -949,7 +949,7 @@
 			<plugin>
 				<groupId>io.github.deweyjose</groupId>
 				<artifactId>graphqlcodegen-maven-plugin</artifactId>
-				<version>1.60.0</version>
+				<version>1.60.1</version>
 				<executions>
 					<execution>
 						<id>dgs-codegen</id>
