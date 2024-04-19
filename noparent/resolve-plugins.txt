@@ -347,8 +347,8 @@ The following plugins have been resolved:
       org.springframework:spring-jcl:jar:6.1.2
       org.springframework:spring-beans:jar:6.1.2
    org.springframework.boot:spring-boot-maven-plugin:maven-plugin:RELEASE:runtime
-      org.springframework.boot:spring-boot-maven-plugin:jar:3.3.0-M3
-      org.springframework.boot:spring-boot-buildpack-platform:jar:3.3.0-M3
+      org.springframework.boot:spring-boot-maven-plugin:jar:3.3.0-RC1
+      org.springframework.boot:spring-boot-buildpack-platform:jar:3.3.0-RC1
       com.fasterxml.jackson.core:jackson-databind:jar:2.14.2
       com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2
       com.fasterxml.jackson.core:jackson-core:jar:2.14.2
@@ -362,17 +362,17 @@ The following plugins have been resolved:
       org.tomlj:tomlj:jar:1.0.0
       org.antlr:antlr4-runtime:jar:4.7.2
       com.google.code.findbugs:jsr305:jar:3.0.2
-      org.springframework.boot:spring-boot-loader-tools:jar:3.3.0-M3
+      org.springframework.boot:spring-boot-loader-tools:jar:3.3.0-RC1
       org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
       org.slf4j:slf4j-api:jar:1.7.36
-      org.springframework:spring-core:jar:6.1.5
-      org.springframework:spring-jcl:jar:6.1.5
-      org.springframework:spring-context:jar:6.1.5
-      org.springframework:spring-aop:jar:6.1.5
-      org.springframework:spring-beans:jar:6.1.5
-      org.springframework:spring-expression:jar:6.1.5
-      io.micrometer:micrometer-observation:jar:1.12.4
-      io.micrometer:micrometer-commons:jar:1.12.4
+      org.springframework:spring-core:jar:6.1.6
+      org.springframework:spring-jcl:jar:6.1.6
+      org.springframework:spring-context:jar:6.1.6
+      org.springframework:spring-aop:jar:6.1.6
+      org.springframework:spring-beans:jar:6.1.6
+      org.springframework:spring-expression:jar:6.1.6
+      io.micrometer:micrometer-observation:jar:1.12.5
+      io.micrometer:micrometer-commons:jar:1.12.5
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       org.codehaus.plexus:plexus-utils:jar:1.5.8
       org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
