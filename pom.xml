@@ -226,12 +226,10 @@
          <groupId>com.azure.spring</groupId>
          <artifactId>spring-cloud-azure-starter-actuator</artifactId>
       </dependency>
-      <!--
       <dependency>
          <groupId>com.azure.spring</groupId>
          <artifactId>spring-cloud-azure-starter-data-cosmos</artifactId>
       </dependency>
-      -->
       <dependency>
          <groupId>com.azure.spring</groupId>
          <artifactId>spring-cloud-azure-starter-integration-storage-queue</artifactId>
@@ -1098,7 +1096,6 @@
                </execution>
             </executions>
          </plugin>
-         <!--
          <plugin>
             <groupId>org.hibernate.orm.tooling</groupId>
             <artifactId>hibernate-enhance-maven-plugin</artifactId>
@@ -1117,7 +1114,6 @@
                </execution>
             </executions>
          </plugin>
-         -->
          <plugin>
             <groupId>org.graalvm.buildtools</groupId>
             <artifactId>native-maven-plugin</artifactId>
@@ -1145,7 +1141,6 @@
                <testMode>WEBTESTCLIENT</testMode>
             </configuration>
          </plugin>
-         <!--
          <plugin>
             <groupId>org.asciidoctor</groupId>
             <artifactId>asciidoctor-maven-plugin</artifactId>
@@ -1171,7 +1166,6 @@
                </dependency>
             </dependencies>
          </plugin>
-         -->
          <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
