@@ -17570,7 +17570,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>3.6.0</version>
+          <version>3.6.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
@@ -17762,7 +17762,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.1.2</version>
+        <version>3.2.2</version>
         <executions>
           <execution>
             <id>default-test</id>
