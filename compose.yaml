@@ -1,17 +1,17 @@
 services:
   activemq:
-    image: 'symptoma/activemq:latest'
+    image: 'symptoma/activemq:latest@sha256:7606045dab1c00801cc712790ec9f10f41dcc372db7a2a9b2f11a8f46f2b1894'
     ports:
       - '61616'
   cassandra:
-    image: 'cassandra:latest'
+    image: 'cassandra:latest@sha256:767e9711f5dce445bb52a8b27e708924b51e1c64801ecf3b62b91685449995a9'
     environment:
       - 'CASSANDRA_DC=dc1'
       - 'CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch'
     ports:
       - '9042'
   elasticsearch:
-    image: 'docker.elastic.co/elasticsearch/elasticsearch:7.17.10'
+    image: 'docker.elastic.co/elasticsearch/elasticsearch:7.17.10@sha256:bc7ba1dc5067c5b3907b82c667a374cc987cd813501e1378ec74ccd1c577f787'
     environment:
       - 'ELASTIC_PASSWORD=secret'
       - 'discovery.type=single-node'
@@ -20,7 +20,7 @@ services:
       - '9200'
       - '9300'
   mariadb:
-    image: 'mariadb:latest'
+    image: 'mariadb:latest@sha256:baca4137adc50f75a3d5ce91d8ef00e61d89159acdd152c4b81060a35fd66161'
     environment:
       - 'MARIADB_DATABASE=mydatabase'
       - 'MARIADB_PASSWORD=secret'
@@ -29,7 +29,7 @@ services:
     ports:
       - '3306'
   mongodb:
-    image: 'mongo:latest'
+    image: 'mongo:latest@sha256:84f177b8f7cddedc08f25e7400950a2d9b90d9a96f1b0083d712a2ddbce4dca1'
     environment:
       - 'MONGO_INITDB_DATABASE=mydatabase'
       - 'MONGO_INITDB_ROOT_PASSWORD=secret'
@@ -37,7 +37,7 @@ services:
     ports:
       - '27017'
   mysql:
-    image: 'mysql:latest'
+    image: 'mysql:latest@sha256:f7a8e140a7d6d1e6e0c99eeb0489c50a186ee4ac44ff55323a176529b9a43d33'
     environment:
       - 'MYSQL_DATABASE=mydatabase'
       - 'MYSQL_PASSWORD=secret'
@@ -46,19 +46,19 @@ services:
     ports:
       - '3306'
   neo4j:
-    image: 'neo4j:latest'
+    image: 'neo4j:latest@sha256:6087e02d37d56e9810fd625bcf9516226cb42560e94baacc1bf251954b4a184a'
     environment:
       - 'NEO4J_AUTH=neo4j/notverysecret'
     ports:
       - '7687'
   oracle:
-    image: 'gvenzl/oracle-free:latest'
+    image: 'gvenzl/oracle-free:latest@sha256:621a4ab6515b4cec30468393ab4ace425486777ebe9f4883246169e2e5f56557'
     environment:
       - 'ORACLE_PASSWORD=secret'
     ports:
       - '1521'
   pgvector:
-    image: 'pgvector/pgvector:pg16'
+    image: 'pgvector/pgvector:pg16@sha256:a13f365c1f9e27383cf12ff7ba038ca1b8341265c0974e35ec7089368d13779c'
     environment:
       - 'POSTGRES_DB=mydatabase'
       - 'POSTGRES_PASSWORD=secret'
@@ -68,7 +68,7 @@ services:
     ports:
       - '5432'
   postgres:
-    image: 'postgres:latest'
+    image: 'postgres:latest@sha256:4aea012537edfad80f98d870a36e6b90b4c09b27be7f4b4759d72db863baeebb'
     environment:
       - 'POSTGRES_DB=mydatabase'
       - 'POSTGRES_PASSWORD=secret'
@@ -76,24 +76,24 @@ services:
     ports:
       - '5432'
   pulsar:
-    image: 'apachepulsar/pulsar:latest'
+    image: 'apachepulsar/pulsar:latest@sha256:1879838f484615229204de36b5eb3dcb9989bc302aa3954a3802889418d9e01d'
     ports:
       - '6650'
       - '8080'
     command: 'bin/pulsar standalone'
   rabbitmq:
-    image: 'rabbitmq:latest'
+    image: 'rabbitmq:latest@sha256:538ab4395d1535feaf4f15a6715491705b9a8333a58fb8eeb6ad516beb2842ea'
     environment:
       - 'RABBITMQ_DEFAULT_PASS=secret'
       - 'RABBITMQ_DEFAULT_USER=myuser'
     ports:
       - '5672'
   redis:
-    image: 'redis:latest'
+    image: 'redis:latest@sha256:f14f42fc7e824b93c0e2fe3cdf42f68197ee0311c3d2e0235be37480b2e208e6'
     ports:
       - '6379'
   sqlserver:
-    image: 'mcr.microsoft.com/mssql/server:latest'
+    image: 'mcr.microsoft.com/mssql/server:latest@sha256:7f33bc7998644f7b106221ced5e75451830cd5d9c669e5888470ad72f8f8559b'
     environment:
       - 'ACCEPT_EULA=yes'
       - 'MSSQL_PID=express'
@@ -101,6 +101,6 @@ services:
     ports:
       - '1433'
   zipkin:
-    image: 'openzipkin/zipkin:latest'
+    image: 'openzipkin/zipkin:latest@sha256:708983880c013c2232e75e3609b6e4c148ac869e51c72a109261688be3eb9229'
     ports:
       - '9411'
