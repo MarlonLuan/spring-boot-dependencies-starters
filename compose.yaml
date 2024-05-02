@@ -11,7 +11,7 @@ services:
     ports:
       - '9042'
   elasticsearch:
-    image: 'docker.elastic.co/elasticsearch/elasticsearch:7.17.10'
+    image: 'docker.elastic.co/elasticsearch/elasticsearch:8.13.3@sha256:55cf51620ffd4a27b661ad9d091dc06446f7aeaf4045744d4e7ef6480d390596'
     environment:
       - 'ELASTIC_PASSWORD=secret'
       - 'discovery.type=single-node'
