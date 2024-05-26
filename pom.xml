@@ -16,7 +16,7 @@
     <properties>
         <java.version>21</java.version>
         <spring-cloud.version>2023.0.1</spring-cloud.version>
-        <spring-modulith.version>1.2.0-RC1</spring-modulith.version>
+        <spring-modulith.version>1.2.0</spring-modulith.version>
         <spring-shell.version>3.3.0-M1</spring-shell.version>
         <vaadin.version>24.3.12</vaadin.version>
     </properties>
