@@ -12429,12 +12429,6 @@
     </dependency>
     <dependency>
       <groupId>com.azure.spring</groupId>
-      <artifactId>spring-cloud-azure-starter-data-cosmos</artifactId>
-      <version>5.14.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.azure.spring</groupId>
       <artifactId>spring-cloud-azure-starter-integration-storage-queue</artifactId>
       <version>5.14.0</version>
       <scope>compile</scope>
