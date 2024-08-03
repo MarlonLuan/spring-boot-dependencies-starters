@@ -179,7 +179,7 @@ The following plugins have been resolved:
       ch.qos.logback:logback-classic:jar:1.2.6
       ch.qos.logback:logback-core:jar:1.2.6
    org.cyclonedx:cyclonedx-maven-plugin:maven-plugin:RELEASE:runtime
-      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.0
+      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.1
       org.cyclonedx:cyclonedx-core-java:jar:8.0.3
       commons-io:commons-io:jar:2.14.0
       com.github.package-url:packageurl-java:jar:1.4.1
@@ -193,37 +193,14 @@ The following plugins have been resolved:
       com.ethlo.time:itu:jar:1.7.0
       com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2
       org.yaml:snakeyaml:jar:2.0
-      commons-codec:commons-codec:jar:1.16.1
+      commons-codec:commons-codec:jar:1.17.0
       org.apache.commons:commons-lang3:jar:3.14.0
-      org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
-      org.eclipse.aether:aether-util:jar:1.0.0.v20140518
-      org.eclipse.aether:aether-api:jar:1.0.0.v20140518
+      org.apache.maven.shared:maven-dependency-tree:jar:3.3.0
+      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
+      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
       org.slf4j:slf4j-api:jar:1.7.36
-      org.apache.maven.shared:maven-dependency-analyzer:jar:1.13.2
-      org.apache.maven:maven-core:jar:3.2.5
-      org.apache.maven:maven-settings:jar:3.2.5
-      org.apache.maven:maven-settings-builder:jar:3.2.5
-      org.apache.maven:maven-repository-metadata:jar:3.2.5
-      org.apache.maven:maven-plugin-api:jar:3.2.5
-      org.apache.maven:maven-model-builder:jar:3.2.5
-      org.apache.maven:maven-aether-provider:jar:3.2.5
-      org.eclipse.aether:aether-spi:jar:1.0.0.v20140518
-      org.eclipse.aether:aether-impl:jar:1.0.0.v20140518
-      org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0.M1
-      javax.enterprise:cdi-api:jar:1.0
-      javax.annotation:jsr250-api:jar:1.0
-      org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0.M1
-      org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.3
-      aopalliance:aopalliance:jar:1.0
-      com.google.guava:guava:jar:16.0.1
-      org.codehaus.plexus:plexus-interpolation:jar:1.21
-      org.codehaus.plexus:plexus-utils:jar:3.0.20
-      org.codehaus.plexus:plexus-classworlds:jar:2.5.2
-      org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
-      org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
-      org.sonatype.plexus:plexus-cipher:jar:1.4
-      javax.inject:javax.inject:jar:1
-      org.ow2.asm:asm:jar:9.5
+      org.apache.maven.shared:maven-dependency-analyzer:jar:1.14.1
+      org.ow2.asm:asm:jar:9.7
    org.codehaus.mojo:build-helper-maven-plugin:maven-plugin:RELEASE:runtime
       org.codehaus.mojo:build-helper-maven-plugin:jar:3.6.0
       org.codehaus.plexus:plexus-utils:jar:4.0.1
