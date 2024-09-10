@@ -399,12 +399,12 @@ The following plugins have been resolved:
       javax.inject:javax.inject:jar:1
       org.slf4j:slf4j-api:jar:1.7.36
    org.graalvm.buildtools:native-maven-plugin:maven-plugin:RELEASE:runtime
-      org.graalvm.buildtools:native-maven-plugin:jar:0.10.2
-      org.graalvm.buildtools:utils:jar:0.10.2
+      org.graalvm.buildtools:native-maven-plugin:jar:0.10.3
+      org.graalvm.buildtools:utils:jar:0.10.3
       com.fasterxml.jackson.core:jackson-databind:jar:2.13.5
       com.fasterxml.jackson.core:jackson-annotations:jar:2.13.5
       com.fasterxml.jackson.core:jackson-core:jar:2.13.5
-      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.10.2
+      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.10.3
       org.codehaus.plexus:plexus-utils:jar:4.0.0
       org.codehaus.plexus:plexus-xml:jar:4.0.2
       org.apache.maven:maven-xml-impl:jar:4.0.0-alpha-7
