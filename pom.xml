@@ -36,7 +36,7 @@
         <spring-cloud-services.version>4.1.5</spring-cloud-services.version>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
         <spring-modulith.version>1.2.1</spring-modulith.version>
-        <spring-shell.version>3.3.1</spring-shell.version>
+        <spring-shell.version>3.3.2</spring-shell.version>
         <timefold-solver.version>1.13.0</timefold-solver.version>
         <vaadin.version>24.4.9</vaadin.version>
     </properties>
