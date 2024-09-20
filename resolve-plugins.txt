@@ -196,55 +196,6 @@ The following plugins have been resolved:
       org.apache.maven:maven-xml-impl:jar:4.0.0-alpha-7
       org.apache.maven:maven-api-xml:jar:4.0.0-alpha-7
       org.apache.maven:maven-api-meta:jar:4.0.0-alpha-7
-   io.github.deweyjose:graphqlcodegen-maven-plugin:maven-plugin:1.50:runtime
-      io.github.deweyjose:graphqlcodegen-maven-plugin:jar:1.50
-      org.apache.maven:maven-plugin-api:jar:3.8.1
-      org.apache.maven:maven-model:jar:3.8.1
-      org.apache.maven:maven-artifact:jar:3.8.1
-      org.apache.commons:commons-lang3:jar:3.8.1
-      org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4
-      javax.enterprise:cdi-api:jar:1.0
-      javax.annotation:jsr250-api:jar:1.0
-      javax.inject:javax.inject:jar:1
-      org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.4
-      org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
-      org.codehaus.plexus:plexus-utils:jar:3.2.1
-      org.codehaus.plexus:plexus-classworlds:jar:2.6.0
-      org.apache.maven:maven-project:jar:2.2.1
-      org.apache.maven:maven-settings:jar:2.2.1
-      org.apache.maven:maven-profile:jar:2.2.1
-      org.apache.maven:maven-artifact-manager:jar:2.2.1
-      org.apache.maven:maven-repository-metadata:jar:2.2.1
-      org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6
-      backport-util-concurrent:backport-util-concurrent:jar:3.1
-      org.apache.maven:maven-plugin-registry:jar:2.2.1
-      org.codehaus.plexus:plexus-interpolation:jar:1.11
-      org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
-      junit:junit:jar:3.8.1
-      classworlds:classworlds:jar:1.1-alpha-2
-      com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-core:jar:6.0.2
-      org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.9.0
-      org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.0
-      org.jetbrains:annotations:jar:13.0
-      org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.9.0
-      com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-shared-core:jar:6.0.2
-      org.jetbrains.kotlin:kotlin-reflect:jar:1.9.0
-      com.netflix.graphql.dgs:graphql-dgs:jar:5.5.1
-      com.graphql-java:graphql-java:jar:19.2
-      com.graphql-java:java-dataloader:jar:3.2.0
-      org.reactivestreams:reactive-streams:jar:1.0.3
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4
-      com.fasterxml.jackson.core:jackson-databind:jar:2.13.4
-      com.fasterxml.jackson.core:jackson-core:jar:2.13.4
-      org.slf4j:slf4j-api:jar:1.7.35
-      com.squareup:javapoet:jar:1.13.0
-      com.squareup:kotlinpoet:jar:1.12.0
-      com.github.ajalt.clikt:clikt-jvm:jar:3.5.0
-      org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.6.20
-      org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:jar:1.4.0
-      org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:jar:1.4.0
-      ch.qos.logback:logback-classic:jar:1.2.6
-      ch.qos.logback:logback-core:jar:1.2.6
    org.asciidoctor:asciidoctor-maven-plugin:maven-plugin:2.2.1:runtime
       org.asciidoctor:asciidoctor-maven-plugin:jar:2.2.1
       org.jruby:jruby:jar:9.2.17.0
@@ -495,6 +446,37 @@ The following plugins have been resolved:
       org.apache.maven.shared:maven-shared-incremental:jar:1.1
       org.apache.maven:maven-plugin-api:jar:2.2.1
       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+   io.github.deweyjose:graphqlcodegen-maven-plugin:maven-plugin:1.61.5:runtime
+      io.github.deweyjose:graphqlcodegen-maven-plugin:jar:1.61.5
+      com.squareup:kotlinpoet-jvm:jar:1.18.1
+      org.jetbrains.kotlin:kotlin-stdlib:jar:2.0.0
+      org.jetbrains:annotations:jar:13.0
+      org.jetbrains.kotlin:kotlin-reflect:jar:2.0.0
+      com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-core:jar:6.2.4
+      com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-shared-core:jar:6.2.4
+      com.netflix.graphql.dgs:graphql-dgs:jar:5.5.1
+      com.graphql-java:graphql-java:jar:19.2
+      com.graphql-java:java-dataloader:jar:3.2.0
+      org.reactivestreams:reactive-streams:jar:1.0.3
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4
+      com.fasterxml.jackson.core:jackson-databind:jar:2.13.4
+      com.fasterxml.jackson.core:jackson-core:jar:2.13.4
+      org.slf4j:slf4j-api:jar:1.7.35
+      com.squareup:javapoet:jar:1.13.0
+      com.squareup:kotlinpoet:jar:1.17.0
+      com.github.ajalt.clikt:clikt:jar:4.4.0
+      com.github.ajalt.mordant:mordant:jar:2.5.0
+      com.github.ajalt.colormath:colormath:jar:3.5.0
+      org.jetbrains:markdown:jar:0.7.0
+      net.java.dev.jna:jna:jar:5.14.0
+      org.jetbrains.kotlinx:kotlinx-serialization-json:jar:1.6.3
+      org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:jar:1.6.3
+      org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.22
+      org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:jar:1.6.3
+      jakarta.annotation:jakarta.annotation-api:jar:2.1.1
+      ch.qos.logback:logback-classic:jar:1.5.6
+      ch.qos.logback:logback-core:jar:1.5.6
+      nu.studer:java-ordered-properties:jar:1.0.4
    org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.3.2:runtime
       org.apache.maven.plugins:maven-clean-plugin:jar:3.3.2
       org.codehaus.plexus:plexus-utils:jar:4.0.0
