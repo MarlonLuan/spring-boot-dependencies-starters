@@ -136,7 +136,7 @@ The following plugins have been resolved:
       org.apache.maven.resolver:maven-resolver-util:jar:1.9.18
       org.apache.maven.resolver:maven-resolver-api:jar:1.9.18
    org.cyclonedx:cyclonedx-maven-plugin:maven-plugin:RELEASE:runtime
-      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.1
+      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.2
       org.cyclonedx:cyclonedx-core-java:jar:8.0.3
       commons-io:commons-io:jar:2.14.0
       com.github.package-url:packageurl-java:jar:1.4.1
@@ -150,8 +150,8 @@ The following plugins have been resolved:
       com.ethlo.time:itu:jar:1.7.0
       com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2
       org.yaml:snakeyaml:jar:2.0
-      commons-codec:commons-codec:jar:1.17.0
-      org.apache.commons:commons-lang3:jar:3.14.0
+      commons-codec:commons-codec:jar:1.17.1
+      org.apache.commons:commons-lang3:jar:3.17.0
       org.apache.maven.shared:maven-dependency-tree:jar:3.3.0
       org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
       org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
