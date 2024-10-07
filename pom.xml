@@ -31,15 +31,15 @@
         <netflix-dgs.version>9.1.2</netflix-dgs.version>
         <solace-spring-cloud.version>4.5.0</solace-spring-cloud.version>
         <spring-ai.version>1.0.0-M2</spring-ai.version>
-        <spring-boot-admin.version>3.3.3</spring-boot-admin.version>
+        <spring-boot-admin.version>3.3.4</spring-boot-admin.version>
         <spring-cloud-azure.version>5.16.0</spring-cloud-azure.version>
-        <spring-cloud-gcp.version>5.6.0</spring-cloud-gcp.version>
+        <spring-cloud-gcp.version>5.7.0</spring-cloud-gcp.version>
         <spring-cloud-services.version>4.1.5</spring-cloud-services.version>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
-        <spring-modulith.version>1.2.3</spring-modulith.version>
-        <spring-shell.version>3.3.2</spring-shell.version>
+        <spring-modulith.version>1.2.4</spring-modulith.version>
+        <spring-shell.version>3.3.3</spring-shell.version>
         <timefold-solver.version>1.14.0</timefold-solver.version>
-        <vaadin.version>24.4.12</vaadin.version>
+        <vaadin.version>24.4.13</vaadin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -300,6 +300,16 @@
             <artifactId>spring-boot-admin-starter-server</artifactId>
         </dependency>
         <dependency>
+            <groupId>gg.jte</groupId>
+            <artifactId>jte</artifactId>
+            <version>3.1.12</version>
+        </dependency>
+        <dependency>
+            <groupId>gg.jte</groupId>
+            <artifactId>jte-spring-boot-starter-3</artifactId>
+            <version>3.1.12</version>
+        </dependency>
+        <dependency>
             <groupId>io.github.wimdeblauwe</groupId>
             <artifactId>htmx-spring-boot-thymeleaf</artifactId>
             <version>3.5.0</version>
@@ -323,6 +333,11 @@
         <dependency>
             <groupId>io.zipkin.reporter2</groupId>
             <artifactId>zipkin-reporter-brave</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel.springboot</groupId>
+            <artifactId>camel-spring-boot-starter</artifactId>
+            <version>4.8.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -757,6 +772,11 @@
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-new-relic</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-otlp</artifactId>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -1230,6 +1250,26 @@
             <plugin>
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>gg.jte</groupId>
+                <artifactId>jte-maven-plugin</artifactId>
+                <version>3.1.12</version>
+                <executions>
+                    <execution>
+                        <id>jte-generate</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <sourceDirectory>${project.basedir}/src/main/jte</sourceDirectory>
+                            <contentType>Html</contentType>
+                            <binaryStaticContent>true</binaryStaticContent>
+                            <targetResourceDirectory>${project.build.outputDirectory}</targetResourceDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.cyclonedx</groupId>
