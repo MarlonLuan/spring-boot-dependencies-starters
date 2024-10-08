@@ -573,6 +573,20 @@ The following plugins have been resolved:
       org.apache.maven.shared:file-management:jar:3.1.0
       commons-io:commons-io:jar:2.11.0
       org.slf4j:slf4j-api:jar:1.7.36
+   gg.jte:jte-maven-plugin:maven-plugin:3.1.12:runtime
+      gg.jte:jte-maven-plugin:jar:3.1.12
+      gg.jte:jte:jar:3.1.12
+      gg.jte:jte-runtime:jar:3.1.12
+      gg.jte:jte-extension-api:jar:3.1.12
+      gg.jte:jte-kotlin:jar:3.1.12
+      org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10
+      org.jetbrains:annotations:jar:13.0
+      org.jetbrains.kotlin:kotlin-script-runtime:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-reflect:jar:1.6.10
+      org.jetbrains.kotlin:kotlin-daemon-embeddable:jar:1.9.10
+      org.jetbrains.intellij.deps:trove4j:jar:1.0.20200330
    org.apache.maven.plugins:maven-resources-plugin:maven-plugin:3.3.1:runtime
       org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
       org.codehaus.plexus:plexus-interpolation:jar:1.26
