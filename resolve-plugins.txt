@@ -1,14 +1,8 @@
 
 The following plugins have been resolved:
-   org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:3.1.3:runtime
-      org.apache.maven.plugins:maven-deploy-plugin:jar:3.1.3
-      org.codehaus.plexus:plexus-utils:jar:4.0.1
-      org.codehaus.plexus:plexus-xml:jar:3.0.1
-      org.apache.maven.resolver:maven-resolver-util:jar:1.9.18
-      org.apache.maven.resolver:maven-resolver-api:jar:1.9.18
-   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.3.4:runtime
-      org.springframework.boot:spring-boot-maven-plugin:jar:3.3.4
-      org.springframework.boot:spring-boot-buildpack-platform:jar:3.3.4
+   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.3.5:runtime
+      org.springframework.boot:spring-boot-maven-plugin:jar:3.3.5
+      org.springframework.boot:spring-boot-buildpack-platform:jar:3.3.5
       com.fasterxml.jackson.core:jackson-databind:jar:2.14.2
       com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2
       com.fasterxml.jackson.core:jackson-core:jar:2.14.2
@@ -22,18 +16,18 @@ The following plugins have been resolved:
       org.tomlj:tomlj:jar:1.0.0
       org.antlr:antlr4-runtime:jar:4.7.2
       com.google.code.findbugs:jsr305:jar:3.0.2
-      org.springframework.boot:spring-boot-loader-tools:jar:3.3.4
+      org.springframework.boot:spring-boot-loader-tools:jar:3.3.5
       org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
       org.slf4j:slf4j-api:jar:1.7.36
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      org.springframework:spring-core:jar:6.1.13
-      org.springframework:spring-jcl:jar:6.1.13
-      org.springframework:spring-context:jar:6.1.13
-      org.springframework:spring-aop:jar:6.1.13
-      org.springframework:spring-beans:jar:6.1.13
-      org.springframework:spring-expression:jar:6.1.13
-      io.micrometer:micrometer-observation:jar:1.12.10
-      io.micrometer:micrometer-commons:jar:1.12.10
+      org.springframework:spring-core:jar:6.1.14
+      org.springframework:spring-jcl:jar:6.1.14
+      org.springframework:spring-context:jar:6.1.14
+      org.springframework:spring-aop:jar:6.1.14
+      org.springframework:spring-beans:jar:6.1.14
+      org.springframework:spring-expression:jar:6.1.14
+      io.micrometer:micrometer-observation:jar:1.12.11
+      io.micrometer:micrometer-commons:jar:1.12.11
       org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
       org.codehaus.plexus:plexus-utils:jar:3.5.1
       org.ow2.asm:asm:jar:9.5
@@ -46,6 +40,12 @@ The following plugins have been resolved:
       commons-io:commons-io:jar:2.13.0
       org.vafer:jdependency:jar:2.8.0
       org.apache.commons:commons-collections4:jar:4.4
+   org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:3.1.3:runtime
+      org.apache.maven.plugins:maven-deploy-plugin:jar:3.1.3
+      org.codehaus.plexus:plexus-utils:jar:4.0.1
+      org.codehaus.plexus:plexus-xml:jar:3.0.1
+      org.apache.maven.resolver:maven-resolver-util:jar:1.9.18
+      org.apache.maven.resolver:maven-resolver-api:jar:1.9.18
    org.apache.maven.plugins:maven-site-plugin:maven-plugin:3.12.1:runtime
       org.apache.maven.plugins:maven-site-plugin:jar:3.12.1
       org.apache.maven.reporting:maven-reporting-api:jar:3.1.1
@@ -477,6 +477,29 @@ The following plugins have been resolved:
       ch.qos.logback:logback-classic:jar:1.5.6
       ch.qos.logback:logback-core:jar:1.5.6
       nu.studer:java-ordered-properties:jar:1.0.4
+   org.cyclonedx:cyclonedx-maven-plugin:maven-plugin:2.8.2:runtime
+      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.2
+      org.cyclonedx:cyclonedx-core-java:jar:8.0.3
+      commons-io:commons-io:jar:2.14.0
+      com.github.package-url:packageurl-java:jar:1.4.1
+      com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.15.3
+      com.fasterxml.jackson.core:jackson-core:jar:2.15.3
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3
+      com.fasterxml.jackson.core:jackson-databind:jar:2.15.3
+      org.codehaus.woodstox:stax2-api:jar:4.2.1
+      com.fasterxml.woodstox:woodstox-core:jar:6.5.1
+      com.networknt:json-schema-validator:jar:1.0.87
+      com.ethlo.time:itu:jar:1.7.0
+      com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2
+      org.yaml:snakeyaml:jar:2.0
+      commons-codec:commons-codec:jar:1.17.1
+      org.apache.commons:commons-lang3:jar:3.17.0
+      org.apache.maven.shared:maven-dependency-tree:jar:3.3.0
+      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
+      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
+      org.slf4j:slf4j-api:jar:1.7.36
+      org.apache.maven.shared:maven-dependency-analyzer:jar:1.14.1
+      org.ow2.asm:asm:jar:9.7
    org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.3.2:runtime
       org.apache.maven.plugins:maven-clean-plugin:jar:3.3.2
       org.codehaus.plexus:plexus-utils:jar:4.0.0
@@ -520,29 +543,6 @@ The following plugins have been resolved:
       org.ow2.asm:asm:jar:9.6
       com.thoughtworks.qdox:qdox:jar:2.0.3
       org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5
-   org.cyclonedx:cyclonedx-maven-plugin:maven-plugin:2.8.1:runtime
-      org.cyclonedx:cyclonedx-maven-plugin:jar:2.8.1
-      org.cyclonedx:cyclonedx-core-java:jar:8.0.3
-      commons-io:commons-io:jar:2.14.0
-      com.github.package-url:packageurl-java:jar:1.4.1
-      com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.15.3
-      com.fasterxml.jackson.core:jackson-core:jar:2.15.3
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3
-      com.fasterxml.jackson.core:jackson-databind:jar:2.15.3
-      org.codehaus.woodstox:stax2-api:jar:4.2.1
-      com.fasterxml.woodstox:woodstox-core:jar:6.5.1
-      com.networknt:json-schema-validator:jar:1.0.87
-      com.ethlo.time:itu:jar:1.7.0
-      com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2
-      org.yaml:snakeyaml:jar:2.0
-      commons-codec:commons-codec:jar:1.17.0
-      org.apache.commons:commons-lang3:jar:3.14.0
-      org.apache.maven.shared:maven-dependency-tree:jar:3.3.0
-      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
-      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
-      org.slf4j:slf4j-api:jar:1.7.36
-      org.apache.maven.shared:maven-dependency-analyzer:jar:1.14.1
-      org.ow2.asm:asm:jar:9.7
    org.apache.maven.plugins:maven-jar-plugin:maven-plugin:3.4.2:runtime
       org.apache.maven.plugins:maven-jar-plugin:jar:3.4.2
       org.apache.maven.shared:file-management:jar:3.1.0
