@@ -34,7 +34,7 @@
         <spring-modulith.version>1.2.4</spring-modulith.version>
         <spring-shell.version>3.3.3</spring-shell.version>
         <timefold-solver.version>1.16.0</timefold-solver.version>
-        <vaadin.version>24.5.4</vaadin.version>
+        <vaadin.version>24.5.5</vaadin.version>
     </properties>
     <dependencies>
         <dependency>
