@@ -28,7 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
-        <netflix-dgs.version>9.2.0</netflix-dgs.version>
+        <netflix-dgs.version>9.2.2</netflix-dgs.version>
         <spring-ai.version>1.0.0-M4</spring-ai.version>
         <spring-boot-admin.version>3.4.0</spring-boot-admin.version>
         <spring-cloud-services.version>4.2.0</spring-cloud-services.version>
