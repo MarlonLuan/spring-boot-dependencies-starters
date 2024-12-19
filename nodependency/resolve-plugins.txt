@@ -1,5 +1,45 @@
 
 The following plugins have been resolved:
+   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.4.1
+      org.springframework.boot:spring-boot-maven-plugin:jar:3.4.1
+      org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.1
+      com.fasterxml.jackson.core:jackson-databind:jar:2.18.2
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.2
+      com.fasterxml.jackson.core:jackson-core:jar:2.18.2
+      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.2
+      net.java.dev.jna:jna-platform:jar:5.13.0
+      net.java.dev.jna:jna:jar:5.13.0
+      org.apache.commons:commons-compress:jar:1.25.0
+      org.apache.httpcomponents.client5:httpclient5:jar:5.4.1
+      org.apache.httpcomponents.core5:httpcore5:jar:5.3.1
+      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.1
+      org.tomlj:tomlj:jar:1.0.0
+      org.antlr:antlr4-runtime:jar:4.7.2
+      com.google.code.findbugs:jsr305:jar:3.0.2
+      org.springframework.boot:spring-boot-loader-tools:jar:3.4.1
+      org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
+      org.slf4j:slf4j-api:jar:1.7.36
+      org.sonatype.plexus:plexus-build-api:jar:0.0.7
+      org.springframework:spring-core:jar:6.2.1
+      org.springframework:spring-jcl:jar:6.2.1
+      org.springframework:spring-context:jar:6.2.1
+      org.springframework:spring-aop:jar:6.2.1
+      org.springframework:spring-beans:jar:6.2.1
+      org.springframework:spring-expression:jar:6.2.1
+      io.micrometer:micrometer-observation:jar:1.14.2
+      io.micrometer:micrometer-commons:jar:1.14.2
+      org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
+      org.codehaus.plexus:plexus-utils:jar:3.5.1
+      org.ow2.asm:asm:jar:9.5
+      org.ow2.asm:asm-commons:jar:9.5
+      org.ow2.asm:asm-tree:jar:9.5
+      org.jdom:jdom2:jar:2.0.6.1
+      org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
+      org.eclipse.aether:aether-util:jar:1.0.0.v20140518
+      org.eclipse.aether:aether-api:jar:1.0.0.v20140518
+      commons-io:commons-io:jar:2.13.0
+      org.vafer:jdependency:jar:2.8.0
+      org.apache.commons:commons-collections4:jar:4.4
    org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.5.2
       org.apache.maven.plugins:maven-surefire-plugin:jar:3.5.2
       org.apache.maven.surefire:surefire-api:jar:3.5.2
@@ -164,46 +204,6 @@ The following plugins have been resolved:
       org.eclipse.jetty:jetty-webapp:jar:9.4.46.v20220331
       org.eclipse.jetty:jetty-xml:jar:9.4.46.v20220331
       org.eclipse.jetty:jetty-util:jar:9.4.46.v20220331
-   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.4.0
-      org.springframework.boot:spring-boot-maven-plugin:jar:3.4.0
-      org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.0
-      com.fasterxml.jackson.core:jackson-databind:jar:2.18.1
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.1
-      com.fasterxml.jackson.core:jackson-core:jar:2.18.1
-      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.1
-      net.java.dev.jna:jna-platform:jar:5.13.0
-      net.java.dev.jna:jna:jar:5.13.0
-      org.apache.commons:commons-compress:jar:1.25.0
-      org.apache.httpcomponents.client5:httpclient5:jar:5.4.1
-      org.apache.httpcomponents.core5:httpcore5:jar:5.3.1
-      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.1
-      org.tomlj:tomlj:jar:1.0.0
-      org.antlr:antlr4-runtime:jar:4.7.2
-      com.google.code.findbugs:jsr305:jar:3.0.2
-      org.springframework.boot:spring-boot-loader-tools:jar:3.4.0
-      org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
-      org.slf4j:slf4j-api:jar:1.7.36
-      org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      org.springframework:spring-core:jar:6.2.0
-      org.springframework:spring-jcl:jar:6.2.0
-      org.springframework:spring-context:jar:6.2.0
-      org.springframework:spring-aop:jar:6.2.0
-      org.springframework:spring-beans:jar:6.2.0
-      org.springframework:spring-expression:jar:6.2.0
-      io.micrometer:micrometer-observation:jar:1.14.0
-      io.micrometer:micrometer-commons:jar:1.14.0
-      org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
-      org.codehaus.plexus:plexus-utils:jar:3.5.1
-      org.ow2.asm:asm:jar:9.5
-      org.ow2.asm:asm-commons:jar:9.5
-      org.ow2.asm:asm-tree:jar:9.5
-      org.jdom:jdom2:jar:2.0.6.1
-      org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
-      org.eclipse.aether:aether-util:jar:1.0.0.v20140518
-      org.eclipse.aether:aether-api:jar:1.0.0.v20140518
-      commons-io:commons-io:jar:2.13.0
-      org.vafer:jdependency:jar:2.8.0
-      org.apache.commons:commons-collections4:jar:4.4
    org.apache.maven.plugins:maven-install-plugin:maven-plugin:3.1.3
       org.apache.maven.plugins:maven-install-plugin:jar:3.1.3
       org.apache.maven.resolver:maven-resolver-util:jar:1.9.18
