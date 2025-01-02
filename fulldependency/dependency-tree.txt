@@ -994,22 +994,22 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.integration:spring-integration-ws:jar:6.4.1:compile
 +- org.springframework.kafka:spring-kafka:jar:3.3.1:compile
 |  \- org.springframework:spring-context:jar:6.2.1:compile
-+- org.springframework.modulith:spring-modulith-events-api:jar:1.3.0:compile
-+- org.springframework.modulith:spring-modulith-starter-core:jar:1.3.0:compile
-|  +- org.springframework.modulith:spring-modulith-api:jar:1.3.0:compile
-|  +- org.springframework.modulith:spring-modulith-apt:jar:1.3.0:compile
-|  +- org.springframework.modulith:spring-modulith-core:jar:1.3.0:compile
-|  |  \- com.tngtech.archunit:archunit:jar:1.3.0:compile
-|  \- org.springframework.modulith:spring-modulith-moments:jar:1.3.0:compile
++- org.springframework.modulith:spring-modulith-events-api:jar:1.3.1:compile
++- org.springframework.modulith:spring-modulith-starter-core:jar:1.3.1:compile
+|  +- org.springframework.modulith:spring-modulith-api:jar:1.3.1:compile
+|  +- org.springframework.modulith:spring-modulith-apt:jar:1.3.1:compile
+|  +- org.springframework.modulith:spring-modulith-core:jar:1.3.1:runtime
+|  |  \- com.tngtech.archunit:archunit:jar:1.3.0:runtime
+|  \- org.springframework.modulith:spring-modulith-moments:jar:1.3.1:compile
 |     \- org.jmolecules:jmolecules-events:jar:1.10.0:compile
-+- org.springframework.modulith:spring-modulith-starter-jdbc:jar:1.3.0:compile
-|  +- org.springframework.modulith:spring-modulith-events-core:jar:1.3.0:runtime
-|  +- org.springframework.modulith:spring-modulith-events-jackson:jar:1.3.0:runtime
-|  \- org.springframework.modulith:spring-modulith-events-jdbc:jar:1.3.0:runtime
-+- org.springframework.modulith:spring-modulith-starter-jpa:jar:1.3.0:compile
-|  \- org.springframework.modulith:spring-modulith-events-jpa:jar:1.3.0:runtime
-+- org.springframework.modulith:spring-modulith-starter-mongodb:jar:1.3.0:compile
-|  \- org.springframework.modulith:spring-modulith-events-mongodb:jar:1.3.0:runtime
++- org.springframework.modulith:spring-modulith-starter-jdbc:jar:1.3.1:compile
+|  +- org.springframework.modulith:spring-modulith-events-core:jar:1.3.1:runtime
+|  +- org.springframework.modulith:spring-modulith-events-jackson:jar:1.3.1:runtime
+|  \- org.springframework.modulith:spring-modulith-events-jdbc:jar:1.3.1:runtime
++- org.springframework.modulith:spring-modulith-starter-jpa:jar:1.3.1:compile
+|  \- org.springframework.modulith:spring-modulith-events-jpa:jar:1.3.1:runtime
++- org.springframework.modulith:spring-modulith-starter-mongodb:jar:1.3.1:compile
+|  \- org.springframework.modulith:spring-modulith-events-mongodb:jar:1.3.1:runtime
 +- org.springframework.security:spring-security-messaging:jar:6.4.2:compile
 |  +- org.springframework:spring-beans:jar:6.2.1:compile
 |  +- org.springframework:spring-core:jar:6.2.1:compile
@@ -1096,14 +1096,14 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |           \- com.ongres.stringprep:stringprep:jar:1.1:runtime
 +- org.springframework.ai:spring-ai-spring-boot-docker-compose:jar:1.0.0-M4:runtime (optional)
 |  \- com.google.protobuf:protobuf-java:jar:3.25.5:compile
-+- org.springframework.modulith:spring-modulith-actuator:jar:1.3.0:runtime
-|  +- org.springframework.modulith:spring-modulith-runtime:jar:1.3.0:runtime
++- org.springframework.modulith:spring-modulith-actuator:jar:1.3.1:runtime
+|  +- org.springframework.modulith:spring-modulith-runtime:jar:1.3.1:runtime
 |  |  \- org.jgrapht:jgrapht-core:jar:1.4.0:runtime
 |  |     \- org.jheaps:jheaps:jar:0.11:runtime
 |  \- org.springframework.boot:spring-boot-actuator:jar:3.4.1:compile
-+- org.springframework.modulith:spring-modulith-events-jms:jar:1.3.0:runtime
++- org.springframework.modulith:spring-modulith-events-jms:jar:1.3.1:runtime
 |  \- jakarta.jms:jakarta.jms-api:jar:3.1.0:compile
-+- org.springframework.modulith:spring-modulith-observability:jar:1.3.0:runtime
++- org.springframework.modulith:spring-modulith-observability:jar:1.3.1:runtime
 +- org.springframework.boot:spring-boot-configuration-processor:jar:3.4.1:compile (optional)
 +- org.projectlombok:lombok:jar:1.18.36:compile (optional)
 +- org.springframework.boot:spring-boot-starter-test:jar:3.4.1:test
@@ -1268,11 +1268,11 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- org.junit.platform:junit-platform-commons:jar:1.11.4:test
 |  \- org.junit.platform:junit-platform-launcher:jar:1.11.4:test
 |     \- org.junit.platform:junit-platform-engine:jar:1.11.4:test
-+- org.springframework.modulith:spring-modulith-starter-test:jar:1.3.0:test
-|  +- org.springframework.modulith:spring-modulith-test:jar:1.3.0:test
-|  \- org.springframework.modulith:spring-modulith-docs:jar:1.3.0:compile
-|     +- com.structurizr:structurizr-core:jar:1.29.0:compile
-|     \- com.structurizr:structurizr-export:jar:1.19.0:compile
++- org.springframework.modulith:spring-modulith-starter-test:jar:1.3.1:test
+|  +- org.springframework.modulith:spring-modulith-test:jar:1.3.1:test
+|  \- org.springframework.modulith:spring-modulith-docs:jar:1.3.1:test
+|     +- com.structurizr:structurizr-core:jar:1.29.0:test
+|     \- com.structurizr:structurizr-export:jar:1.19.0:test
 +- org.springframework.restdocs:spring-restdocs-mockmvc:jar:3.0.3:test
 |  +- org.springframework.restdocs:spring-restdocs-core:jar:3.0.3:test
 |  \- jakarta.servlet:jakarta.servlet-api:jar:6.0.0:test
