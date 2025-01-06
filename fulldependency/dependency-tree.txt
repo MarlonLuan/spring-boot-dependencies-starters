@@ -415,24 +415,24 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.springframework.boot:spring-boot-autoconfigure:jar:3.4.1:compile
 +- io.github.wimdeblauwe:htmx-spring-boot-thymeleaf:jar:4.0.1:compile
 |  \- io.github.wimdeblauwe:htmx-spring-boot:jar:4.0.1:compile
-+- io.grpc:grpc-services:jar:1.63.2:compile
-|  +- io.grpc:grpc-stub:jar:1.63.2:compile
-|  |  \- io.grpc:grpc-api:jar:1.63.2:compile
-|  +- io.grpc:grpc-core:jar:1.63.2:compile
++- io.grpc:grpc-services:jar:1.69.0:compile
+|  +- io.grpc:grpc-stub:jar:1.69.0:compile
+|  |  \- io.grpc:grpc-api:jar:1.69.0:compile
+|  +- io.grpc:grpc-core:jar:1.69.0:compile
 |  |  +- com.google.android:annotations:jar:4.1.1.4:runtime
-|  |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
-|  |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
-|  |  \- io.grpc:grpc-context:jar:1.63.2:compile
-|  +- io.grpc:grpc-protobuf:jar:1.63.2:compile
+|  |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.24:runtime
+|  |  +- io.perfmark:perfmark-api:jar:0.27.0:runtime
+|  |  \- io.grpc:grpc-context:jar:1.69.0:compile
+|  +- io.grpc:grpc-protobuf:jar:1.69.0:compile
 |  |  +- com.google.api.grpc:proto-google-common-protos:jar:2.46.0:compile
-|  |  \- io.grpc:grpc-protobuf-lite:jar:1.63.2:runtime
-|  +- io.grpc:grpc-util:jar:1.63.2:runtime
-|  +- com.google.protobuf:protobuf-java-util:jar:3.25.5:compile
+|  |  \- io.grpc:grpc-protobuf-lite:jar:1.69.0:runtime
+|  +- io.grpc:grpc-util:jar:1.69.0:runtime
 |  +- com.google.guava:guava:jar:33.3.1-jre:compile
 |  |  +- com.google.guava:failureaccess:jar:1.0.2:compile
-|  |  \- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
-|  +- com.google.errorprone:error_prone_annotations:jar:2.23.0:compile
-|  +- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+|  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  |  \- com.google.j2objc:j2objc-annotations:jar:3.0.0:compile
+|  +- com.google.protobuf:protobuf-java-util:jar:3.25.5:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.30.0:compile
 |  \- com.google.code.gson:gson:jar:2.11.0:compile
 +- io.micrometer:micrometer-registry-wavefront:jar:1.13.6:compile
 |  +- io.micrometer:micrometer-core:jar:1.13.6:compile
@@ -626,7 +626,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.ai:spring-ai-milvus-store-spring-boot-starter:jar:1.0.0-M4:compile
 |  \- org.springframework.ai:spring-ai-milvus-store:jar:1.0.0-M4:compile
 |     \- io.milvus:milvus-sdk-java:jar:2.3.5:compile
-|        +- io.grpc:grpc-netty-shaded:jar:1.63.2:compile
+|        +- io.grpc:grpc-netty-shaded:jar:1.69.0:compile
 |        +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.24.3:compile
 |        |  \- org.apache.logging.log4j:log4j-core:jar:2.24.3:runtime
 |        +- com.squareup.okhttp3:okhttp:jar:4.12.0:compile
@@ -724,7 +724,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     |     +- io.netty:netty-tcnative-boringssl-static:jar:osx-x86_64:2.0.69.Final:compile
 |     |     +- io.netty:netty-tcnative-boringssl-static:jar:osx-aarch_64:2.0.69.Final:compile
 |     |     \- io.netty:netty-tcnative-boringssl-static:jar:windows-x86_64:2.0.69.Final:compile
-|     \- io.grpc:grpc-netty:jar:1.63.2:compile
+|     \- io.grpc:grpc-netty:jar:1.69.0:compile
 +- org.springframework.ai:spring-ai-postgresml-spring-boot-starter:jar:1.0.0-M4:compile
 |  \- org.springframework.ai:spring-ai-postgresml:jar:1.0.0-M4:compile
 +- org.springframework.ai:spring-ai-qdrant-store-spring-boot-starter:jar:1.0.0-M4:compile
@@ -826,13 +826,12 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |        +- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
 |        +- com.google.http-client:google-http-client-gson:jar:1.45.0:compile
 |        +- com.google.api:gax-grpc:jar:2.54.1:compile
-|        +- io.grpc:grpc-alts:jar:1.63.2:compile
-|        +- io.grpc:grpc-grpclb:jar:1.63.2:compile
+|        +- io.grpc:grpc-alts:jar:1.69.0:compile
+|        +- io.grpc:grpc-grpclb:jar:1.69.0:compile
 |        +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
-|        +- io.grpc:grpc-auth:jar:1.63.2:compile
-|        +- io.grpc:grpc-googleapis:jar:1.63.2:runtime
-|        +- io.grpc:grpc-xds:jar:1.63.2:runtime
-|        |  \- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+|        +- io.grpc:grpc-auth:jar:1.69.0:compile
+|        +- io.grpc:grpc-googleapis:jar:1.69.0:runtime
+|        +- io.grpc:grpc-xds:jar:1.69.0:runtime
 |        +- com.google.re2j:re2j:jar:1.7:runtime
 |        +- org.threeten:threetenbp:jar:1.7.0:compile
 |        \- com.google.api.grpc:proto-google-iam-v1:jar:1.40.1:compile
@@ -1221,8 +1220,8 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- com.graphql-java:graphql-java:jar:22.3:compile
 |     \- com.graphql-java:java-dataloader:jar:3.3.0:compile
 +- org.springframework.grpc:spring-grpc-test:jar:0.3.0-SNAPSHOT:test
-|  \- io.grpc:grpc-testing:jar:1.63.2:test
-|     \- io.grpc:grpc-inprocess:jar:1.63.2:compile
+|  \- io.grpc:grpc-testing:jar:1.69.0:test
+|     \- io.grpc:grpc-inprocess:jar:1.69.0:compile
 +- org.springframework.integration:spring-integration-test:jar:6.4.1:test
 |  \- org.springframework.integration:spring-integration-test-support:jar:6.4.1:test
 +- org.springframework.kafka:spring-kafka-test:jar:3.3.1:test
