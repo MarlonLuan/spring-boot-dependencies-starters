@@ -417,9 +417,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.2:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.4.1:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.4.1:compile
-+- gg.jte:jte:jar:3.1.12:compile
-|  +- gg.jte:jte-runtime:jar:3.1.12:compile
-|  \- gg.jte:jte-extension-api:jar:3.1.12:compile
++- gg.jte:jte:jar:3.1.16:compile
+|  +- gg.jte:jte-runtime:jar:3.1.16:compile
+|  \- gg.jte:jte-extension-api:jar:3.1.16:compile
 +- gg.jte:jte-spring-boot-starter-3:jar:3.1.12:compile
 |  \- org.springframework.boot:spring-boot-autoconfigure:jar:3.4.1:compile
 +- io.github.wimdeblauwe:htmx-spring-boot-thymeleaf:jar:4.0.1:compile
