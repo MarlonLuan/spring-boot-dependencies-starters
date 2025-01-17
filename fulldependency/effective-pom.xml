@@ -214,7 +214,7 @@
     <spring-data-bom.version>2024.1.1</spring-data-bom.version>
     <spring-framework.version>6.2.1</spring-framework.version>
     <spring-graphql.version>1.3.3</spring-graphql.version>
-    <spring-grpc.version>0.3.0-SNAPSHOT</spring-grpc.version>
+    <spring-grpc.version>0.3.0</spring-grpc.version>
     <spring-hateoas.version>2.4.1</spring-hateoas.version>
     <spring-integration.version>6.4.1</spring-integration.version>
     <spring-kafka.version>3.3.1</spring-kafka.version>
@@ -237,7 +237,7 @@
     <tomcat.version>10.1.34</tomcat.version>
     <unboundid-ldapsdk.version>6.0.11</unboundid-ldapsdk.version>
     <undertow.version>2.3.18.Final</undertow.version>
-    <vaadin.version>24.6.1</vaadin.version>
+    <vaadin.version>24.6.2</vaadin.version>
     <versions-maven-plugin.version>2.17.1</versions-maven-plugin.version>
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webjars-locator-lite.version>1.0.1</webjars-locator-lite.version>
@@ -4244,127 +4244,127 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-jandex</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core-jandex</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench-junit5</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-bundle</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-prod-bundle</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core-components</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-server</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-lit-template</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-react</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-polymer-template</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-push</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-client</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-data</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-dnd</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-lumo-theme</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-material-theme</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server-production-mode</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-webpush</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4374,182 +4374,182 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring-boot-starter</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>copilot</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-field-highlighter-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-popover-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-renderer-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4559,217 +4559,217 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dashboard-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-popover-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-testbench</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4779,62 +4779,62 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow-svg-generator</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dashboard-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-flow</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4859,27 +4859,27 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-engine-core</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-dev</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-endpoint</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-engine-runtime</artifactId>
-        <version>24.6.1</version>
+        <version>24.6.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -5194,22 +5194,22 @@
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-core</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
+        <version>0.3.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-spring-boot-autoconfigure</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
+        <version>0.3.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-spring-boot-starter</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
+        <version>0.3.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-test</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
+        <version>0.3.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.protobuf</groupId>
@@ -12429,7 +12429,7 @@
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-spring-boot-starter</artifactId>
-      <version>24.6.1</version>
+      <version>24.6.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -12447,7 +12447,7 @@
     <dependency>
       <groupId>gg.jte</groupId>
       <artifactId>jte</artifactId>
-      <version>3.1.16</version>
+      <version>3.1.12</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -12897,7 +12897,7 @@
     <dependency>
       <groupId>org.springframework.grpc</groupId>
       <artifactId>spring-grpc-spring-boot-starter</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
+      <version>0.3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13365,7 +13365,7 @@
     <dependency>
       <groupId>org.springframework.grpc</groupId>
       <artifactId>spring-grpc-test</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
+      <version>0.3.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -13550,14 +13550,6 @@
     </dependency>
   </dependencies>
   <repositories>
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <id>spring-snapshots</id>
-      <name>Spring Snapshots</name>
-      <url>https://repo.spring.io/snapshot</url>
-    </repository>
     <repository>
       <snapshots>
         <enabled>false</enabled>
@@ -14206,6 +14198,43 @@
         </configuration>
       </plugin>
       <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>3.4.1</version>
+        <executions>
+          <execution>
+            <id>repackage</id>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+            <configuration>
+              <image>
+                <builder>paketobuildpacks/builder-jammy-base:latest</builder>
+              </image>
+              <excludes>
+                <exclude>
+                  <groupId>org.projectlombok</groupId>
+                  <artifactId>lombok</artifactId>
+                </exclude>
+              </excludes>
+              <mainClass>${start-class}</mainClass>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <image>
+            <builder>paketobuildpacks/builder-jammy-base:latest</builder>
+          </image>
+          <excludes>
+            <exclude>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+            </exclude>
+          </excludes>
+          <mainClass>${start-class}</mainClass>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
         <version>2.2.1</version>
@@ -14230,37 +14259,6 @@
             <scope>compile</scope>
           </dependency>
         </dependencies>
-      </plugin>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.4.1</version>
-        <executions>
-          <execution>
-            <id>repackage</id>
-            <goals>
-              <goal>repackage</goal>
-            </goals>
-            <configuration>
-              <excludes>
-                <exclude>
-                  <groupId>org.projectlombok</groupId>
-                  <artifactId>lombok</artifactId>
-                </exclude>
-              </excludes>
-              <mainClass>${start-class}</mainClass>
-            </configuration>
-          </execution>
-        </executions>
-        <configuration>
-          <excludes>
-            <exclude>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-            </exclude>
-          </excludes>
-          <mainClass>${start-class}</mainClass>
-        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
@@ -14450,7 +14448,7 @@
           <plugin>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-maven-plugin</artifactId>
-            <version>24.6.1</version>
+            <version>24.6.2</version>
             <executions>
               <execution>
                 <id>frontend</id>

@@ -304,9 +304,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- com.netflix.graphql.dgs:graphql-error-types:jar:10.0.1:compile
 |  \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.25:compile
 |     \- org.jetbrains:annotations:jar:13.0:compile
-+- com.vaadin:vaadin-spring-boot-starter:jar:24.6.1:compile
-|  +- com.vaadin:vaadin-spring:jar:24.6.1:compile
-|  |  +- com.vaadin:flow-server:jar:24.6.1:compile
++- com.vaadin:vaadin-spring-boot-starter:jar:24.6.2:compile
+|  +- com.vaadin:vaadin-spring:jar:24.6.2:compile
+|  |  +- com.vaadin:flow-server:jar:24.6.2:compile
 |  |  |  +- com.vaadin.servletdetector:throw-if-servlet3:jar:1.0.2:compile
 |  |  |  +- com.vaadin.external.gwt:gwt-elemental:jar:2.8.2.vaadin2:compile
 |  |  |  +- org.apache.commons:commons-fileupload2-jakarta:jar:2.0.0-M1:compile
@@ -315,69 +315,69 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  |  +- com.helger:ph-css:jar:7.0.3:compile
 |  |  |  |  \- com.helger.commons:ph-commons:jar:11.1.8:compile
 |  |  |  \- com.vaadin.external:gentyref:jar:1.2.0.vaadin1:compile
-|  |  +- com.vaadin:flow-push:jar:24.6.1:compile
+|  |  +- com.vaadin:flow-push:jar:24.6.2:compile
 |  |  |  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:3.0.5.slf4jvaadin1:compile
-|  |  +- com.vaadin:flow-client:jar:24.6.1:compile
+|  |  +- com.vaadin:flow-client:jar:24.6.2:compile
 |  |  +- org.reflections:reflections:jar:0.10.2:compile
 |  |  \- org.javassist:javassist:jar:3.30.2-GA:compile
-|  +- com.vaadin:vaadin-core:jar:24.6.1:compile
-|  |  +- com.vaadin:vaadin-core-internal:jar:24.6.1:compile
-|  |  |  +- com.vaadin:flow-lit-template:jar:24.6.1:compile
-|  |  |  +- com.vaadin:flow-react:jar:24.6.1:compile
-|  |  |  +- com.vaadin:flow-html-components:jar:24.6.1:compile
-|  |  |  +- com.vaadin:flow-data:jar:24.6.1:compile
-|  |  |  +- com.vaadin:flow-dnd:jar:24.6.1:compile
-|  |  |  +- com.vaadin:vaadin-lumo-theme:jar:24.6.1:compile
-|  |  |  |  \- com.vaadin:vaadin-icons-flow:jar:24.6.1:compile
-|  |  |  |     \- com.vaadin:vaadin-flow-components-base:jar:24.6.1:compile
-|  |  |  +- com.vaadin:vaadin-material-theme:jar:24.6.1:compile
-|  |  |  \- com.vaadin:vaadin-core-components:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-accordion-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-avatar-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-button-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-checkbox-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-combo-box-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-custom-field-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-date-picker-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-date-time-picker-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-details-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-time-picker-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-select-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-side-nav-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-dialog-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-form-layout-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-field-highlighter-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-grid-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-virtual-list-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-list-box-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-login-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-messages-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-ordered-layout-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-progress-bar-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-popover-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-radio-button-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-renderer-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-split-layout-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-tabs-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-text-field-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-upload-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-notification-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-app-layout-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-context-menu-flow:jar:24.6.1:compile
-|  |  |     +- com.vaadin:vaadin-menu-bar-flow:jar:24.6.1:compile
+|  +- com.vaadin:vaadin-core:jar:24.6.2:compile
+|  |  +- com.vaadin:vaadin-core-internal:jar:24.6.2:compile
+|  |  |  +- com.vaadin:flow-lit-template:jar:24.6.2:compile
+|  |  |  +- com.vaadin:flow-react:jar:24.6.2:compile
+|  |  |  +- com.vaadin:flow-html-components:jar:24.6.2:compile
+|  |  |  +- com.vaadin:flow-data:jar:24.6.2:compile
+|  |  |  +- com.vaadin:flow-dnd:jar:24.6.2:compile
+|  |  |  +- com.vaadin:vaadin-lumo-theme:jar:24.6.2:compile
+|  |  |  |  \- com.vaadin:vaadin-icons-flow:jar:24.6.2:compile
+|  |  |  |     \- com.vaadin:vaadin-flow-components-base:jar:24.6.2:compile
+|  |  |  +- com.vaadin:vaadin-material-theme:jar:24.6.2:compile
+|  |  |  \- com.vaadin:vaadin-core-components:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-accordion-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-avatar-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-button-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-checkbox-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-combo-box-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-confirm-dialog-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-custom-field-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-date-picker-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-date-time-picker-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-details-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-time-picker-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-select-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-side-nav-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-dialog-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-form-layout-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-field-highlighter-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-grid-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-virtual-list-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-list-box-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-login-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-messages-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-ordered-layout-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-progress-bar-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-popover-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-radio-button-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-renderer-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-split-layout-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-tabs-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-text-field-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-upload-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-notification-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-app-layout-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-context-menu-flow:jar:24.6.2:compile
+|  |  |     +- com.vaadin:vaadin-menu-bar-flow:jar:24.6.2:compile
 |  |  |     \- com.vaadin:collaboration-engine:jar:6.4.0:compile
-|  |  \- com.vaadin:vaadin-dev:jar:24.6.1:compile
-|  |     +- com.vaadin:vaadin-dev-server:jar:24.6.1:compile
+|  |  \- com.vaadin:vaadin-dev:jar:24.6.2:compile
+|  |     +- com.vaadin:vaadin-dev-server:jar:24.6.2:compile
 |  |     |  +- com.vaadin:license-checker:jar:1.13.3:compile
 |  |     |  |  +- com.github.oshi:oshi-core:jar:6.6.5:compile
 |  |     |  |  \- org.lucee:jcip-annotations:jar:1.0.0:compile
 |  |     |  +- com.vaadin:open:jar:8.5.0.4:compile
 |  |     |  +- com.github.javaparser:javaparser-core:jar:3.26.2:compile
 |  |     |  \- io.methvin:directory-watcher:jar:0.18.0:compile
-|  |     +- com.vaadin:vaadin-dev-bundle:jar:24.6.1:compile
-|  |     +- com.vaadin:hilla-dev:jar:24.6.1:compile
-|  |     +- com.vaadin:copilot:jar:24.6.1:compile
+|  |     +- com.vaadin:vaadin-dev-bundle:jar:24.6.2:compile
+|  |     +- com.vaadin:hilla-dev:jar:24.6.2:compile
+|  |     +- com.vaadin:copilot:jar:24.6.2:compile
 |  |     |  +- io.netty:netty-all:jar:4.1.115.Final:compile
 |  |     |  |  +- io.netty:netty-codec-haproxy:jar:4.1.115.Final:compile
 |  |     |  |  +- io.netty:netty-codec-memcache:jar:4.1.115.Final:compile
@@ -394,22 +394,22 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |     |  +- org.apache.commons:commons-configuration2:jar:2.11.0:compile
 |  |     |  \- com.vaadin:ui-tests:jar:1.1.1:compile
 |  |     \- io.netty:netty-resolver-dns-native-macos:jar:4.1.115.Final:compile
-|  \- com.vaadin:hilla:jar:24.6.1:compile
-|     +- com.vaadin:hilla-endpoint:jar:24.6.1:compile
-|     |  +- com.vaadin:hilla-engine-core:jar:24.6.1:compile
-|     |  |  +- com.vaadin:hilla-parser-jvm-core:jar:24.6.1:compile
+|  \- com.vaadin:hilla:jar:24.6.2:compile
+|     +- com.vaadin:hilla-endpoint:jar:24.6.2:compile
+|     |  +- com.vaadin:hilla-engine-core:jar:24.6.2:compile
+|     |  |  +- com.vaadin:hilla-parser-jvm-core:jar:24.6.2:compile
 |     |  |  |  \- io.github.classgraph:classgraph:jar:4.8.179:compile
-|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-backbone:jar:24.6.1:compile
-|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-nonnull:jar:24.6.1:compile
-|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-subtypes:jar:24.6.1:compile
-|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-model:jar:24.6.1:compile
-|     |  |  \- com.vaadin:hilla-parser-jvm-plugin-transfertypes:jar:24.6.1:compile
+|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-backbone:jar:24.6.2:compile
+|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-nonnull:jar:24.6.2:compile
+|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-subtypes:jar:24.6.2:compile
+|     |  |  +- com.vaadin:hilla-parser-jvm-plugin-model:jar:24.6.2:compile
+|     |  |  \- com.vaadin:hilla-parser-jvm-plugin-transfertypes:jar:24.6.2:compile
 |     |  +- com.github.javaparser:javaparser-symbol-solver-core:jar:3.26.2:compile
-|     |  +- com.vaadin:hilla-parser-jvm-utils:jar:24.6.1:compile
+|     |  +- com.vaadin:hilla-parser-jvm-utils:jar:24.6.2:compile
 |     |  |  +- io.swagger.core.v3:swagger-core:jar:2.2.26:compile
 |     |  |  \- io.swagger.core.v3:swagger-models:jar:2.2.26:compile
-|     |  \- com.vaadin:hilla-runtime-plugin-transfertypes:jar:24.6.1:compile
-|     \- com.vaadin:hilla-engine-runtime:jar:24.6.1:compile
+|     |  \- com.vaadin:hilla-runtime-plugin-transfertypes:jar:24.6.2:compile
+|     \- com.vaadin:hilla-engine-runtime:jar:24.6.2:compile
 +- de.codecentric:spring-boot-admin-starter-client:jar:3.4.1:compile
 |  \- de.codecentric:spring-boot-admin-client:jar:3.4.1:compile
 +- de.codecentric:spring-boot-admin-starter-server:jar:3.4.1:compile
@@ -417,9 +417,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.2:compile
 |  +- de.codecentric:spring-boot-admin-server-ui:jar:3.4.1:compile
 |  \- de.codecentric:spring-boot-admin-server-cloud:jar:3.4.1:compile
-+- gg.jte:jte:jar:3.1.16:compile
-|  +- gg.jte:jte-runtime:jar:3.1.16:compile
-|  \- gg.jte:jte-extension-api:jar:3.1.16:compile
++- gg.jte:jte:jar:3.1.12:compile
+|  +- gg.jte:jte-runtime:jar:3.1.12:compile
+|  \- gg.jte:jte-extension-api:jar:3.1.12:compile
 +- gg.jte:jte-spring-boot-starter-3:jar:3.1.12:compile
 |  \- org.springframework.boot:spring-boot-autoconfigure:jar:3.4.1:compile
 +- io.github.wimdeblauwe:htmx-spring-boot-thymeleaf:jar:4.0.1:compile
@@ -980,9 +980,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  \- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
 |     \- commons-logging:commons-logging:jar:1.2:compile
 +- org.springframework.data:spring-data-rest-hal-explorer:jar:4.4.1:compile
-+- org.springframework.grpc:spring-grpc-spring-boot-starter:jar:0.3.0-SNAPSHOT:compile
-|  +- org.springframework.grpc:spring-grpc-core:jar:0.3.0-SNAPSHOT:compile
-|  \- org.springframework.grpc:spring-grpc-spring-boot-autoconfigure:jar:0.3.0-SNAPSHOT:compile
++- org.springframework.grpc:spring-grpc-spring-boot-starter:jar:0.3.0:compile
+|  +- org.springframework.grpc:spring-grpc-core:jar:0.3.0:compile
+|  \- org.springframework.grpc:spring-grpc-spring-boot-autoconfigure:jar:0.3.0:compile
 +- org.springframework.integration:spring-integration-amqp:jar:6.4.1:compile
 +- org.springframework.integration:spring-integration-http:jar:6.4.1:compile
 +- org.springframework.integration:spring-integration-jdbc:jar:6.4.1:compile
@@ -1229,7 +1229,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 +- org.springframework.graphql:spring-graphql-test:jar:1.3.3:test
 |  \- com.graphql-java:graphql-java:jar:22.3:compile
 |     \- com.graphql-java:java-dataloader:jar:3.3.0:compile
-+- org.springframework.grpc:spring-grpc-test:jar:0.3.0-SNAPSHOT:test
++- org.springframework.grpc:spring-grpc-test:jar:0.3.0:test
 |  \- io.grpc:grpc-testing:jar:1.69.0:test
 |     \- io.grpc:grpc-inprocess:jar:1.69.0:compile
 +- org.springframework.integration:spring-integration-test:jar:6.4.1:test
