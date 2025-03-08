@@ -47,7 +47,7 @@ jobs:
           # ./mvnw -f noparent/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
           # ./mvnw -f milestone/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
 
-      - uses: peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284 # v7
+      - uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7
         with:
           title: effective-pom-dependency
           body:
