@@ -36,7 +36,7 @@
 		<spring-ai.version>1.0.0-M6</spring-ai.version>
 		<spring-boot-admin.version>3.4.3</spring-boot-admin.version>
 		<spring-cloud-azure.version>5.20.0</spring-cloud-azure.version>
-		<spring-cloud-gcp.version>6.0.0</spring-cloud-gcp.version>
+		<spring-cloud-gcp.version>6.0.1</spring-cloud-gcp.version>
 		<spring-cloud-services.version>4.2.0</spring-cloud-services.version>
 		<spring-cloud.version>2024.0.0</spring-cloud.version>
 		<spring-grpc.version>0.3.0</spring-grpc.version>
