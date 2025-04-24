@@ -1,64 +1,25 @@
 
 The following plugins have been resolved:
-   org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:maven-plugin:6.6.11.Final
-      org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:jar:6.6.11.Final
-      org.jboss.logging:jboss-logging:jar:3.5.0.Final
-      org.hibernate.orm:hibernate-core:jar:6.6.11.Final
-      jakarta.persistence:jakarta.persistence-api:jar:3.1.0
-      jakarta.transaction:jakarta.transaction-api:jar:2.0.1
-      net.bytebuddy:byte-buddy:jar:1.15.11
-      org.apache.maven:maven-core:jar:3.8.1
-      org.apache.maven:maven-artifact:jar:3.0.5
-      org.apache.maven:maven-plugin-api:jar:3.0.5
-      org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
-      org.codehaus.plexus:plexus-utils:jar:3.0.24
-      org.sonatype.plexus:plexus-build-api:jar:0.0.7
+   gg.jte:jte-maven-plugin:maven-plugin:3.1.16
+      gg.jte:jte-maven-plugin:jar:3.1.16
+      gg.jte:jte:jar:3.1.16
+      gg.jte:jte-runtime:jar:3.1.16
+      gg.jte:jte-extension-api:jar:3.1.16
+      gg.jte:jte-kotlin:jar:3.1.16
+      org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10
+      org.jetbrains:annotations:jar:13.0
+      org.jetbrains.kotlin:kotlin-script-runtime:jar:1.9.10
+      org.jetbrains.kotlin:kotlin-reflect:jar:1.6.10
+      org.jetbrains.kotlin:kotlin-daemon-embeddable:jar:1.9.10
+      org.jetbrains.intellij.deps:trove4j:jar:1.0.20200330
    org.apache.maven.plugins:maven-install-plugin:maven-plugin:3.1.4
       org.apache.maven.plugins:maven-install-plugin:jar:3.1.4
       org.apache.maven.resolver:maven-resolver-util:jar:1.9.22
       org.apache.maven.resolver:maven-resolver-api:jar:1.9.22
       org.codehaus.plexus:plexus-utils:jar:4.0.1
       org.codehaus.plexus:plexus-xml:jar:3.0.1
-   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.4.4
-      org.springframework.boot:spring-boot-maven-plugin:jar:3.4.4
-      org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.4
-      com.fasterxml.jackson.core:jackson-databind:jar:2.18.3
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3
-      com.fasterxml.jackson.core:jackson-core:jar:2.18.3
-      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3
-      net.java.dev.jna:jna-platform:jar:5.13.0
-      net.java.dev.jna:jna:jar:5.13.0
-      org.apache.commons:commons-compress:jar:1.25.0
-      org.apache.httpcomponents.client5:httpclient5:jar:5.4.2
-      org.apache.httpcomponents.core5:httpcore5:jar:5.3.3
-      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.3
-      org.tomlj:tomlj:jar:1.0.0
-      org.antlr:antlr4-runtime:jar:4.7.2
-      com.google.code.findbugs:jsr305:jar:3.0.2
-      org.springframework.boot:spring-boot-loader-tools:jar:3.4.4
-      org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
-      org.slf4j:slf4j-api:jar:1.7.36
-      org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      org.springframework:spring-core:jar:6.2.5
-      org.springframework:spring-jcl:jar:6.2.5
-      org.springframework:spring-context:jar:6.2.5
-      org.springframework:spring-aop:jar:6.2.5
-      org.springframework:spring-beans:jar:6.2.5
-      org.springframework:spring-expression:jar:6.2.5
-      io.micrometer:micrometer-observation:jar:1.14.5
-      io.micrometer:micrometer-commons:jar:1.14.5
-      org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
-      org.codehaus.plexus:plexus-utils:jar:3.5.1
-      org.ow2.asm:asm:jar:9.5
-      org.ow2.asm:asm-commons:jar:9.5
-      org.ow2.asm:asm-tree:jar:9.5
-      org.jdom:jdom2:jar:2.0.6.1
-      org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
-      org.eclipse.aether:aether-util:jar:1.0.0.v20140518
-      org.eclipse.aether:aether-api:jar:1.0.0.v20140518
-      commons-io:commons-io:jar:2.13.0
-      org.vafer:jdependency:jar:2.8.0
-      org.apache.commons:commons-collections4:jar:4.4
    org.apache.maven.plugins:maven-site-plugin:maven-plugin:3.12.1
       org.apache.maven.plugins:maven-site-plugin:jar:3.12.1
       org.apache.maven.reporting:maven-reporting-api:jar:3.1.1
@@ -271,6 +232,19 @@ The following plugins have been resolved:
       org.junit.jupiter:junit-jupiter-params:jar:5.7.1
       org.junit.jupiter:junit-jupiter-engine:jar:5.7.1
       org.junit.platform:junit-platform-engine:jar:1.7.1
+   org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:maven-plugin:6.6.13.Final
+      org.hibernate.orm.tooling:hibernate-enhance-maven-plugin:jar:6.6.13.Final
+      org.jboss.logging:jboss-logging:jar:3.5.0.Final
+      org.hibernate.orm:hibernate-core:jar:6.6.13.Final
+      jakarta.persistence:jakarta.persistence-api:jar:3.1.0
+      jakarta.transaction:jakarta.transaction-api:jar:2.0.1
+      net.bytebuddy:byte-buddy:jar:1.15.11
+      org.apache.maven:maven-core:jar:3.8.1
+      org.apache.maven:maven-artifact:jar:3.0.5
+      org.apache.maven:maven-plugin-api:jar:3.0.5
+      org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+      org.codehaus.plexus:plexus-utils:jar:3.0.24
+      org.sonatype.plexus:plexus-build-api:jar:0.0.7
    org.cyclonedx:cyclonedx-maven-plugin:maven-plugin:2.9.1
       org.cyclonedx:cyclonedx-maven-plugin:jar:2.9.1
       org.cyclonedx:cyclonedx-core-java:jar:9.0.5
@@ -310,6 +284,46 @@ The following plugins have been resolved:
       org.codehaus.plexus:plexus-classworlds:jar:2.5.2
       org.codehaus.plexus:plexus-utils:jar:3.1.0
       com.google.code.findbugs:jsr305:jar:3.0.2
+   org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.4.5
+      org.springframework.boot:spring-boot-maven-plugin:jar:3.4.5
+      org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.5
+      com.fasterxml.jackson.core:jackson-databind:jar:2.18.3
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3
+      com.fasterxml.jackson.core:jackson-core:jar:2.18.3
+      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3
+      net.java.dev.jna:jna-platform:jar:5.13.0
+      net.java.dev.jna:jna:jar:5.13.0
+      org.apache.commons:commons-compress:jar:1.25.0
+      org.apache.httpcomponents.client5:httpclient5:jar:5.4.3
+      org.apache.httpcomponents.core5:httpcore5:jar:5.3.4
+      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.4
+      org.tomlj:tomlj:jar:1.0.0
+      org.antlr:antlr4-runtime:jar:4.7.2
+      com.google.code.findbugs:jsr305:jar:3.0.2
+      org.springframework.boot:spring-boot-loader-tools:jar:3.4.5
+      org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
+      org.slf4j:slf4j-api:jar:1.7.36
+      org.sonatype.plexus:plexus-build-api:jar:0.0.7
+      org.springframework:spring-core:jar:6.2.6
+      org.springframework:spring-jcl:jar:6.2.6
+      org.springframework:spring-context:jar:6.2.6
+      org.springframework:spring-aop:jar:6.2.6
+      org.springframework:spring-beans:jar:6.2.6
+      org.springframework:spring-expression:jar:6.2.6
+      io.micrometer:micrometer-observation:jar:1.14.5
+      io.micrometer:micrometer-commons:jar:1.14.5
+      org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
+      org.codehaus.plexus:plexus-utils:jar:3.5.1
+      org.ow2.asm:asm:jar:9.5
+      org.ow2.asm:asm-commons:jar:9.5
+      org.ow2.asm:asm-tree:jar:9.5
+      org.jdom:jdom2:jar:2.0.6.1
+      org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
+      org.eclipse.aether:aether-util:jar:1.0.0.v20140518
+      org.eclipse.aether:aether-api:jar:1.0.0.v20140518
+      commons-io:commons-io:jar:2.13.0
+      org.vafer:jdependency:jar:2.8.0
+      org.apache.commons:commons-collections4:jar:4.4
    org.xolstice.maven.plugins:protobuf-maven-plugin:maven-plugin:0.6.1
       org.xolstice.maven.plugins:protobuf-maven-plugin:jar:0.6.1
       org.apache.maven:maven-plugin-api:jar:3.0
@@ -369,22 +383,6 @@ The following plugins have been resolved:
       ch.qos.logback:logback-classic:jar:1.5.6
       ch.qos.logback:logback-core:jar:1.5.6
       nu.studer:java-ordered-properties:jar:1.0.4
-   org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.5.2
-      org.apache.maven.plugins:maven-surefire-plugin:jar:3.5.2
-      org.apache.maven.surefire:surefire-api:jar:3.5.2
-      org.apache.maven.surefire:surefire-logger-api:jar:3.5.2
-      org.apache.maven.surefire:surefire-shared-utils:jar:3.5.2
-      org.apache.maven.surefire:surefire-extensions-api:jar:3.5.2
-      org.apache.maven.surefire:maven-surefire-common:jar:3.5.2
-      org.apache.maven.surefire:surefire-booter:jar:3.5.2
-      org.apache.maven.surefire:surefire-extensions-spi:jar:3.5.2
-      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
-      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
-      org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
-      org.slf4j:slf4j-api:jar:1.7.36
-      org.codehaus.plexus:plexus-java:jar:1.3.0
-      org.ow2.asm:asm:jar:9.7
-      com.thoughtworks.qdox:qdox:jar:2.1.0
    org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.4.1
       org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
       org.codehaus.plexus:plexus-utils:jar:4.0.1
@@ -612,44 +610,30 @@ The following plugins have been resolved:
       org.codehaus.groovy:groovy-templates:jar:3.0.11
       org.codehaus.groovy:groovy:jar:3.0.11
       org.codehaus.groovy:groovy-xml:jar:3.0.11
-   gg.jte:jte-maven-plugin:maven-plugin:3.1.12
-      gg.jte:jte-maven-plugin:jar:3.1.12
-      gg.jte:jte:jar:3.1.12
-      gg.jte:jte-runtime:jar:3.1.12
-      gg.jte:jte-extension-api:jar:3.1.12
-      gg.jte:jte-kotlin:jar:3.1.12
-      org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.9.10
-      org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.10
-      org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10
-      org.jetbrains:annotations:jar:13.0
-      org.jetbrains.kotlin:kotlin-script-runtime:jar:1.9.10
-      org.jetbrains.kotlin:kotlin-reflect:jar:1.6.10
-      org.jetbrains.kotlin:kotlin-daemon-embeddable:jar:1.9.10
-      org.jetbrains.intellij.deps:trove4j:jar:1.0.20200330
-   org.springframework.cloud:spring-cloud-contract-maven-plugin:maven-plugin:4.2.0
-      org.springframework.cloud:spring-cloud-contract-maven-plugin:jar:4.2.0
-      org.springframework.cloud:spring-cloud-contract-verifier:jar:4.2.0
-      org.springframework.cloud:spring-cloud-contract-spec:jar:4.2.0
-      org.springframework.cloud:spring-cloud-contract-spec-java:jar:4.2.0
+   org.springframework.cloud:spring-cloud-contract-maven-plugin:maven-plugin:4.2.1
+      org.springframework.cloud:spring-cloud-contract-maven-plugin:jar:4.2.1
+      org.springframework.cloud:spring-cloud-contract-verifier:jar:4.2.1
+      org.springframework.cloud:spring-cloud-contract-spec:jar:4.2.1
+      org.springframework.cloud:spring-cloud-contract-spec-java:jar:4.2.1
       dk.brics:automaton:jar:1.12-4
-      org.springframework.cloud:spring-cloud-contract-spec-groovy:jar:4.2.0
-      org.springframework.cloud:spring-cloud-contract-shade:jar:4.2.0
-      org.springframework.boot:spring-boot-test-autoconfigure:jar:3.4.0
-      org.springframework.boot:spring-boot:jar:3.4.0
-      org.springframework.boot:spring-boot-test:jar:3.4.0
-      org.springframework.boot:spring-boot-autoconfigure:jar:3.4.0
-      com.fasterxml.jackson.core:jackson-databind:jar:2.18.1
-      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.1
-      com.fasterxml.jackson.core:jackson-core:jar:2.18.1
+      org.springframework.cloud:spring-cloud-contract-spec-groovy:jar:4.2.1
+      org.springframework.cloud:spring-cloud-contract-shade:jar:4.2.1
+      org.springframework.boot:spring-boot-test-autoconfigure:jar:3.4.3
+      org.springframework.boot:spring-boot:jar:3.4.3
+      org.springframework.boot:spring-boot-test:jar:3.4.3
+      org.springframework.boot:spring-boot-autoconfigure:jar:3.4.3
+      com.fasterxml.jackson.core:jackson-databind:jar:2.18.2
+      com.fasterxml.jackson.core:jackson-annotations:jar:2.18.2
+      com.fasterxml.jackson.core:jackson-core:jar:2.18.2
       org.apache.commons:commons-text:jar:1.11.0
       org.apache.commons:commons-lang3:jar:3.17.0
       javax.inject:javax.inject:jar:1
       com.github.tomakehurst:wiremock-jre8-standalone:jar:2.35.1
       com.toomuchcoding.jsonassert:jsonassert:jar:0.8.0
       com.jayway.jsonpath:json-path:jar:2.9.0
-      net.minidev:json-smart:jar:2.5.1
-      net.minidev:accessors-smart:jar:2.5.1
-      org.ow2.asm:asm:jar:9.6
+      net.minidev:json-smart:jar:2.5.2
+      net.minidev:accessors-smart:jar:2.5.2
+      org.ow2.asm:asm:jar:9.7.1
       org.apache.maven.resolver:maven-resolver-api:jar:1.9.18
       com.rackspace.eclipse.webtools.sourceediting:org.eclipse.wst.xml.xpath2.processor:jar:2.1.100
       edu.princeton.cup:java-cup:jar:10k
@@ -665,45 +649,45 @@ The following plugins have been resolved:
       commons-logging:commons-logging:jar:1.2
       commons-collections:commons-collections:jar:3.2.2
       org.yaml:snakeyaml:jar:2.3
-      com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.18.1
-      org.springframework.boot:spring-boot-starter-test:jar:3.4.0
+      com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.18.2
+      org.springframework.boot:spring-boot-starter-test:jar:3.4.3
       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2
       jakarta.activation:jakarta.activation-api:jar:2.1.3
       org.awaitility:awaitility:jar:4.2.0
-      org.junit.jupiter:junit-jupiter:jar:5.11.3
-      org.junit.jupiter:junit-jupiter-params:jar:5.11.3
-      org.junit.jupiter:junit-jupiter-engine:jar:5.11.3
-      org.junit.platform:junit-platform-engine:jar:1.11.3
+      org.junit.jupiter:junit-jupiter:jar:5.11.4
+      org.junit.jupiter:junit-jupiter-params:jar:5.11.4
+      org.junit.jupiter:junit-jupiter-engine:jar:5.11.4
+      org.junit.platform:junit-platform-engine:jar:1.11.4
       org.mockito:mockito-junit-jupiter:jar:5.14.2
-      org.springframework:spring-core:jar:6.2.0
-      org.springframework:spring-test:jar:6.2.0
+      org.springframework:spring-core:jar:6.2.3
+      org.springframework:spring-test:jar:6.2.3
       org.xmlunit:xmlunit-core:jar:2.10.0
       org.mockito:mockito-core:jar:4.11.0
-      net.bytebuddy:byte-buddy:jar:1.15.10
-      net.bytebuddy:byte-buddy-agent:jar:1.15.10
+      net.bytebuddy:byte-buddy:jar:1.15.11
+      net.bytebuddy:byte-buddy-agent:jar:1.15.11
       org.objenesis:objenesis:jar:3.3
       net.javacrumbs.json-unit:json-unit-assertj:jar:2.38.0
       net.javacrumbs.json-unit:json-unit-core:jar:2.38.0
       org.hamcrest:hamcrest-core:jar:2.2
       net.javacrumbs.json-unit:json-unit-json-path:jar:2.38.0
-      org.junit.jupiter:junit-jupiter-api:jar:5.11.3
+      org.junit.jupiter:junit-jupiter-api:jar:5.11.4
       org.opentest4j:opentest4j:jar:1.3.0
-      org.junit.platform:junit-platform-commons:jar:1.11.3
+      org.junit.platform:junit-platform-commons:jar:1.11.4
       org.apiguardian:apiguardian-api:jar:1.1.2
-      org.springframework.cloud:spring-cloud-contract-converters:jar:4.2.0
-      org.springframework:spring-context:jar:6.2.0
-      org.springframework:spring-aop:jar:6.2.0
-      org.springframework:spring-beans:jar:6.2.0
-      org.springframework:spring-expression:jar:6.2.0
-      io.micrometer:micrometer-observation:jar:1.14.1
-      io.micrometer:micrometer-commons:jar:1.14.1
-      org.springframework.boot:spring-boot-starter-logging:jar:3.4.0
-      ch.qos.logback:logback-classic:jar:1.5.12
+      org.springframework.cloud:spring-cloud-contract-converters:jar:4.2.1
+      org.springframework:spring-context:jar:6.2.3
+      org.springframework:spring-aop:jar:6.2.3
+      org.springframework:spring-beans:jar:6.2.3
+      org.springframework:spring-expression:jar:6.2.3
+      io.micrometer:micrometer-observation:jar:1.14.4
+      io.micrometer:micrometer-commons:jar:1.14.4
+      org.springframework.boot:spring-boot-starter-logging:jar:3.4.3
+      ch.qos.logback:logback-classic:jar:1.5.16
       org.slf4j:jul-to-slf4j:jar:2.0.16
-      org.springframework.cloud:spring-cloud-contract-stub-runner:jar:4.2.0
+      org.springframework.cloud:spring-cloud-contract-stub-runner:jar:4.2.1
       org.eclipse.jgit:org.eclipse.jgit:jar:6.7.0.202309050840-r
       com.googlecode.javaewah:JavaEWAH:jar:1.2.3
-      commons-codec:commons-codec:jar:1.17.1
+      commons-codec:commons-codec:jar:1.17.2
       org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:jar:6.7.0.202309050840-r
       com.jcraft:jsch:jar:0.1.55
       com.jcraft:jzlib:jar:1.1.3
@@ -713,16 +697,16 @@ The following plugins have been resolved:
       com.jcraft:jsch.agentproxy.usocket-jna:jar:0.0.9
       net.java.dev.jna:jna:jar:4.1.0
       net.java.dev.jna:jna-platform:jar:4.1.0
-      org.springframework.cloud:spring-cloud-contract-wiremock:jar:4.2.0
-      org.springframework.boot:spring-boot-starter:jar:3.4.0
+      org.springframework.cloud:spring-cloud-contract-wiremock:jar:4.2.1
+      org.springframework.boot:spring-boot-starter:jar:3.4.3
       jakarta.annotation:jakarta.annotation-api:jar:2.1.1
-      org.springframework:spring-web:jar:6.2.0
-      org.apache.httpcomponents.client5:httpclient5:jar:5.4.1
-      org.apache.httpcomponents.core5:httpcore5:jar:5.3.1
-      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.1
+      org.springframework:spring-web:jar:6.2.3
+      org.apache.httpcomponents.client5:httpclient5:jar:5.4.2
+      org.apache.httpcomponents.core5:httpcore5:jar:5.3.3
+      org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.3
       org.assertj:assertj-core:jar:3.26.3
       org.hamcrest:hamcrest:jar:2.2
-      org.springframework.cloud:spring-cloud-test-support:jar:4.2.0
+      org.springframework.cloud:spring-cloud-test-support:jar:4.2.1
       org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.9.18
       org.apache.maven.resolver:maven-resolver-spi:jar:1.9.18
       org.apache.maven.resolver:maven-resolver-util:jar:1.9.18
@@ -732,17 +716,17 @@ The following plugins have been resolved:
       org.apache.maven.resolver:maven-resolver-transport-http:jar:1.9.18
       org.apache.httpcomponents:httpclient:jar:4.5.14
       org.apache.httpcomponents:httpcore:jar:4.4.16
-      org.springframework.boot:spring-boot-starter-web:jar:3.4.0
-      org.springframework.boot:spring-boot-starter-json:jar:3.4.0
-      com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.18.1
-      com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.18.1
-      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.1
-      org.springframework.boot:spring-boot-starter-tomcat:jar:3.4.0
-      org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.33
-      org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.33
-      org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.33
-      org.springframework:spring-webmvc:jar:6.2.0
-      org.springframework:spring-jcl:jar:6.2.0
+      org.springframework.boot:spring-boot-starter-web:jar:3.4.3
+      org.springframework.boot:spring-boot-starter-json:jar:3.4.3
+      com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.18.2
+      com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.18.2
+      com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.2
+      org.springframework.boot:spring-boot-starter-tomcat:jar:3.4.3
+      org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.36
+      org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.36
+      org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.36
+      org.springframework:spring-webmvc:jar:6.2.3
+      org.springframework:spring-jcl:jar:6.2.3
       org.apache.maven.shared:maven-filtering:jar:3.1.1
       org.apache.maven:maven-core:jar:3.0
       org.apache.maven:maven-model:jar:3.0
@@ -764,12 +748,7 @@ The following plugins have been resolved:
       javax.enterprise:cdi-api:jar:1.0
       javax.annotation:jsr250-api:jar:1.0
       org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.5
-      com.google.guava:guava:jar:33.3.1-jre
-      com.google.guava:failureaccess:jar:1.0.2
-      com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
-      org.checkerframework:checker-qual:jar:3.43.0
-      com.google.errorprone:error_prone_annotations:jar:2.28.0
-      com.google.j2objc:j2objc-annotations:jar:3.0.0
+      com.google.guava:guava:jar:16.0.1
       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5
       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5
       javax.annotation:javax.annotation-api:jar:1.2
@@ -781,7 +760,7 @@ The following plugins have been resolved:
       org.codehaus.plexus:plexus-utils:jar:4.0.0
       org.codehaus.plexus:plexus-interpolation:jar:1.22
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      ch.qos.logback:logback-core:jar:1.5.12
+      ch.qos.logback:logback-core:jar:1.5.16
       org.apache.maven:maven-archiver:jar:3.6.1
       org.codehaus.plexus:plexus-archiver:jar:4.9.1
       org.codehaus.plexus:plexus-io:jar:3.4.1
@@ -819,6 +798,22 @@ The following plugins have been resolved:
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       commons-io:commons-io:jar:2.11.0
       org.apache.commons:commons-lang3:jar:3.12.0
+   org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.5.3
+      org.apache.maven.plugins:maven-surefire-plugin:jar:3.5.3
+      org.apache.maven.surefire:surefire-api:jar:3.5.3
+      org.apache.maven.surefire:surefire-logger-api:jar:3.5.3
+      org.apache.maven.surefire:surefire-shared-utils:jar:3.5.3
+      org.apache.maven.surefire:surefire-extensions-api:jar:3.5.3
+      org.apache.maven.surefire:maven-surefire-common:jar:3.5.3
+      org.apache.maven.surefire:surefire-booter:jar:3.5.3
+      org.apache.maven.surefire:surefire-extensions-spi:jar:3.5.3
+      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
+      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
+      org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
+      org.slf4j:slf4j-api:jar:1.7.36
+      org.codehaus.plexus:plexus-java:jar:1.4.0
+      org.ow2.asm:asm:jar:9.7.1
+      com.thoughtworks.qdox:qdox:jar:2.2.0
    org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:3.1.4
       org.apache.maven.plugins:maven-deploy-plugin:jar:3.1.4
       org.codehaus.plexus:plexus-utils:jar:4.0.1
