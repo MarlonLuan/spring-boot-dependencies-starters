@@ -1,14 +1,14 @@
 com.example:demo:jar:0.0.1-SNAPSHOT
-+- org.springframework.boot:spring-boot-starter:jar:3.5.1:compile
-|  +- org.springframework.boot:spring-boot:jar:3.5.1:compile
++- org.springframework.boot:spring-boot-starter:jar:3.5.2:compile
+|  +- org.springframework.boot:spring-boot:jar:3.5.2:compile
 |  |  \- org.springframework:spring-context:jar:6.2.8:compile
 |  |     +- org.springframework:spring-aop:jar:6.2.8:compile
 |  |     +- org.springframework:spring-beans:jar:6.2.8:compile
 |  |     +- org.springframework:spring-expression:jar:6.2.8:compile
 |  |     \- io.micrometer:micrometer-observation:jar:1.15.1:compile
 |  |        \- io.micrometer:micrometer-commons:jar:1.15.1:compile
-|  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.5.1:compile
-|  +- org.springframework.boot:spring-boot-starter-logging:jar:3.5.1:compile
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.5.2:compile
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:3.5.2:compile
 |  |  +- ch.qos.logback:logback-classic:jar:1.5.18:compile
 |  |  |  \- ch.qos.logback:logback-core:jar:1.5.18:compile
 |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile
@@ -18,9 +18,9 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |  +- org.springframework:spring-core:jar:6.2.8:compile
 |  |  \- org.springframework:spring-jcl:jar:6.2.8:compile
 |  \- org.yaml:snakeyaml:jar:2.4:compile
-\- org.springframework.boot:spring-boot-starter-test:jar:3.5.1:test
-   +- org.springframework.boot:spring-boot-test:jar:3.5.1:test
-   +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.1:test
+\- org.springframework.boot:spring-boot-starter-test:jar:3.5.2:test
+   +- org.springframework.boot:spring-boot-test:jar:3.5.2:test
+   +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.2:test
    +- com.jayway.jsonpath:json-path:jar:2.9.0:test
    |  \- org.slf4j:slf4j-api:jar:2.0.17:compile
    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:test
