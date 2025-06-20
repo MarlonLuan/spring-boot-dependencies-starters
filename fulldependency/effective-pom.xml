@@ -9814,12 +9814,12 @@
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
         <artifactId>reactor-extra</artifactId>
-        <version>3.5.3</version>
+        <version>3.5.2</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
         <artifactId>reactor-adapter</artifactId>
-        <version>3.5.3</version>
+        <version>3.5.2</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId>

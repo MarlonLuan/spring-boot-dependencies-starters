@@ -679,7 +679,7 @@ com.example:demo:jar:0.0.1-SNAPSHOT
 |     \- org.springframework.cloud:spring-cloud-gateway-server-mvc:jar:4.3.0-RC1:compile
 +- org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:4.3.0-RC1:compile
 |  +- org.springframework.cloud:spring-cloud-loadbalancer:jar:4.3.0-RC1:compile
-|  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.3:compile
+|  |  \- io.projectreactor.addons:reactor-extra:jar:3.5.2:compile
 |  \- com.stoyanr:evictor:jar:1.0.0:compile
 +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:4.3.0-RC1:compile
 |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:4.3.0-RC1:compile
