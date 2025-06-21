@@ -33,7 +33,7 @@
 		<spring-ai.version>1.0.0</spring-ai.version>
 		<spring-cloud.version>2025.0.0-RC1</spring-cloud.version>
 		<spring-grpc.version>0.8.0</spring-grpc.version>
-		<spring-modulith.version>1.4.0-RC1</spring-modulith.version>
+		<spring-modulith.version>1.4.1</spring-modulith.version>
 	</properties>
 	<dependencies>
 		<dependency>
