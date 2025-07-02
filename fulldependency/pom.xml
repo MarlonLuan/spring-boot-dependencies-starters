@@ -33,7 +33,7 @@
 		<protobuf-java.version>4.30.2</protobuf-java.version>
 		<sentry.version>8.16.0</sentry.version>
 		<spring-ai.version>1.0.0</spring-ai.version>
-		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
+		<spring-boot-admin.version>3.5.1</spring-boot-admin.version>
 		<spring-cloud-services.version>4.3.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
 		<spring-grpc.version>0.8.0</spring-grpc.version>
