@@ -39,7 +39,7 @@
 		<spring-grpc.version>0.8.0</spring-grpc.version>
 		<spring-modulith.version>1.4.1</spring-modulith.version>
 		<timefold-solver.version>1.23.0</timefold-solver.version>
-		<vaadin.version>24.8.1</vaadin.version>
+		<vaadin.version>24.8.3</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
