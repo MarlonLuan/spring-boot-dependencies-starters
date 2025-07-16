@@ -36,10 +36,10 @@
 		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
 		<spring-cloud-services.version>4.3.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
-		<spring-grpc.version>0.8.0</spring-grpc.version>
+		<spring-grpc.version>0.9.0</spring-grpc.version>
 		<spring-modulith.version>1.4.1</spring-modulith.version>
-		<timefold-solver.version>1.23.0</timefold-solver.version>
-		<vaadin.version>24.8.1</vaadin.version>
+		<timefold-solver.version>1.24.0</timefold-solver.version>
+		<vaadin.version>24.8.3</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -283,7 +283,7 @@
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-			<version>4.12.0</version>
+			<version>4.13.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
@@ -679,7 +679,15 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-data-mongodb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.session</groupId>
 			<artifactId>spring-session-data-redis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-hazelcast</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.session</groupId>
@@ -1270,7 +1278,7 @@
 							<groupId>io.grpc</groupId>
 							<artifactId>protoc-gen-grpc-java</artifactId>
 							<version>${grpc.version}</version>
-							<options>jakarta_omit,@generated=omit</options>
+							<options>@generated=omit</options>
 						</binaryMavenPlugin>
 					</binaryMavenPlugins>
 				</configuration>
