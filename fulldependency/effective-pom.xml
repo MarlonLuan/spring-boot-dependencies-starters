@@ -214,7 +214,7 @@
     <spring-data-bom.version>2025.0.1</spring-data-bom.version>
     <spring-framework.version>6.2.8</spring-framework.version>
     <spring-graphql.version>1.4.0</spring-graphql.version>
-    <spring-grpc.version>0.8.0</spring-grpc.version>
+    <spring-grpc.version>0.9.0</spring-grpc.version>
     <spring-hateoas.version>2.5.1</spring-hateoas.version>
     <spring-integration.version>6.5.0</spring-integration.version>
     <spring-kafka.version>3.3.7</spring-kafka.version>
@@ -233,11 +233,11 @@
     <thymeleaf-extras-springsecurity.version>3.1.3.RELEASE</thymeleaf-extras-springsecurity.version>
     <thymeleaf-layout-dialect.version>3.4.0</thymeleaf-layout-dialect.version>
     <thymeleaf.version>3.1.3.RELEASE</thymeleaf.version>
-    <timefold-solver.version>1.23.0</timefold-solver.version>
+    <timefold-solver.version>1.24.0</timefold-solver.version>
     <tomcat.version>10.1.42</tomcat.version>
     <unboundid-ldapsdk.version>7.0.3</unboundid-ldapsdk.version>
     <undertow.version>2.3.18.Final</undertow.version>
-    <vaadin.version>24.8.1</vaadin.version>
+    <vaadin.version>24.8.3</vaadin.version>
     <versions-maven-plugin.version>2.18.0</versions-maven-plugin.version>
     <vibur.version>26.0</vibur.version>
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
@@ -4041,12 +4041,12 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>sso-kit-starter</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>sso-kit-starter-hilla</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4091,332 +4091,332 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-jandex</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core-jandex</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench-junit5</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-bundle</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-prod-bundle</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-core-components</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dev-server</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-lit-template</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-react</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-polymer-template</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-push</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-client</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-data</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-dnd</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-lumo-theme</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-material-theme</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-server-production-mode</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-webpush</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-quarkus</artifactId>
-        <version>2.2.0</version>
+        <version>2.2.1</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spring-boot-starter</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>copilot</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>signals</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-card-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-field-highlighter-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-markdown-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-master-detail-layout-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-popover-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-renderer-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4426,232 +4426,232 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>flow-html-components-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-accordion-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-avatar-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-button-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-card-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-checkbox-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-combo-box-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-context-menu-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dashboard-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-picker-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-date-time-picker-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-details-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dialog-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-form-layout-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-icons-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-virtual-list-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-list-box-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-map-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-markdown-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-master-detail-layout-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-menu-bar-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-messages-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-notification-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-ordered-layout-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-popover-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-progress-bar-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-radio-button-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-select-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-side-nav-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-split-layout-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-tabs-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-text-field-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-time-picker-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-upload-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-spreadsheet-testbench</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4661,62 +4661,62 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-charts-flow-svg-generator</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-confirm-dialog-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-app-layout-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-login-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-crud-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-custom-field-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-dashboard-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-grid-pro-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-rich-text-editor-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-cookie-consent-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-board-flow</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.3</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -4741,27 +4741,27 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-engine-core</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-dev</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-endpoint</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>hilla-engine-runtime</artifactId>
-        <version>24.8.1</version>
+        <version>24.8.2</version>
       </dependency>
       <dependency>
         <groupId>com.vaadin</groupId>
@@ -6036,388 +6036,393 @@
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-core</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-core</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-core</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-persistence-common</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-persistence-common</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-persistence-common</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jaxb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jaxb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jaxb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jpa</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jpa</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-jpa</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-webui</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-webui</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jackson-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-jsonb-integration-test</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-quarkus-benchmark-deployment</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-autoconfigure</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-autoconfigure</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-autoconfigure</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-starter</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-starter</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
         <groupId>ai.timefold.solver</groupId>
         <artifactId>timefold-solver-spring-boot-starter</artifactId>
-        <version>1.23.0</version>
+        <version>1.24.0</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-core</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-spring-boot-autoconfigure</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-spring-boot-starter</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-client-spring-boot-starter</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-server-spring-boot-starter</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-server-web-spring-boot-starter</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.grpc</groupId>
         <artifactId>spring-grpc-test</artifactId>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-kotlin-stub</artifactId>
+        <version>1.4.3</version>
       </dependency>
       <dependency>
         <groupId>com.google.protobuf</groupId>
@@ -12601,7 +12606,7 @@
     <dependency>
       <groupId>ai.timefold.solver</groupId>
       <artifactId>timefold-solver-spring-boot-starter</artifactId>
-      <version>1.23.0</version>
+      <version>1.24.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -12613,7 +12618,7 @@
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-spring-boot-starter</artifactId>
-      <version>24.8.1</version>
+      <version>24.8.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -12685,7 +12690,7 @@
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-spring-boot-starter</artifactId>
-      <version>4.12.0</version>
+      <version>4.13.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13129,7 +13134,7 @@
     <dependency>
       <groupId>org.springframework.grpc</groupId>
       <artifactId>spring-grpc-server-web-spring-boot-starter</artifactId>
-      <version>0.8.0</version>
+      <version>0.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -13272,7 +13277,19 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.session</groupId>
+      <artifactId>spring-session-data-mongodb</artifactId>
+      <version>3.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.session</groupId>
       <artifactId>spring-session-data-redis</artifactId>
+      <version>3.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.session</groupId>
+      <artifactId>spring-session-hazelcast</artifactId>
       <version>3.5.1</version>
       <scope>compile</scope>
     </dependency>
@@ -13572,7 +13589,7 @@
     <dependency>
       <groupId>org.springframework.grpc</groupId>
       <artifactId>spring-grpc-test</artifactId>
-      <version>0.8.0</version>
+      <version>0.9.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -14343,7 +14360,7 @@
                   <groupId>io.grpc</groupId>
                   <artifactId>protoc-gen-grpc-java</artifactId>
                   <version>1.72.0</version>
-                  <options>jakarta_omit,@generated=omit</options>
+                  <options>@generated=omit</options>
                 </binaryMavenPlugin>
               </binaryMavenPlugins>
             </configuration>
@@ -14356,7 +14373,7 @@
               <groupId>io.grpc</groupId>
               <artifactId>protoc-gen-grpc-java</artifactId>
               <version>1.72.0</version>
-              <options>jakarta_omit,@generated=omit</options>
+              <options>@generated=omit</options>
             </binaryMavenPlugin>
           </binaryMavenPlugins>
         </configuration>
@@ -14612,7 +14629,7 @@
           <plugin>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-maven-plugin</artifactId>
-            <version>24.8.1</version>
+            <version>24.8.3</version>
             <executions>
               <execution>
                 <id>frontend</id>
