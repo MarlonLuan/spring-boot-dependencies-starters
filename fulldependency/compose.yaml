@@ -7,6 +7,12 @@ services:
     image: 'apache/activemq-artemis:latest'
     ports:
       - '61616'
+  azurite:
+    image: 'mcr.microsoft.com/azure-storage/azurite:latest'
+    ports:
+      - '10000'
+      - '10001'
+      - '10002'
   cassandra:
     image: 'cassandra:latest'
     environment:
