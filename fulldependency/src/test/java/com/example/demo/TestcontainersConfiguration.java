@@ -42,6 +42,12 @@ class TestcontainersConfiguration {
 	}
 
 	@Bean
+	@ServiceConnection(name = "azure-storage/azurite")
+	GenericContainer<?> azuriteContainer() {
+		return new GenericContainer<>(DockerImageName.parse("mcr.microsoft.com/azure-storage/azurite:latest")).withExposedPorts(10000, 10001, 10002);
+	}
+
+	@Bean
 	@ServiceConnection
 	CassandraContainer<?> cassandraContainer() {
 		return new CassandraContainer<>(DockerImageName.parse("cassandra:latest"));
