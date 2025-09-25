@@ -1,14 +1,5 @@
 
 The following plugins have been resolved:
-   org.apache.maven.plugins:maven-install-plugin:maven-plugin:3.1.4
-      org.apache.maven.plugins:maven-install-plugin:jar:3.1.4
-      org.apache.maven.resolver:maven-resolver-util:jar:1.9.22
-      org.apache.maven.resolver:maven-resolver-api:jar:1.9.22
-      org.codehaus.plexus:plexus-utils:jar:4.0.1
-      org.codehaus.plexus:plexus-xml:jar:3.0.1
-   org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.4.1
-      org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
-      org.codehaus.plexus:plexus-utils:jar:4.0.1
    org.springframework.boot:spring-boot-maven-plugin:maven-plugin:3.5.6
       org.springframework.boot:spring-boot-maven-plugin:jar:3.5.6
       org.springframework.boot:spring-boot-buildpack-platform:jar:3.5.6
@@ -33,14 +24,14 @@ The following plugins have been resolved:
       org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
       org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      org.springframework:spring-core:jar:6.2.10
-      org.springframework:spring-jcl:jar:6.2.10
-      org.springframework:spring-context:jar:6.2.10
-      org.springframework:spring-aop:jar:6.2.10
-      org.springframework:spring-beans:jar:6.2.10
-      org.springframework:spring-expression:jar:6.2.10
-      io.micrometer:micrometer-observation:jar:1.14.10
-      io.micrometer:micrometer-commons:jar:1.14.10
+      org.springframework:spring-core:jar:6.2.11
+      org.springframework:spring-jcl:jar:6.2.11
+      org.springframework:spring-context:jar:6.2.11
+      org.springframework:spring-aop:jar:6.2.11
+      org.springframework:spring-beans:jar:6.2.11
+      org.springframework:spring-expression:jar:6.2.11
+      io.micrometer:micrometer-observation:jar:1.14.11
+      io.micrometer:micrometer-commons:jar:1.14.11
       org.apache.maven.plugins:maven-shade-plugin:jar:3.6.0
       org.codehaus.plexus:plexus-utils:jar:3.5.1
       org.ow2.asm:asm:jar:9.7
@@ -49,6 +40,31 @@ The following plugins have been resolved:
       org.jdom:jdom2:jar:2.0.6.1
       commons-io:commons-io:jar:2.16.1
       org.vafer:jdependency:jar:2.10
+   org.apache.maven.plugins:maven-install-plugin:maven-plugin:3.1.4
+      org.apache.maven.plugins:maven-install-plugin:jar:3.1.4
+      org.apache.maven.resolver:maven-resolver-util:jar:1.9.22
+      org.apache.maven.resolver:maven-resolver-api:jar:1.9.22
+      org.codehaus.plexus:plexus-utils:jar:4.0.1
+      org.codehaus.plexus:plexus-xml:jar:3.0.1
+   org.apache.maven.plugins:maven-clean-plugin:maven-plugin:3.4.1
+      org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
+      org.codehaus.plexus:plexus-utils:jar:4.0.1
+   org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.5.4
+      org.apache.maven.plugins:maven-surefire-plugin:jar:3.5.4
+      org.apache.maven.surefire:surefire-api:jar:3.5.4
+      org.apache.maven.surefire:surefire-logger-api:jar:3.5.4
+      org.apache.maven.surefire:surefire-shared-utils:jar:3.5.4
+      org.apache.maven.surefire:surefire-extensions-api:jar:3.5.4
+      org.apache.maven.surefire:maven-surefire-common:jar:3.5.4
+      org.apache.maven.surefire:surefire-booter:jar:3.5.4
+      org.apache.maven.surefire:surefire-extensions-spi:jar:3.5.4
+      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
+      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
+      org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
+      org.slf4j:slf4j-api:jar:1.7.36
+      org.codehaus.plexus:plexus-java:jar:1.5.0
+      org.ow2.asm:asm:jar:9.8
+      com.thoughtworks.qdox:qdox:jar:2.2.0
    org.apache.maven.plugins:maven-jar-plugin:maven-plugin:3.4.2
       org.apache.maven.plugins:maven-jar-plugin:jar:3.4.2
       org.apache.maven.shared:file-management:jar:3.1.0
@@ -216,22 +232,6 @@ The following plugins have been resolved:
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       commons-io:commons-io:jar:2.11.0
       org.apache.commons:commons-lang3:jar:3.12.0
-   org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.5.3
-      org.apache.maven.plugins:maven-surefire-plugin:jar:3.5.3
-      org.apache.maven.surefire:surefire-api:jar:3.5.3
-      org.apache.maven.surefire:surefire-logger-api:jar:3.5.3
-      org.apache.maven.surefire:surefire-shared-utils:jar:3.5.3
-      org.apache.maven.surefire:surefire-extensions-api:jar:3.5.3
-      org.apache.maven.surefire:maven-surefire-common:jar:3.5.3
-      org.apache.maven.surefire:surefire-booter:jar:3.5.3
-      org.apache.maven.surefire:surefire-extensions-spi:jar:3.5.3
-      org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
-      org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
-      org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
-      org.slf4j:slf4j-api:jar:1.7.36
-      org.codehaus.plexus:plexus-java:jar:1.4.0
-      org.ow2.asm:asm:jar:9.7.1
-      com.thoughtworks.qdox:qdox:jar:2.2.0
    org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:3.1.4
       org.apache.maven.plugins:maven-deploy-plugin:jar:3.1.4
       org.codehaus.plexus:plexus-utils:jar:4.0.1
