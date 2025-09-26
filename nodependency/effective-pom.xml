@@ -106,7 +106,7 @@
     <jakarta-xml-soap.version>3.0.2</jakarta-xml-soap.version>
     <jakarta-xml-ws.version>4.0.2</jakarta-xml-ws.version>
     <janino.version>3.1.12</janino.version>
-    <java.version>21</java.version>
+    <java.version>25</java.version>
     <javax-cache.version>1.1.1</javax-cache.version>
     <javax-money.version>1.1</javax-money.version>
     <jaxen.version>2.0.0</jaxen.version>
@@ -153,7 +153,7 @@
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
     <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
-    <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.release>25</maven.compiler.release>
     <micrometer-tracing.version>1.5.4</micrometer-tracing.version>
     <micrometer.version>1.15.4</micrometer.version>
     <mockito.version>5.17.0</mockito.version>
@@ -8076,7 +8076,7 @@
                 <goal>compile</goal>
               </goals>
               <configuration>
-                <jvmTarget>21</jvmTarget>
+                <jvmTarget>25</jvmTarget>
                 <javaParameters>true</javaParameters>
               </configuration>
             </execution>
@@ -8087,13 +8087,13 @@
                 <goal>test-compile</goal>
               </goals>
               <configuration>
-                <jvmTarget>21</jvmTarget>
+                <jvmTarget>25</jvmTarget>
                 <javaParameters>true</javaParameters>
               </configuration>
             </execution>
           </executions>
           <configuration>
-            <jvmTarget>21</jvmTarget>
+            <jvmTarget>25</jvmTarget>
             <javaParameters>true</javaParameters>
           </configuration>
         </plugin>
