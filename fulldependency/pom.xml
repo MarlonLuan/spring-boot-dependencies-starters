@@ -27,22 +27,22 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
-		<grpc.version>1.72.0</grpc.version>
+		<java.version>25</java.version>
+		<grpc.version>1.74.0</grpc.version>
 		<netflix-dgs.version>10.2.1</netflix-dgs.version>
-		<protobuf-java.version>4.30.2</protobuf-java.version>
+		<protobuf-java.version>4.31.1</protobuf-java.version>
 		<sentry.version>8.16.0</sentry.version>
-		<spring-ai.version>1.0.1</spring-ai.version>
+		<spring-ai.version>1.0.2</spring-ai.version>
 		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
-		<spring-cloud-azure.version>5.23.0</spring-cloud-azure.version>
-		<spring-cloud-gcp.version>7.1.0</spring-cloud-gcp.version>
+		<spring-cloud-azure.version>6.0.0</spring-cloud-azure.version>
+		<spring-cloud-gcp.version>7.3.1</spring-cloud-gcp.version>
 		<spring-cloud-services.version>4.3.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
-		<spring-grpc.version>0.10.0</spring-grpc.version>
+		<spring-grpc.version>0.11.0</spring-grpc.version>
 		<spring-modulith.version>1.4.1</spring-modulith.version>
 		<spring-shell.version>3.4.1</spring-shell.version>
-		<timefold-solver.version>1.25.0</timefold-solver.version>
-		<vaadin.version>24.8.6</vaadin.version>
+		<timefold-solver.version>1.26.1</timefold-solver.version>
+		<vaadin.version>24.9.0</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -484,6 +484,10 @@
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-starter-vector-store-elasticsearch</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-starter-vector-store-gemfire</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
@@ -1404,7 +1408,7 @@
 			<plugin>
 				<groupId>io.github.ascopes</groupId>
 				<artifactId>protobuf-maven-plugin</artifactId>
-				<version>3.4.2</version>
+				<version>3.8.0</version>
 				<configuration>
 					<protocVersion>${protobuf-java.version}</protocVersion>
 					<binaryMavenPlugins>
