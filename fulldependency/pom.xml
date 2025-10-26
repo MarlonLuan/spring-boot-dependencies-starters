@@ -29,7 +29,7 @@
 	<properties>
 		<java.version>25</java.version>
 		<grpc.version>1.74.0</grpc.version>
-		<netflix-dgs.version>10.2.1</netflix-dgs.version>
+		<netflix-dgs.version>10.2.4</netflix-dgs.version>
 		<protobuf-java.version>4.31.1</protobuf-java.version>
 		<sentry.version>8.16.0</sentry.version>
 		<spring-ai.version>1.0.2</spring-ai.version>
