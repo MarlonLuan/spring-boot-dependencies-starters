@@ -28,21 +28,22 @@
 	</scm>
 	<properties>
 		<java.version>25</java.version>
-		<grpc.version>1.74.0</grpc.version>
-		<netflix-dgs.version>10.2.1</netflix-dgs.version>
-		<protobuf-java.version>4.31.1</protobuf-java.version>
-		<sentry.version>8.16.0</sentry.version>
-		<spring-ai.version>1.0.2</spring-ai.version>
-		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
+		<grpc.version>1.76.0</grpc.version>
+		<netflix-dgs.version>10.4.0</netflix-dgs.version>
+		<protobuf-java.version>4.32.1</protobuf-java.version>
+		<sentry.version>8.24.0</sentry.version>
+		<solace-spring-cloud.version>4.11.0</solace-spring-cloud.version>
+		<spring-ai.version>1.0.3</spring-ai.version>
+		<spring-boot-admin.version>3.5.5</spring-boot-admin.version>
 		<spring-cloud-azure.version>6.0.0</spring-cloud-azure.version>
-		<spring-cloud-gcp.version>7.3.1</spring-cloud-gcp.version>
+		<spring-cloud-gcp.version>7.4.0</spring-cloud-gcp.version>
 		<spring-cloud-services.version>4.3.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
-		<spring-grpc.version>0.11.0</spring-grpc.version>
-		<spring-modulith.version>1.4.1</spring-modulith.version>
+		<spring-grpc.version>0.12.0</spring-grpc.version>
+		<spring-modulith.version>1.4.4</spring-modulith.version>
 		<spring-shell.version>3.4.1</spring-shell.version>
-		<timefold-solver.version>1.26.1</timefold-solver.version>
-		<vaadin.version>24.9.0</vaadin.version>
+		<timefold-solver.version>1.27.0</timefold-solver.version>
+		<vaadin.version>24.9.3</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -282,6 +283,10 @@
 			<artifactId>graphql-dgs-spring-graphql-starter</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.solace.spring.cloud</groupId>
+			<artifactId>spring-cloud-starter-stream-solace</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-spring-boot-starter</artifactId>
 		</dependency>
@@ -334,7 +339,7 @@
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-			<version>4.14.0</version>
+			<version>4.15.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
@@ -1176,6 +1181,13 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
 				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.solace.spring.cloud</groupId>
+				<artifactId>solace-spring-cloud-bom</artifactId>
+				<version>${solace-spring-cloud.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
