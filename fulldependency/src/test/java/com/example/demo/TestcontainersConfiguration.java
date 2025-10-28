@@ -5,8 +5,8 @@ import org.springframework.boot.testcontainers.service.connection.ServiceConnect
 import org.springframework.context.annotation.Bean;
 import org.testcontainers.activemq.ActiveMQContainer;
 import org.testcontainers.activemq.ArtemisContainer;
+import org.testcontainers.cassandra.CassandraContainer;
 import org.testcontainers.chromadb.ChromaDBContainer;
-import org.testcontainers.containers.CassandraContainer;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.containers.MSSQLServerContainer;
 import org.testcontainers.containers.MariaDBContainer;
@@ -49,8 +49,8 @@ class TestcontainersConfiguration {
 
 	@Bean
 	@ServiceConnection
-	CassandraContainer<?> cassandraContainer() {
-		return new CassandraContainer<>(DockerImageName.parse("cassandra:latest"));
+	CassandraContainer cassandraContainer() {
+		return new CassandraContainer(DockerImageName.parse("cassandra:latest"));
 	}
 
 	@Bean
