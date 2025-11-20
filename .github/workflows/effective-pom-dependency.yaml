@@ -25,21 +25,21 @@ jobs:
 
       - run: |
           # ./mvnw help:effective-pom -Doutput=effective-pom.xml -q
-          ./mvnw -f fulldependency/pom.xml help:effective-pom -Doutput=effective-pom.xml -q
+          # ./mvnw -f fulldependency/pom.xml help:effective-pom -Doutput=effective-pom.xml -q
           ./mvnw -f nodependency/pom.xml help:effective-pom -Doutput=effective-pom.xml -q
           # ./mvnw -f noparent/pom.xml help:effective-pom -Doutput=effective-pom.xml -q
           # ./mvnw -f milestone/pom.xml help:effective-pom -Doutput=effective-pom.xml -q
 
       - run: |
           # ./mvnw dependency:tree -DoutputFile=dependency-tree.txt -q
-          ./mvnw -f fulldependency/pom.xml dependency:tree -DoutputFile=dependency-tree.txt -q
+          # ./mvnw -f fulldependency/pom.xml dependency:tree -DoutputFile=dependency-tree.txt -q
           ./mvnw -f nodependency/pom.xml dependency:tree -DoutputFile=dependency-tree.txt -q
           # ./mvnw -f noparent/pom.xml dependency:tree -DoutputFile=dependency-tree.txt -q
           # ./mvnw -f milestone/pom.xml dependency:tree -DoutputFile=dependency-tree.txt -q
 
       - run: |
           # ./mvnw dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
-          ./mvnw -f fulldependency/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
+          # ./mvnw -f fulldependency/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
           ./mvnw -f nodependency/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
           # ./mvnw -f noparent/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
           # ./mvnw -f milestone/pom.xml dependency:resolve-plugins -DoutputFile=resolve-plugins.txt -q
