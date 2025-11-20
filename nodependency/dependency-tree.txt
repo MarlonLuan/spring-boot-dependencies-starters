@@ -1,26 +1,26 @@
 com.example:demo:jar:0.0.1-SNAPSHOT
-+- org.springframework.boot:spring-boot-starter:jar:3.5.7:compile
-|  +- org.springframework.boot:spring-boot:jar:3.5.7:compile
-|  |  \- org.springframework:spring-context:jar:6.2.12:compile
-|  |     +- org.springframework:spring-aop:jar:6.2.12:compile
-|  |     +- org.springframework:spring-beans:jar:6.2.12:compile
-|  |     +- org.springframework:spring-expression:jar:6.2.12:compile
-|  |     \- io.micrometer:micrometer-observation:jar:1.15.5:compile
-|  |        \- io.micrometer:micrometer-commons:jar:1.15.5:compile
-|  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.5.7:compile
-|  +- org.springframework.boot:spring-boot-starter-logging:jar:3.5.7:compile
-|  |  +- ch.qos.logback:logback-classic:jar:1.5.20:compile
-|  |  |  \- ch.qos.logback:logback-core:jar:1.5.20:compile
++- org.springframework.boot:spring-boot-starter:jar:3.5.8:compile
+|  +- org.springframework.boot:spring-boot:jar:3.5.8:compile
+|  |  \- org.springframework:spring-context:jar:6.2.14:compile
+|  |     +- org.springframework:spring-aop:jar:6.2.14:compile
+|  |     +- org.springframework:spring-beans:jar:6.2.14:compile
+|  |     +- org.springframework:spring-expression:jar:6.2.14:compile
+|  |     \- io.micrometer:micrometer-observation:jar:1.15.6:compile
+|  |        \- io.micrometer:micrometer-commons:jar:1.15.6:compile
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.5.8:compile
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:3.5.8:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.5.21:compile
+|  |  |  \- ch.qos.logback:logback-core:jar:1.5.21:compile
 |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile
 |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.24.3:compile
 |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.17:compile
 |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
-|  +- org.springframework:spring-core:jar:6.2.12:compile
-|  |  \- org.springframework:spring-jcl:jar:6.2.12:compile
+|  +- org.springframework:spring-core:jar:6.2.14:compile
+|  |  \- org.springframework:spring-jcl:jar:6.2.14:compile
 |  \- org.yaml:snakeyaml:jar:2.4:compile
-\- org.springframework.boot:spring-boot-starter-test:jar:3.5.7:test
-   +- org.springframework.boot:spring-boot-test:jar:3.5.7:test
-   +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.7:test
+\- org.springframework.boot:spring-boot-starter-test:jar:3.5.8:test
+   +- org.springframework.boot:spring-boot-test:jar:3.5.8:test
+   +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.8:test
    +- com.jayway.jsonpath:json-path:jar:2.9.0:test
    |  \- org.slf4j:slf4j-api:jar:2.0.17:compile
    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.4:test
@@ -46,5 +46,5 @@ com.example:demo:jar:0.0.1-SNAPSHOT
    +- org.mockito:mockito-junit-jupiter:jar:5.17.0:test
    +- org.skyscreamer:jsonassert:jar:1.5.3:test
    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
-   +- org.springframework:spring-test:jar:6.2.12:test
+   +- org.springframework:spring-test:jar:6.2.14:test
    \- org.xmlunit:xmlunit-core:jar:2.10.4:test
