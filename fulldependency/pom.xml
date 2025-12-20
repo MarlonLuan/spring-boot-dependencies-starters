@@ -28,7 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>25</java.version>
-		<spring-cloud.version>2025.1.0-RC1</spring-cloud.version>
+		<spring-cloud.version>2025.1.0</spring-cloud.version>
 		<spring-modulith.version>2.0.0-RC1</spring-modulith.version>
 	</properties>
 	<dependencies>
@@ -1260,7 +1260,7 @@
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>5.0.0-RC1</version>
+				<version>5.0.1</version>
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
