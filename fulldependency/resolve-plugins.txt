@@ -1,10 +1,10 @@
 
 The following plugins have been resolved:
-   org.graalvm.buildtools:native-maven-plugin:jar:0.11.3
-      org.graalvm.buildtools:native-maven-plugin:jar:0.11.3
-      org.graalvm.buildtools:utils:jar:0.11.3
+   org.graalvm.buildtools:native-maven-plugin:jar:0.11.4
+      org.graalvm.buildtools:native-maven-plugin:jar:0.11.4
+      org.graalvm.buildtools:utils:jar:0.11.4
       com.github.openjson:openjson:jar:1.0.13
-      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.11.3
+      org.graalvm.buildtools:graalvm-reachability-metadata:jar:0.11.4
       org.cyclonedx:cyclonedx-maven-plugin:jar:2.9.1
       org.cyclonedx:cyclonedx-core-java:jar:9.0.5
       commons-io:commons-io:jar:2.16.1
@@ -203,10 +203,10 @@ The following plugins have been resolved:
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
       commons-io:commons-io:jar:2.11.0
       org.apache.commons:commons-lang3:jar:3.12.0
-   org.hibernate.orm:hibernate-maven-plugin:jar:7.2.0.Final
-      org.hibernate.orm:hibernate-maven-plugin:jar:7.2.0.Final
+   org.hibernate.orm:hibernate-maven-plugin:jar:7.2.1.Final
+      org.hibernate.orm:hibernate-maven-plugin:jar:7.2.1.Final
       org.jboss.logging:jboss-logging:jar:3.6.1.Final
-      org.hibernate.orm:hibernate-core:jar:7.2.0.Final
+      org.hibernate.orm:hibernate-core:jar:7.2.1.Final
       jakarta.persistence:jakarta.persistence-api:jar:3.2.0
       jakarta.transaction:jakarta.transaction-api:jar:2.0.1
       org.hibernate.models:hibernate-models:jar:1.0.1
@@ -490,38 +490,38 @@ The following plugins have been resolved:
       org.apache.maven.resolver:maven-resolver-api:jar:1.9.22
       org.codehaus.plexus:plexus-utils:jar:4.0.1
       org.codehaus.plexus:plexus-xml:jar:3.0.1
-   org.springframework.boot:spring-boot-maven-plugin:jar:4.0.1
-      org.springframework.boot:spring-boot-maven-plugin:jar:4.0.1
-      org.springframework.boot:spring-boot-buildpack-platform:jar:4.0.1
+   org.springframework.boot:spring-boot-maven-plugin:jar:4.0.2
+      org.springframework.boot:spring-boot-maven-plugin:jar:4.0.2
+      org.springframework.boot:spring-boot-buildpack-platform:jar:4.0.2
       net.java.dev.jna:jna-platform:jar:5.17.0
       net.java.dev.jna:jna:jar:5.17.0
       org.apache.commons:commons-compress:jar:1.27.1
       commons-codec:commons-codec:jar:1.17.1
       org.apache.commons:commons-lang3:jar:3.16.0
-      org.apache.httpcomponents.client5:httpclient5:jar:5.5.1
+      org.apache.httpcomponents.client5:httpclient5:jar:5.5.2
       org.apache.httpcomponents.core5:httpcore5:jar:5.3.6
       org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.6
       org.tomlj:tomlj:jar:1.0.0
       org.antlr:antlr4-runtime:jar:4.7.2
       com.google.code.findbugs:jsr305:jar:3.0.2
-      tools.jackson.core:jackson-databind:jar:3.0.3
+      tools.jackson.core:jackson-databind:jar:3.0.4
       com.fasterxml.jackson.core:jackson-annotations:jar:2.20
-      tools.jackson.core:jackson-core:jar:3.0.3
-      org.springframework.boot:spring-boot-loader-tools:jar:4.0.1
+      tools.jackson.core:jackson-core:jar:3.0.4
+      org.springframework.boot:spring-boot-loader-tools:jar:4.0.2
       org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
       org.slf4j:slf4j-api:jar:1.7.36
       org.apache.maven.resolver:maven-resolver-util:jar:1.4.1
       org.apache.maven.resolver:maven-resolver-api:jar:1.4.1
       org.sonatype.plexus:plexus-build-api:jar:0.0.7
-      org.springframework:spring-core:jar:7.0.2
+      org.springframework:spring-core:jar:7.0.3
       commons-logging:commons-logging:jar:1.3.5
       org.jspecify:jspecify:jar:1.0.0
-      org.springframework:spring-context:jar:7.0.2
-      org.springframework:spring-aop:jar:7.0.2
-      org.springframework:spring-beans:jar:7.0.2
-      org.springframework:spring-expression:jar:7.0.2
-      io.micrometer:micrometer-observation:jar:1.16.1
-      io.micrometer:micrometer-commons:jar:1.16.1
+      org.springframework:spring-context:jar:7.0.3
+      org.springframework:spring-aop:jar:7.0.3
+      org.springframework:spring-beans:jar:7.0.3
+      org.springframework:spring-expression:jar:7.0.3
+      io.micrometer:micrometer-observation:jar:1.16.2
+      io.micrometer:micrometer-commons:jar:1.16.2
       org.apache.maven.plugins:maven-shade-plugin:jar:3.6.0
       org.codehaus.plexus:plexus-utils:jar:3.5.1
       org.ow2.asm:asm:jar:9.7
