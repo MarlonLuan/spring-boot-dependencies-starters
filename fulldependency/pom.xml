@@ -34,7 +34,7 @@
 		<sentry.version>8.27.0</sentry.version>
 		<spring-cloud-services.version>4.4.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.1.0</spring-cloud.version>
-		<spring-grpc.version>1.0.1</spring-grpc.version>
+		<spring-grpc.version>1.0.2</spring-grpc.version>
 		<spring-modulith.version>2.0.1</spring-modulith.version>
 		<spring-shell.version>4.0.0</spring-shell.version>
 		<vaadin.version>25.0.3</vaadin.version>
