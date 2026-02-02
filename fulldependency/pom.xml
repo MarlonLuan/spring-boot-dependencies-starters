@@ -33,7 +33,7 @@
 		<protobuf-java.version>4.33.2</protobuf-java.version>
 		<sentry.version>8.27.0</sentry.version>
 		<spring-cloud-services.version>4.4.0</spring-cloud-services.version>
-		<spring-cloud.version>2025.1.0</spring-cloud.version>
+		<spring-cloud.version>2025.1.1</spring-cloud.version>
 		<spring-grpc.version>1.0.1</spring-grpc.version>
 		<spring-modulith.version>2.0.1</spring-modulith.version>
 		<spring-shell.version>4.0.0</spring-shell.version>
@@ -1389,7 +1389,7 @@
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>5.0.0</version>
+				<version>5.0.2</version>
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
