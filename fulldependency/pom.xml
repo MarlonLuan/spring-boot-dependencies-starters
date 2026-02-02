@@ -31,7 +31,7 @@
 		<grpc.version>1.77.1</grpc.version>
 		<netflix-dgs.version>11.0.0</netflix-dgs.version>
 		<protobuf-java.version>4.33.2</protobuf-java.version>
-		<sentry.version>8.27.0</sentry.version>
+		<sentry.version>8.27.1</sentry.version>
 		<spring-cloud-services.version>4.4.0</spring-cloud-services.version>
 		<spring-cloud.version>2025.1.0</spring-cloud.version>
 		<spring-grpc.version>1.0.1</spring-grpc.version>
